@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="selection-modal-overlay" id="selectionModal">
+      <div class="selection-modal-content">
+        <h2>Choose The Quiz Type</h2>
+        <div class="selection-options">
+          <button class="select-btn" data-file="easy_html_questions.json">
+            Easy HTML Questions
+          </button>
+          <button class="select-btn" data-file="medium_html_questions.json">
+            Medium HTML Questions
+          </button>
+          <button class="select-btn" data-file="hard_html_questions.json">
+            Hard HTML Questions
+          </button>
+          <button class="select-btn" data-file="easy_css_questions.json">
+            Easy CSS Questions
+          </button>
+          <button class="select-btn" data-file="medium_css_questions.json">
+            Medium CSS Questions
+          </button>
+          <button class="select-btn" data-file="hard_css_questions.json">
+            Hard CSS Questions
+          </button>
+          <button class="select-btn" data-file="easy_js_questions.json">
+            Easy Js Questions
+          </button>
+          <button class="select-btn" data-file="medium_js_questions.json">
+            Medium Js Questions
+          </button>
+          <button class="select-btn" data-file="hard_js_questions.json">
+            Hard Js Questions
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="quiz-app">
+      <div class="quiz-info">
+        <div class="category">Category: <span></span></div>
+        <div class="count">Questions Count: <span></span></div>
+      </div>
+
+      <div class="quiz-area"></div>
+      <div class="answers-area"></div>
+
+      <button class="submit-button">Submit Answer</button>
+
+      <div class="bullets">
+        <div class="spans"></div>
+        <div class="countdown"></div>
+      </div>
+    </div>
+
+    <div class="results"></div>
+    <button class="restart">Try Another Quiz</button>
+
+    <script src="main.js"></script>
+  </body>
+</html>

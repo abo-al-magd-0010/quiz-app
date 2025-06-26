@@ -1,0 +1,818 @@
+[
+  {
+    "title": "Which CSS property is used to change the text color of an element?",
+    "answer_1": "color",
+    "answer_2": "background-color",
+    "answer_3": "font-color",
+    "answer_4": "text-style",
+    "true_answer": "color"
+  },
+  {
+    "title": "What does the 'box-sizing: border-box;' property do?",
+    "answer_1": "Includes padding and border in the element's total width and height",
+    "answer_2": "Excludes padding from the element's size",
+    "answer_3": "Removes border from the element",
+    "answer_4": "Sets the box to be invisible",
+    "true_answer": "Includes padding and border in the element's total width and height"
+  },
+  {
+    "title": "Which value of the position property will position the element relative to its first positioned ancestor?",
+    "answer_1": "fixed",
+    "answer_2": "relative",
+    "answer_3": "absolute",
+    "answer_4": "static",
+    "true_answer": "absolute"
+  },
+  {
+    "title": "How do you select all <p> elements inside a <div>?",
+    "answer_1": "div p",
+    "answer_2": "div > p",
+    "answer_3": "p div",
+    "answer_4": ".div p",
+    "true_answer": "div p"
+  },
+  {
+    "title": "Which CSS property controls the space between lines of text?",
+    "answer_1": "letter-spacing",
+    "answer_2": "line-height",
+    "answer_3": "word-spacing",
+    "answer_4": "text-indent",
+    "true_answer": "line-height"
+  },
+  {
+    "title": "What is the default value of the position property?",
+    "answer_1": "relative",
+    "answer_2": "absolute",
+    "answer_3": "static",
+    "answer_4": "fixed",
+    "true_answer": "static"
+  },
+  {
+    "title": "Which property is used to change the font of an element?",
+    "answer_1": "font-family",
+    "answer_2": "font-style",
+    "answer_3": "font-weight",
+    "answer_4": "font-size",
+    "true_answer": "font-family"
+  },
+  {
+    "title": "How do you make a list not display the default bullets?",
+    "answer_1": "list-style-type: none;",
+    "answer_2": "list-type: none;",
+    "answer_3": "bullet: none;",
+    "answer_4": "text-decoration: none;",
+    "true_answer": "list-style-type: none;"
+  },
+  {
+    "title": "Which property is used to create rounded corners?",
+    "answer_1": "border-radius",
+    "answer_2": "corner-radius",
+    "answer_3": "border-corner",
+    "answer_4": "radius",
+    "true_answer": "border-radius"
+  },
+  {
+    "title": "How do you make an element completely transparent?",
+    "answer_1": "opacity: 0;",
+    "answer_2": "visibility: hidden;",
+    "answer_3": "display: none;",
+    "answer_4": "color: transparent;",
+    "true_answer": "opacity: 0;"
+  },
+  {
+    "title": "Which property is used to add shadow to text?",
+    "answer_1": "text-shadow",
+    "answer_2": "box-shadow",
+    "answer_3": "shadow-text",
+    "answer_4": "font-shadow",
+    "true_answer": "text-shadow"
+  },
+  {
+    "title": "How do you select an element with id 'main'?",
+    "answer_1": "#main",
+    "answer_2": ".main",
+    "answer_3": "main",
+    "answer_4": "*main",
+    "true_answer": "#main"
+  },
+  {
+    "title": "Which property is used to control the order of flex items?",
+    "answer_1": "order",
+    "answer_2": "flex-order",
+    "answer_3": "item-order",
+    "answer_4": "flex-direction",
+    "true_answer": "order"
+  },
+  {
+    "title": "What does 'display: flex;' do?",
+    "answer_1": "Makes the container a flex container",
+    "answer_2": "Hides the element",
+    "answer_3": "Floats the element",
+    "answer_4": "Centers the element",
+    "true_answer": "Makes the container a flex container"
+  },
+  {
+    "title": "Which property is used to change the spacing between letters?",
+    "answer_1": "letter-spacing",
+    "answer_2": "word-spacing",
+    "answer_3": "line-height",
+    "answer_4": "text-spacing",
+    "true_answer": "letter-spacing"
+  },
+  {
+    "title": "How do you make a background image cover the entire element?",
+    "answer_1": "background-size: cover;",
+    "answer_2": "background-repeat: cover;",
+    "answer_3": "background-position: cover;",
+    "answer_4": "background-fit: cover;",
+    "true_answer": "background-size: cover;"
+  },
+  {
+    "title": "Which property is used to align items vertically in a flex container?",
+    "answer_1": "align-items",
+    "answer_2": "justify-content",
+    "answer_3": "vertical-align",
+    "answer_4": "align-content",
+    "true_answer": "align-items"
+  },
+  {
+    "title": "What is the correct syntax for a CSS comment?",
+    "answer_1": "/* comment */",
+    "answer_2": "// comment",
+    "answer_3": "<!-- comment -->",
+    "answer_4": "# comment",
+    "true_answer": "/* comment */"
+  },
+  {
+    "title": "Which property is used to set the space between the border and the content?",
+    "answer_1": "padding",
+    "answer_2": "margin",
+    "answer_3": "border-spacing",
+    "answer_4": "spacing",
+    "true_answer": "padding"
+  },
+  {
+    "title": "How do you select all elements with class 'item'?",
+    "answer_1": ".item",
+    "answer_2": "#item",
+    "answer_3": "item",
+    "answer_4": "*item",
+    "true_answer": ".item"
+  },
+  {
+    "title": "Which property is used to set the maximum width of an element?",
+    "answer_1": "max-width",
+    "answer_2": "width",
+    "answer_3": "min-width",
+    "answer_4": "maximum-width",
+    "true_answer": "max-width"
+  },
+  {
+    "title": "How do you make text bold in CSS?",
+    "answer_1": "font-weight: bold;",
+    "answer_2": "font-style: bold;",
+    "answer_3": "font-bold: true;",
+    "answer_4": "text-weight: bold;",
+    "true_answer": "font-weight: bold;"
+  },
+  {
+    "title": "Which property is used to add space outside the border of an element?",
+    "answer_1": "margin",
+    "answer_2": "padding",
+    "answer_3": "border-spacing",
+    "answer_4": "spacing",
+    "true_answer": "margin"
+  },
+  {
+    "title": "What is the default display value of a <div> element?",
+    "answer_1": "block",
+    "answer_2": "inline",
+    "answer_3": "inline-block",
+    "answer_4": "flex",
+    "true_answer": "block"
+  },
+  {
+    "title": "Which property is used to change the style of the cursor?",
+    "answer_1": "cursor",
+    "answer_2": "pointer",
+    "answer_3": "mouse",
+    "answer_4": "hover",
+    "true_answer": "cursor"
+  },
+  {
+    "title": "How do you make an element float to the true?",
+    "answer_1": "float: true;",
+    "answer_2": "align: true;",
+    "answer_3": "position: true;",
+    "answer_4": "display: true;",
+    "true_answer": "float: true;"
+  },
+  {
+    "title": "Which property is used to set the transparency of an element?",
+    "answer_1": "opacity",
+    "answer_2": "visibility",
+    "answer_3": "transparent",
+    "answer_4": "alpha",
+    "true_answer": "opacity"
+  },
+  {
+    "title": "How do you select only the first child of a parent element?",
+    "answer_1": ":first-child",
+    "answer_2": ":first",
+    "answer_3": ":nth-child(1)",
+    "answer_4": ":first-of-type",
+    "true_answer": ":first-child"
+  },
+  {
+    "title": "Which property is used to add shadow to a box?",
+    "answer_1": "box-shadow",
+    "answer_2": "shadow-box",
+    "answer_3": "box-shadowing",
+    "answer_4": "shadow",
+    "true_answer": "box-shadow"
+  },
+  {
+    "title": "How do you make a border dashed?",
+    "answer_1": "border-style: dashed;",
+    "answer_2": "border-type: dashed;",
+    "answer_3": "border: dashed;",
+    "answer_4": "border-dash: true;",
+    "true_answer": "border-style: dashed;"
+  },
+  {
+    "title": "Which property is used to set the background color of an element?",
+    "answer_1": "background-color",
+    "answer_2": "color",
+    "answer_3": "bgcolor",
+    "answer_4": "background",
+    "true_answer": "background-color"
+  },
+  {
+    "title": "How do you select all <a> elements with a 'target' attribute?",
+    "answer_1": "a[target]",
+    "answer_2": "a.target",
+    "answer_3": "a#target",
+    "answer_4": "a:target",
+    "true_answer": "a[target]"
+  },
+  {
+    "title": "Which property is used to control the layout direction in flexbox?",
+    "answer_1": "flex-direction",
+    "answer_2": "direction",
+    "answer_3": "flex-flow",
+    "answer_4": "layout-direction",
+    "true_answer": "flex-direction"
+  },
+  {
+    "title": "How do you hide an element but keep its space?",
+    "answer_1": "visibility: hidden;",
+    "answer_2": "display: none;",
+    "answer_3": "opacity: 0;",
+    "answer_4": "hidden: true;",
+    "true_answer": "visibility: hidden;"
+  },
+  {
+    "title": "Which property is used to set the style of a list marker?",
+    "answer_1": "list-style-type",
+    "answer_2": "marker-style",
+    "answer_3": "list-type",
+    "answer_4": "bullet-style",
+    "true_answer": "list-style-type"
+  },
+  {
+    "title": "How do you select every even <li> element?",
+    "answer_1": "li:nth-child(even)",
+    "answer_2": "li:even",
+    "answer_3": "li:nth-even",
+    "answer_4": "li:nth-child(2n+1)",
+    "true_answer": "li:nth-child(even)"
+  },
+  {
+    "title": "Which property is used to set the space between columns in a multi-column layout?",
+    "answer_1": "column-gap",
+    "answer_2": "gap",
+    "answer_3": "column-spacing",
+    "answer_4": "column-space",
+    "true_answer": "column-gap"
+  },
+  {
+    "title": "How do you make an element take up the full width of its parent?",
+    "answer_1": "width: 100%;",
+    "answer_2": "width: full;",
+    "answer_3": "display: block;",
+    "answer_4": "max-width: 100vw;",
+    "true_answer": "width: 100%;"
+  },
+  {
+    "title": "Which property is used to change the case of text?",
+    "answer_1": "text-transform",
+    "answer_2": "text-case",
+    "answer_3": "font-case",
+    "answer_4": "transform",
+    "true_answer": "text-transform"
+  },
+  {
+    "title": "How do you select all direct children <li> of a <ul>?",
+    "answer_1": "ul > li",
+    "answer_2": "ul li",
+    "answer_3": "li > ul",
+    "answer_4": ".ul > .li",
+    "true_answer": "ul > li"
+  },
+  {
+    "title": "Which property is used to set the minimum height of an element?",
+    "answer_1": "min-height",
+    "answer_2": "height",
+    "answer_3": "max-height",
+    "answer_4": "minimum-height",
+    "true_answer": "min-height"
+  },
+  {
+    "title": "How do you make text italic in CSS?",
+    "answer_1": "font-style: italic;",
+    "answer_2": "font-italic: true;",
+    "answer_3": "font-weight: italic;",
+    "answer_4": "text-style: italic;",
+    "true_answer": "font-style: italic;"
+  },
+  {
+    "title": "Which property is used to control the stacking order of positioned elements?",
+    "answer_1": "z-index",
+    "answer_2": "stack-order",
+    "answer_3": "order",
+    "answer_4": "position-index",
+    "true_answer": "z-index"
+  },
+  {
+    "title": "How do you select all elements with a class that contains 'btn'?",
+    "answer_1": "[class*='btn']",
+    "answer_2": ".btn",
+    "answer_3": "[class^='btn']",
+    "answer_4": "[class$='btn']",
+    "true_answer": "[class*='btn']"
+  },
+  {
+    "title": "Which property is used to set the distance between words?",
+    "answer_1": "word-spacing",
+    "answer_2": "letter-spacing",
+    "answer_3": "line-height",
+    "answer_4": "text-spacing",
+    "true_answer": "word-spacing"
+  },
+  {
+    "title": "How do you make an element a grid container?",
+    "answer_1": "display: grid;",
+    "answer_2": "display: flex;",
+    "answer_3": "display: block;",
+    "answer_4": "display: inline-grid;",
+    "true_answer": "display: grid;"
+  },
+  {
+    "title": "Which property is used to set the number of columns in a grid layout?",
+    "answer_1": "grid-template-columns",
+    "answer_2": "columns",
+    "answer_3": "column-count",
+    "answer_4": "grid-columns",
+    "true_answer": "grid-template-columns"
+  },
+  {
+    "title": "How do you select the last child of a parent element?",
+    "answer_1": ":last-child",
+    "answer_2": ":last",
+    "answer_3": ":nth-child(last)",
+    "answer_4": ":last-of-type",
+    "true_answer": ":last-child"
+  },
+  {
+    "title": "Which property is used to set the style of the border?",
+    "answer_1": "border-style",
+    "answer_2": "border-type",
+    "answer_3": "border",
+    "answer_4": "border-decoration",
+    "true_answer": "border-style"
+  },
+  {
+    "title": "How do you make an element inline but allow width and height?",
+    "answer_1": "display: inline-block;",
+    "answer_2": "display: block;",
+    "answer_3": "display: inline;",
+    "answer_4": "display: flex;",
+    "true_answer": "display: inline-block;"
+  },
+  {
+    "title": "Which property is used to set the horizontal alignment of text?",
+    "answer_1": "text-align",
+    "answer_2": "align-text",
+    "answer_3": "horizontal-align",
+    "answer_4": "text-position",
+    "true_answer": "text-align"
+  },
+  {
+    "title": "How do you select all <input> elements of type 'text'?",
+    "answer_1": "input[type='text']",
+    "answer_2": "input.text",
+    "answer_3": "input#text",
+    "answer_4": "input:text",
+    "true_answer": "input[type='text']"
+  },
+  {
+    "title": "Which property is used to set the vertical alignment of an inline element?",
+    "answer_1": "vertical-align",
+    "answer_2": "align-vertical",
+    "answer_3": "text-align",
+    "answer_4": "align-items",
+    "true_answer": "vertical-align"
+  },
+  {
+    "title": "How do you select all elements with a specific attribute?",
+    "answer_1": "[attribute]",
+    "answer_2": ".attribute",
+    "answer_3": "#attribute",
+    "answer_4": "*attribute",
+    "true_answer": "[attribute]"
+  },
+  {
+    "title": "Which property is used to set the space between rows in a grid layout?",
+    "answer_1": "row-gap",
+    "answer_2": "gap",
+    "answer_3": "grid-row-gap",
+    "answer_4": "row-spacing",
+    "true_answer": "row-gap"
+  },
+  {
+    "title": "How do you select all <p> elements that are the first child of their parent?",
+    "answer_1": "p:first-child",
+    "answer_2": "p:first",
+    "answer_3": "p:nth-child(1)",
+    "answer_4": "p:first-of-type",
+    "true_answer": "p:first-child"
+  },
+  {
+    "title": "Which property is used to set the background image of an element?",
+    "answer_1": "background-image",
+    "answer_2": "image-background",
+    "answer_3": "background-img",
+    "answer_4": "img-background",
+    "true_answer": "background-image"
+  },
+  {
+    "title": "How do you select all <a> elements that are hovered?",
+    "answer_1": "a:hover",
+    "answer_2": "a.active",
+    "answer_3": "a:focus",
+    "answer_4": "a.selected",
+    "true_answer": "a:hover"
+  },
+  {
+    "title": "Which property is used to set the thickness of a border?",
+    "answer_1": "border-width",
+    "answer_2": "border-thickness",
+    "answer_3": "border-size",
+    "answer_4": "border-style",
+    "true_answer": "border-width"
+  },
+  {
+    "title": "How do you select all <input> elements that are checked?",
+    "answer_1": "input:checked",
+    "answer_2": "input.checked",
+    "answer_3": "input:active",
+    "answer_4": "input:focus",
+    "true_answer": "input:checked"
+  },
+  {
+    "title": "Which property is used to set the color of a border?",
+    "answer_1": "border-color",
+    "answer_2": "color-border",
+    "answer_3": "border-style",
+    "answer_4": "border",
+    "true_answer": "border-color"
+  },
+  {
+    "title": "How do you select all <input> elements that are disabled?",
+    "answer_1": "input:disabled",
+    "answer_2": "input.disabled",
+    "answer_3": "input:inactive",
+    "answer_4": "input:readonly",
+    "true_answer": "input:disabled"
+  },
+  {
+    "title": "Which property is used to set the indentation of the first line of text?",
+    "answer_1": "text-indent",
+    "answer_2": "indent",
+    "answer_3": "line-indent",
+    "answer_4": "first-line-indent",
+    "true_answer": "text-indent"
+  },
+  {
+    "title": "How do you select all <input> elements that are required?",
+    "answer_1": "input:required",
+    "answer_2": "input.required",
+    "answer_3": "input:checked",
+    "answer_4": "input:focus",
+    "true_answer": "input:required"
+  },
+  {
+    "title": "Which property is used to set the style of the outline?",
+    "answer_1": "outline-style",
+    "answer_2": "border-style",
+    "answer_3": "outline",
+    "answer_4": "outline-type",
+    "true_answer": "outline-style"
+  },
+  {
+    "title": "How do you select all <input> elements that are focused?",
+    "answer_1": "input:focus",
+    "answer_2": "input.focus",
+    "answer_3": "input:active",
+    "answer_4": "input:selected",
+    "true_answer": "input:focus"
+  },
+  {
+    "title": "Which property is used to set the width of the outline?",
+    "answer_1": "outline-width",
+    "answer_2": "border-width",
+    "answer_3": "outline-size",
+    "answer_4": "outline-thickness",
+    "true_answer": "outline-width"
+  },
+  {
+    "title": "How do you select all <input> elements that are valid?",
+    "answer_1": "input:valid",
+    "answer_2": "input.valid",
+    "answer_3": "input:checked",
+    "answer_4": "input:focus",
+    "true_answer": "input:valid"
+  },
+  {
+    "title": "Which property is used to set the color of the outline?",
+    "answer_1": "outline-color",
+    "answer_2": "border-color",
+    "answer_3": "outline-style",
+    "answer_4": "outline",
+    "true_answer": "outline-color"
+  },
+  {
+    "title": "How do you select all <input> elements that are invalid?",
+    "answer_1": "input:invalid",
+    "answer_2": "input.invalid",
+    "answer_3": "input:checked",
+    "answer_4": "input:focus",
+    "true_answer": "input:invalid"
+  },
+  {
+    "title": "Which property is used to set the space between flex items?",
+    "answer_1": "gap",
+    "answer_2": "flex-gap",
+    "answer_3": "item-gap",
+    "answer_4": "space-between",
+    "true_answer": "gap"
+  },
+  {
+    "title": "How do you select all <input> elements that are read-only?",
+    "answer_1": "input:read-only",
+    "answer_2": "input.readonly",
+    "answer_3": "input:readonly",
+    "answer_4": "input:disabled",
+    "true_answer": "input:read-only"
+  },
+  {
+    "title": "Which property is used to set the alignment of items along the main axis in flexbox?",
+    "answer_1": "justify-content",
+    "answer_2": "align-items",
+    "answer_3": "align-content",
+    "answer_4": "flex-align",
+    "true_answer": "justify-content"
+  },
+  {
+    "title": "How do you select all <input> elements that are enabled?",
+    "answer_1": "input:enabled",
+    "answer_2": "input.enabled",
+    "answer_3": "input:active",
+    "answer_4": "input:focus",
+    "true_answer": "input:enabled"
+  },
+  {
+    "title": "Which property is used to set the alignment of items along the cross axis in flexbox?",
+    "answer_1": "align-items",
+    "answer_2": "justify-content",
+    "answer_3": "align-content",
+    "answer_4": "flex-align",
+    "true_answer": "align-items"
+  },
+  {
+    "title": "How do you select all <input> elements that are optional?",
+    "answer_1": "input:optional",
+    "answer_2": "input.optional",
+    "answer_3": "input:checked",
+    "answer_4": "input:focus",
+    "true_answer": "input:optional"
+  },
+  {
+    "title": "Which property is used to set the alignment of content in a flex container?",
+    "answer_1": "align-content",
+    "answer_2": "align-items",
+    "answer_3": "justify-content",
+    "answer_4": "flex-align",
+    "true_answer": "align-content"
+  },
+  {
+    "title": "How do you select all <input> elements that are in an indeterminate state?",
+    "answer_1": "input:indeterminate",
+    "answer_2": "input.indeterminate",
+    "answer_3": "input:checked",
+    "answer_4": "input:focus",
+    "true_answer": "input:indeterminate"
+  },
+  {
+    "title": "Which property is used to set the direction of text?",
+    "answer_1": "direction",
+    "answer_2": "text-direction",
+    "answer_3": "writing-mode",
+    "answer_4": "text-align",
+    "true_answer": "direction"
+  },
+  {
+    "title": "How do you select all <input> elements that are required and valid?",
+    "answer_1": "input:required:valid",
+    "answer_2": "input.required.valid",
+    "answer_3": "input:checked:valid",
+    "answer_4": "input:focus:valid",
+    "true_answer": "input:required:valid"
+  },
+  {
+    "title": "Which property is used to set the writing mode of text?",
+    "answer_1": "writing-mode",
+    "answer_2": "text-mode",
+    "answer_3": "direction",
+    "answer_4": "text-direction",
+    "true_answer": "writing-mode"
+  },
+  {
+    "title": "How do you select all <input> elements that are required and invalid?",
+    "answer_1": "input:required:invalid",
+    "answer_2": "input.required.invalid",
+    "answer_3": "input:checked:invalid",
+    "answer_4": "input:focus:invalid",
+    "true_answer": "input:required:invalid"
+  },
+  {
+    "title": "Which property is used to set the overflow behavior of an element?",
+    "answer_1": "overflow",
+    "answer_2": "overflow-behavior",
+    "answer_3": "scroll",
+    "answer_4": "overflow-type",
+    "true_answer": "overflow"
+  },
+  {
+    "title": "How do you select all <input> elements that are not required?",
+    "answer_1": "input:not(:required)",
+    "answer_2": "input:not-required",
+    "answer_3": "input.optional",
+    "answer_4": "input:optional",
+    "true_answer": "input:not(:required)"
+  },
+  {
+    "title": "Which property is used to set the overflow behavior on the x-axis?",
+    "answer_1": "overflow-x",
+    "answer_2": "overflow-y",
+    "answer_3": "overflow",
+    "answer_4": "overflow-horizontal",
+    "true_answer": "overflow-x"
+  },
+  {
+    "title": "How do you select all <input> elements that are not valid?",
+    "answer_1": "input:not(:valid)",
+    "answer_2": "input:not-valid",
+    "answer_3": "input.invalid",
+    "answer_4": "input:invalid",
+    "true_answer": "input:not(:valid)"
+  },
+  {
+    "title": "Which property is used to set the overflow behavior on the y-axis?",
+    "answer_1": "overflow-y",
+    "answer_2": "overflow-x",
+    "answer_3": "overflow",
+    "answer_4": "overflow-vertical",
+    "true_answer": "overflow-y"
+  },
+  {
+    "title": "How do you select all <input> elements that are not checked?",
+    "answer_1": "input:not(:checked)",
+    "answer_2": "input:not-checked",
+    "answer_3": "input.unchecked",
+    "answer_4": "input:checked",
+    "true_answer": "input:not(:checked)"
+  },
+  {
+    "title": "Which property is used to set the visibility of an element?",
+    "answer_1": "visibility",
+    "answer_2": "display",
+    "answer_3": "opacity",
+    "answer_4": "hidden",
+    "true_answer": "visibility"
+  },
+  {
+    "title": "How do you select all <input> elements that are not disabled?",
+    "answer_1": "input:not(:disabled)",
+    "answer_2": "input:not-disabled",
+    "answer_3": "input.enabled",
+    "answer_4": "input:enabled",
+    "true_answer": "input:not(:disabled)"
+  },
+  {
+    "title": "Which property is used to set the display behavior of an element?",
+    "answer_1": "display",
+    "answer_2": "visibility",
+    "answer_3": "show",
+    "answer_4": "block",
+    "true_answer": "display"
+  },
+  {
+    "title": "How do you select all <input> elements that are not enabled?",
+    "answer_1": "input:not(:enabled)",
+    "answer_2": "input:not-enabled",
+    "answer_3": "input.disabled",
+    "answer_4": "input:disabled",
+    "true_answer": "input:not(:enabled)"
+  },
+  {
+    "title": "Which property is used to set the float behavior of an element?",
+    "answer_1": "float",
+    "answer_2": "position",
+    "answer_3": "display",
+    "answer_4": "align",
+    "true_answer": "float"
+  },
+  {
+    "title": "How do you select all <input> elements that are not read-only?",
+    "answer_1": "input:not(:read-only)",
+    "answer_2": "input:not-readonly",
+    "answer_3": "input.readwrite",
+    "answer_4": "input:readwrite",
+    "true_answer": "input:not(:read-only)"
+  },
+  {
+    "title": "Which property is used to set the clear behavior of an element?",
+    "answer_1": "clear",
+    "answer_2": "float",
+    "answer_3": "display",
+    "answer_4": "align",
+    "true_answer": "clear"
+  },
+  {
+    "title": "How do you select all <input> elements that are not optional?",
+    "answer_1": "input:not(:optional)",
+    "answer_2": "input:not-optional",
+    "answer_3": "input.required",
+    "answer_4": "input:required",
+    "true_answer": "input:not(:optional)"
+  },
+  {
+    "title": "Which property is used to set the resize behavior of an element?",
+    "answer_1": "resize",
+    "answer_2": "size",
+    "answer_3": "overflow",
+    "answer_4": "width",
+    "true_answer": "resize"
+  },
+  {
+    "title": "How do you select all <input> elements that are not indeterminate?",
+    "answer_1": "input:not(:indeterminate)",
+    "answer_2": "input:not-indeterminate",
+    "answer_3": "input.determinate",
+    "answer_4": "input:determinate",
+    "true_answer": "input:not(:indeterminate)"
+  },
+  {
+    "title": "Which property is used to set the filter effects of an element?",
+    "answer_1": "filter",
+    "answer_2": "effect",
+    "answer_3": "effects",
+    "answer_4": "filter-effect",
+    "true_answer": "filter"
+  },
+  {
+    "title": "How do you select all <input> elements that are not required and not valid?",
+    "answer_1": "input:not(:required):not(:valid)",
+    "answer_2": "input:not-required:not-valid",
+    "answer_3": "input.optional.invalid",
+    "answer_4": "input:optional:invalid",
+    "true_answer": "input:not(:required):not(:valid)"
+  },
+  {
+    "title": "Which property is used to set the transition effects of an element?",
+    "answer_1": "transition",
+    "answer_2": "animation",
+    "answer_3": "effect",
+    "answer_4": "transition-effect",
+    "true_answer": "transition"
+  },
+  {
+    "title": "How do you select all <input> elements that are not required and not invalid?",
+    "answer_1": "input:not(:required):not(:invalid)",
+    "answer_2": "input:not-required:not-invalid",
+    "answer_3": "input.optional.valid",
+    "answer_4": "input:optional:valid",
+    "true_answer": "input:not(:required):not(:invalid)"
+  }
+]

@@ -1,0 +1,874 @@
+[
+  {
+    "title": "What does the <canvas> element in HTML5 allow you to do?",
+    "answer_1": "Draw graphics via scripting (usually JavaScript)",
+    "answer_2": "Create tables",
+    "answer_3": "Embed audio files",
+    "answer_4": "Display videos",
+    "true_answer": "Draw graphics via scripting (usually JavaScript)"
+  },
+  {
+    "title": "Which attribute is used to specify that an input field must be filled out before submitting the form?",
+    "answer_1": "required",
+    "answer_2": "placeholder",
+    "answer_3": "validate",
+    "answer_4": "autofocus",
+    "true_answer": "required"
+  },
+  {
+    "title": "What is the correct HTML element for playing video files?",
+    "answer_1": "<media>",
+    "answer_2": "<movie>",
+    "answer_3": "<video>",
+    "answer_4": "<play>",
+    "true_answer": "<video>"
+  },
+  {
+    "title": "Which HTML attribute is used to define inline styles?",
+    "answer_1": "class",
+    "answer_2": "style",
+    "answer_3": "font",
+    "answer_4": "styles",
+    "true_answer": "style"
+  },
+  {
+    "title": "What is the purpose of the <datalist> element in HTML5?",
+    "answer_1": "To provide a list of predefined options for input controls",
+    "answer_2": "To create a dropdown menu",
+    "answer_3": "To define a table",
+    "answer_4": "To embed data",
+    "true_answer": "To provide a list of predefined options for input controls"
+  },
+  {
+    "title": "Which tag is used to define a container for external application or interactive content in HTML5?",
+    "answer_1": "<object>",
+    "answer_2": "<embed>",
+    "answer_3": "<applet>",
+    "answer_4": "<iframe>",
+    "true_answer": "<object>"
+  },
+  {
+    "title": "What is the correct way to specify that a link should open in a new tab?",
+    "answer_1": "target='_blank'",
+    "answer_2": "newtab='true'",
+    "answer_3": "open='new'",
+    "answer_4": "window='_blank'",
+    "true_answer": "target='_blank'"
+  },
+  {
+    "title": "Which HTML element is used to define navigation links?",
+    "answer_1": "<nav>",
+    "answer_2": "<navigation>",
+    "answer_3": "<navigate>",
+    "answer_4": "<links>",
+    "true_answer": "<nav>"
+  },
+  {
+    "title": "What does the 'defer' attribute do in a <script> tag?",
+    "answer_1": "Delays script execution until after the page has loaded",
+    "answer_2": "Executes the script immediately",
+    "answer_3": "Prevents the script from running",
+    "answer_4": "Loads the script asynchronously",
+    "true_answer": "Delays script execution until after the page has loaded"
+  },
+  {
+    "title": "Which HTML element is used to display a scalar measurement within a known range?",
+    "answer_1": "<progress>",
+    "answer_2": "<meter>",
+    "answer_3": "<range>",
+    "answer_4": "<gauge>",
+    "true_answer": "<meter>"
+  },
+  {
+    "title": "What is the default value of the 'method' attribute in an HTML form?",
+    "answer_1": "GET",
+    "answer_2": "POST",
+    "answer_3": "PUT",
+    "answer_4": "DELETE",
+    "true_answer": "GET"
+  },
+  {
+    "title": "Which attribute is used to specify the character encoding for an HTML document?",
+    "answer_1": "charset",
+    "answer_2": "encoding",
+    "answer_3": "lang",
+    "answer_4": "type",
+    "true_answer": "charset"
+  },
+  {
+    "title": "What does the <mark> tag do?",
+    "answer_1": "Highlights text",
+    "answer_2": "Makes text bold",
+    "answer_3": "Italicizes text",
+    "answer_4": "Underlines text",
+    "true_answer": "Highlights text"
+  },
+  {
+    "title": "Which HTML element is used to define important text?",
+    "answer_1": "<strong>",
+    "answer_2": "<important>",
+    "answer_3": "<b>",
+    "answer_4": "<em>",
+    "true_answer": "<strong>"
+  },
+  {
+    "title": "What is the correct HTML for making a checkbox?",
+    "answer_1": "<input type='checkbox'>",
+    "answer_2": "<checkbox>",
+    "answer_3": "<input type='check'>",
+    "answer_4": "<input checkbox='true'>",
+    "true_answer": "<input type='checkbox'>"
+  },
+  {
+    "title": "Which tag is used to define a footer for a document or section?",
+    "answer_1": "<footer>",
+    "answer_2": "<bottom>",
+    "answer_3": "<section-footer>",
+    "answer_4": "<foot>",
+    "true_answer": "<footer>"
+  },
+  {
+    "title": "What is the correct HTML for inserting a line break?",
+    "answer_1": "<br>",
+    "answer_2": "<lb>",
+    "answer_3": "<break>",
+    "answer_4": "<newline>",
+    "true_answer": "<br>"
+  },
+  {
+    "title": "Which HTML element is used to specify a header for a document or section?",
+    "answer_1": "<header>",
+    "answer_2": "<head>",
+    "answer_3": "<section-header>",
+    "answer_4": "<top>",
+    "true_answer": "<header>"
+  },
+  {
+    "title": "What is the correct HTML for referring to an external style sheet?",
+    "answer_1": "<link rel='stylesheet' href='style.css'>",
+    "answer_2": "<style src='style.css'>",
+    "answer_3": "<stylesheet>style.css</stylesheet>",
+    "answer_4": "<css href='style.css'>",
+    "true_answer": "<link rel='stylesheet' href='style.css'>"
+  },
+  {
+    "title": "Which HTML element is used to define a table row?",
+    "answer_1": "<tr>",
+    "answer_2": "<td>",
+    "answer_3": "<th>",
+    "answer_4": "<row>",
+    "true_answer": "<tr>"
+  },
+  {
+    "title": "What is the correct HTML for creating a hyperlink?",
+    "answer_1": "<a href='url'>link text</a>",
+    "answer_2": "<link href='url'>link text</link>",
+    "answer_3": "<a url='url'>link text</a>",
+    "answer_4": "<href='url'>link text</href>",
+    "true_answer": "<a href='url'>link text</a>"
+  },
+  {
+    "title": "Which HTML element is used to define emphasized text?",
+    "answer_1": "<em>",
+    "answer_2": "<i>",
+    "answer_3": "<strong>",
+    "answer_4": "<b>",
+    "true_answer": "<em>"
+  },
+  {
+    "title": "What is the correct HTML for inserting an image?",
+    "answer_1": "<img src='image.jpg' alt='description'>",
+    "answer_2": "<image src='image.jpg'>",
+    "answer_3": "<img href='image.jpg'>",
+    "answer_4": "<img>image.jpg</img>",
+    "true_answer": "<img src='image.jpg' alt='description'>"
+  },
+  {
+    "title": "Which HTML element is used to define a list item?",
+    "answer_1": "<li>",
+    "answer_2": "<ul>",
+    "answer_3": "<ol>",
+    "answer_4": "<item>",
+    "true_answer": "<li>"
+  },
+  {
+    "title": "What is the correct HTML for making a text input field?",
+    "answer_1": "<input type='text'>",
+    "answer_2": "<textfield>",
+    "answer_3": "<input text='true'>",
+    "answer_4": "<input type='textfield'>",
+    "true_answer": "<input type='text'>"
+  },
+  {
+    "title": "Which HTML element is used to define a division or a section?",
+    "answer_1": "<div>",
+    "answer_2": "<section>",
+    "answer_3": "<span>",
+    "answer_4": "<article>",
+    "true_answer": "<div>"
+  },
+  {
+    "title": "What is the correct HTML for creating a drop-down list?",
+    "answer_1": "<select>",
+    "answer_2": "<dropdown>",
+    "answer_3": "<list>",
+    "answer_4": "<input type='dropdown'>",
+    "true_answer": "<select>"
+  },
+  {
+    "title": "Which HTML element is used to define a description list?",
+    "answer_1": "<dl>",
+    "answer_2": "<list>",
+    "answer_3": "<ul>",
+    "answer_4": "<ol>",
+    "true_answer": "<dl>"
+  },
+  {
+    "title": "What is the correct HTML for making a radio button?",
+    "answer_1": "<input type='radio'>",
+    "answer_2": "<radio>",
+    "answer_3": "<input radio='true'>",
+    "answer_4": "<input type='radiobutton'>",
+    "true_answer": "<input type='radio'>"
+  },
+  {
+    "title": "Which HTML element is used to define the title of a document?",
+    "answer_1": "<title>",
+    "answer_2": "<head>",
+    "answer_3": "<header>",
+    "answer_4": "<meta>",
+    "true_answer": "<title>"
+  },
+  {
+    "title": "What is the correct HTML for adding a background color?",
+    "answer_1": "<body style='background-color:yellow;'>",
+    "answer_2": "<background>yellow</background>",
+    "answer_3": "<body bg='yellow'>",
+    "answer_4": "<bgcolor='yellow'>",
+    "true_answer": "<body style='background-color:yellow;'>"
+  },
+  {
+    "title": "Which HTML element is used to define a paragraph?",
+    "answer_1": "<p>",
+    "answer_2": "<para>",
+    "answer_3": "<paragraph>",
+    "answer_4": "<text>",
+    "true_answer": "<p>"
+  },
+  {
+    "title": "What is the correct HTML for making a numbered list?",
+    "answer_1": "<ol>",
+    "answer_2": "<ul>",
+    "answer_3": "<dl>",
+    "answer_4": "<list>",
+    "true_answer": "<ol>"
+  },
+  {
+    "title": "Which HTML element is used to define a table header?",
+    "answer_1": "<th>",
+    "answer_2": "<thead>",
+    "answer_3": "<header>",
+    "answer_4": "<td>",
+    "true_answer": "<th>"
+  },
+  {
+    "title": "What is the correct HTML for making a bulleted list?",
+    "answer_1": "<ul>",
+    "answer_2": "<ol>",
+    "answer_3": "<dl>",
+    "answer_4": "<list>",
+    "true_answer": "<ul>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that is quoted from another source?",
+    "answer_1": "<blockquote>",
+    "answer_2": "<quote>",
+    "answer_3": "<q>",
+    "answer_4": "<cite>",
+    "true_answer": "<blockquote>"
+  },
+  {
+    "title": "What is the correct HTML for inserting a horizontal rule?",
+    "answer_1": "<hr>",
+    "answer_2": "<line>",
+    "answer_3": "<horizontal>",
+    "answer_4": "<breakline>",
+    "true_answer": "<hr>"
+  },
+  {
+    "title": "Which HTML element is used to define a short inline quotation?",
+    "answer_1": "<q>",
+    "answer_2": "<quote>",
+    "answer_3": "<blockquote>",
+    "answer_4": "<cite>",
+    "true_answer": "<q>"
+  },
+  {
+    "title": "What is the correct HTML for making text bold?",
+    "answer_1": "<b>",
+    "answer_2": "<strong>",
+    "answer_3": "<bold>",
+    "answer_4": "<em>",
+    "true_answer": "<b>"
+  },
+  {
+    "title": "Which HTML element is used to define a contact information section?",
+    "answer_1": "<address>",
+    "answer_2": "<contact>",
+    "answer_3": "<info>",
+    "answer_4": "<section>",
+    "true_answer": "<address>"
+  },
+  {
+    "title": "What is the correct HTML for making text italic?",
+    "answer_1": "<i>",
+    "answer_2": "<em>",
+    "answer_3": "<italic>",
+    "answer_4": "<it>",
+    "true_answer": "<i>"
+  },
+  {
+    "title": "Which HTML element is used to define a section in a document?",
+    "answer_1": "<section>",
+    "answer_2": "<div>",
+    "answer_3": "<article>",
+    "answer_4": "<span>",
+    "true_answer": "<section>"
+  },
+  {
+    "title": "What is the correct HTML for making a drop-down list with options?",
+    "answer_1": "<select><option>Option 1</option></select>",
+    "answer_2": "<dropdown><item>Option 1</item></dropdown>",
+    "answer_3": "<list><option>Option 1</option></list>",
+    "answer_4": "<input type='dropdown'><option>Option 1</option></input>",
+    "true_answer": "<select><option>Option 1</option></select>"
+  },
+  {
+    "title": "Which HTML element is used to define a figure caption?",
+    "answer_1": "<figcaption>",
+    "answer_2": "<caption>",
+    "answer_3": "<figurecaption>",
+    "answer_4": "<fig>",
+    "true_answer": "<figcaption>"
+  },
+  {
+    "title": "What is the correct HTML for making a text area?",
+    "answer_1": "<textarea>",
+    "answer_2": "<input type='textarea'>",
+    "answer_3": "<text>",
+    "answer_4": "<input area='true'>",
+    "true_answer": "<textarea>"
+  },
+  {
+    "title": "Which HTML element is used to define a group of related options in a drop-down list?",
+    "answer_1": "<optgroup>",
+    "answer_2": "<group>",
+    "answer_3": "<optiongroup>",
+    "answer_4": "<selectgroup>",
+    "true_answer": "<optgroup>"
+  },
+  {
+    "title": "What is the correct HTML for making a button?",
+    "answer_1": "<button>",
+    "answer_2": "<input type='button'>",
+    "answer_3": "<btn>",
+    "answer_4": "<input button='true'>",
+    "true_answer": "<button>"
+  },
+  {
+    "title": "Which HTML element is used to define a time/date?",
+    "answer_1": "<time>",
+    "answer_2": "<date>",
+    "answer_3": "<datetime>",
+    "answer_4": "<timestamp>",
+    "true_answer": "<time>"
+  },
+  {
+    "title": "What is the correct HTML for making a file upload field?",
+    "answer_1": "<input type='file'>",
+    "answer_2": "<fileupload>",
+    "answer_3": "<input file='true'>",
+    "answer_4": "<upload>",
+    "true_answer": "<input type='file'>"
+  },
+  {
+    "title": "Which HTML element is used to define a progress bar?",
+    "answer_1": "<progress>",
+    "answer_2": "<bar>",
+    "answer_3": "<meter>",
+    "answer_4": "<progressbar>",
+    "true_answer": "<progress>"
+  },
+  {
+    "title": "What is the correct HTML for making a password field?",
+    "answer_1": "<input type='password'>",
+    "answer_2": "<password>",
+    "answer_3": "<input password='true'>",
+    "answer_4": "<input type='pwd'>",
+    "true_answer": "<input type='password'>"
+  },
+  {
+    "title": "Which HTML element is used to define a variable?",
+    "answer_1": "<var>",
+    "answer_2": "<variable>",
+    "answer_3": "<v>",
+    "answer_4": "<code>",
+    "true_answer": "<var>"
+  },
+  {
+    "title": "What is the correct HTML for making a search field?",
+    "answer_1": "<input type='search'>",
+    "answer_2": "<search>",
+    "answer_3": "<input search='true'>",
+    "answer_4": "<input type='find'>",
+    "true_answer": "<input type='search'>"
+  },
+  {
+    "title": "Which HTML element is used to define sample output from a computer program?",
+    "answer_1": "<samp>",
+    "answer_2": "<output>",
+    "answer_3": "<code>",
+    "answer_4": "<sample>",
+    "true_answer": "<samp>"
+  },
+  {
+    "title": "What is the correct HTML for making a range slider?",
+    "answer_1": "<input type='range'>",
+    "answer_2": "<slider>",
+    "answer_3": "<input slider='true'>",
+    "answer_4": "<input type='slider'>",
+    "true_answer": "<input type='range'>"
+  },
+  {
+    "title": "Which HTML element is used to define a keyboard input?",
+    "answer_1": "<kbd>",
+    "answer_2": "<key>",
+    "answer_3": "<keyboard>",
+    "answer_4": "<input type='keyboard'>",
+    "true_answer": "<kbd>"
+  },
+  {
+    "title": "What is the correct HTML for making a color picker?",
+    "answer_1": "<input type='color'>",
+    "answer_2": "<colorpicker>",
+    "answer_3": "<input color='true'>",
+    "answer_4": "<input type='picker'>",
+    "true_answer": "<input type='color'>"
+  },
+  {
+    "title": "Which HTML element is used to define a contact form fieldset?",
+    "answer_1": "<fieldset>",
+    "answer_2": "<formgroup>",
+    "answer_3": "<group>",
+    "answer_4": "<section>",
+    "true_answer": "<fieldset>"
+  },
+  {
+    "title": "What is the correct HTML for making a telephone input field?",
+    "answer_1": "<input type='tel'>",
+    "answer_2": "<telephone>",
+    "answer_3": "<input tel='true'>",
+    "answer_4": "<input type='telephone'>",
+    "true_answer": "<input type='tel'>"
+  },
+  {
+    "title": "Which HTML element is used to define a list of navigation links?",
+    "answer_1": "<nav>",
+    "answer_2": "<navigation>",
+    "answer_3": "<links>",
+    "answer_4": "<menu>",
+    "true_answer": "<nav>"
+  },
+  {
+    "title": "What is the correct HTML for making an email input field?",
+    "answer_1": "<input type='email'>",
+    "answer_2": "<email>",
+    "answer_3": "<input email='true'>",
+    "answer_4": "<input type='mail'>",
+    "true_answer": "<input type='email'>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains related content?",
+    "answer_1": "<section>",
+    "answer_2": "<div>",
+    "answer_3": "<article>",
+    "answer_4": "<aside>",
+    "true_answer": "<section>"
+  },
+  {
+    "title": "What is the correct HTML for making a date input field?",
+    "answer_1": "<input type='date'>",
+    "answer_2": "<date>",
+    "answer_3": "<input date='true'>",
+    "answer_4": "<input type='datetime'>",
+    "true_answer": "<input type='date'>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that is tangentially related to the content around it?",
+    "answer_1": "<aside>",
+    "answer_2": "<section>",
+    "answer_3": "<div>",
+    "answer_4": "<article>",
+    "true_answer": "<aside>"
+  },
+  {
+    "title": "What is the correct HTML for making a number input field?",
+    "answer_1": "<input type='number'>",
+    "answer_2": "<number>",
+    "answer_3": "<input number='true'>",
+    "answer_4": "<input type='num'>",
+    "true_answer": "<input type='number'>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains independent, self-contained content?",
+    "answer_1": "<article>",
+    "answer_2": "<section>",
+    "answer_3": "<div>",
+    "answer_4": "<aside>",
+    "true_answer": "<article>"
+  },
+  {
+    "title": "What is the correct HTML for making a time input field?",
+    "answer_1": "<input type='time'>",
+    "answer_2": "<time>",
+    "answer_3": "<input time='true'>",
+    "answer_4": "<input type='datetime'>",
+    "true_answer": "<input type='time'>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a navigation menu?",
+    "answer_1": "<nav>",
+    "answer_2": "<menu>",
+    "answer_3": "<navigation>",
+    "answer_4": "<links>",
+    "true_answer": "<nav>"
+  },
+  {
+    "title": "What is the correct HTML for making a hidden input field?",
+    "answer_1": "<input type='hidden'>",
+    "answer_2": "<hidden>",
+    "answer_3": "<input hidden='true'>",
+    "answer_4": "<input type='invisible'>",
+    "true_answer": "<input type='hidden'>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a footer for a document or section?",
+    "answer_1": "<footer>",
+    "answer_2": "<bottom>",
+    "answer_3": "<section-footer>",
+    "answer_4": "<foot>",
+    "true_answer": "<footer>"
+  },
+  {
+    "title": "What is the correct HTML for making a submit button?",
+    "answer_1": "<input type='submit'>",
+    "answer_2": "<submit>",
+    "answer_3": "<button type='submit'>",
+    "answer_4": "<input submit='true'>",
+    "true_answer": "<input type='submit'>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a header for a document or section?",
+    "answer_1": "<header>",
+    "answer_2": "<head>",
+    "answer_3": "<section-header>",
+    "answer_4": "<top>",
+    "true_answer": "<header>"
+  },
+  {
+    "title": "What is the correct HTML for making a reset button?",
+    "answer_1": "<input type='reset'>",
+    "answer_2": "<reset>",
+    "answer_3": "<button type='reset'>",
+    "answer_4": "<input reset='true'>",
+    "true_answer": "<input type='reset'>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a main content of a document?",
+    "answer_1": "<main>",
+    "answer_2": "<body>",
+    "answer_3": "<section>",
+    "answer_4": "<content>",
+    "true_answer": "<main>"
+  },
+  {
+    "title": "What is the correct HTML for making a progress bar?",
+    "answer_1": "<progress>",
+    "answer_2": "<bar>",
+    "answer_3": "<meter>",
+    "answer_4": "<progressbar>",
+    "true_answer": "<progress>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a list of definitions?",
+    "answer_1": "<dl>",
+    "answer_2": "<list>",
+    "answer_3": "<ul>",
+    "answer_4": "<ol>",
+    "true_answer": "<dl>"
+  },
+  {
+    "title": "What is the correct HTML for making a meter?",
+    "answer_1": "<meter>",
+    "answer_2": "<progress>",
+    "answer_3": "<bar>",
+    "answer_4": "<gauge>",
+    "true_answer": "<meter>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a group of related form elements?",
+    "answer_1": "<fieldset>",
+    "answer_2": "<formgroup>",
+    "answer_3": "<group>",
+    "answer_4": "<section>",
+    "true_answer": "<fieldset>"
+  },
+  {
+    "title": "What is the correct HTML for making a label for a form element?",
+    "answer_1": "<label>",
+    "answer_2": "<formlabel>",
+    "answer_3": "<form-label>",
+    "answer_4": "<inputlabel>",
+    "true_answer": "<label>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a caption for a table?",
+    "answer_1": "<caption>",
+    "answer_2": "<tablecaption>",
+    "answer_3": "<figcaption>",
+    "answer_4": "<table-caption>",
+    "true_answer": "<caption>"
+  },
+  {
+    "title": "What is the correct HTML for making a table body?",
+    "answer_1": "<tbody>",
+    "answer_2": "<tablebody>",
+    "answer_3": "<body>",
+    "answer_4": "<table-body>",
+    "true_answer": "<tbody>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a table head?",
+    "answer_1": "<thead>",
+    "answer_2": "<tablehead>",
+    "answer_3": "<head>",
+    "answer_4": "<table-head>",
+    "true_answer": "<thead>"
+  },
+  {
+    "title": "What is the correct HTML for making a table footer?",
+    "answer_1": "<tfoot>",
+    "answer_2": "<tablefooter>",
+    "answer_3": "<footer>",
+    "answer_4": "<table-footer>",
+    "true_answer": "<tfoot>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a table row?",
+    "answer_1": "<tr>",
+    "answer_2": "<tablerow>",
+    "answer_3": "<row>",
+    "answer_4": "<table-row>",
+    "true_answer": "<tr>"
+  },
+  {
+    "title": "What is the correct HTML for making a table cell?",
+    "answer_1": "<td>",
+    "answer_2": "<tablecell>",
+    "answer_3": "<cell>",
+    "answer_4": "<table-cell>",
+    "true_answer": "<td>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a table header cell?",
+    "answer_1": "<th>",
+    "answer_2": "<tableheader>",
+    "answer_3": "<header>",
+    "answer_4": "<table-header>",
+    "true_answer": "<th>"
+  },
+  {
+    "title": "What is the correct HTML for making a table data cell?",
+    "answer_1": "<td>",
+    "answer_2": "<tabledata>",
+    "answer_3": "<data>",
+    "answer_4": "<table-data>",
+    "true_answer": "<td>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a table?",
+    "answer_1": "<table>",
+    "answer_2": "<datatable>",
+    "answer_3": "<tab>",
+    "answer_4": "<table-section>",
+    "true_answer": "<table>"
+  },
+  {
+    "title": "What is the correct HTML for making a table?",
+    "answer_1": "<table>",
+    "answer_2": "<datatable>",
+    "answer_3": "<tab>",
+    "answer_4": "<table-section>",
+    "true_answer": "<table>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a list item?",
+    "answer_1": "<li>",
+    "answer_2": "<listitem>",
+    "answer_3": "<item>",
+    "answer_4": "<list-item>",
+    "true_answer": "<li>"
+  },
+  {
+    "title": "What is the correct HTML for making an unordered list?",
+    "answer_1": "<ul>",
+    "answer_2": "<ol>",
+    "answer_3": "<dl>",
+    "answer_4": "<list>",
+    "true_answer": "<ul>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains an ordered list?",
+    "answer_1": "<ol>",
+    "answer_2": "<ul>",
+    "answer_3": "<dl>",
+    "answer_4": "<list>",
+    "true_answer": "<ol>"
+  },
+  {
+    "title": "What is the correct HTML for making a description term?",
+    "answer_1": "<dt>",
+    "answer_2": "<description>",
+    "answer_3": "<term>",
+    "answer_4": "<desc-term>",
+    "true_answer": "<dt>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a description?",
+    "answer_1": "<dd>",
+    "answer_2": "<description>",
+    "answer_3": "<desc>",
+    "answer_4": "<desc-item>",
+    "true_answer": "<dd>"
+  },
+  {
+    "title": "What is the correct HTML for making a description list?",
+    "answer_1": "<dl>",
+    "answer_2": "<list>",
+    "answer_3": "<ul>",
+    "answer_4": "<ol>",
+    "true_answer": "<dl>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a figure?",
+    "answer_1": "<figure>",
+    "answer_2": "<fig>",
+    "answer_3": "<image>",
+    "answer_4": "<img>",
+    "true_answer": "<figure>"
+  },
+  {
+    "title": "What is the correct HTML for making a figure caption?",
+    "answer_1": "<figcaption>",
+    "answer_2": "<caption>",
+    "answer_3": "<figurecaption>",
+    "answer_4": "<fig>",
+    "true_answer": "<figcaption>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a figure caption?",
+    "answer_1": "<figcaption>",
+    "answer_2": "<caption>",
+    "answer_3": "<figurecaption>",
+    "answer_4": "<fig>",
+    "true_answer": "<figcaption>"
+  },
+  {
+    "title": "What is the correct HTML for making a figure?",
+    "answer_1": "<figure>",
+    "answer_2": "<fig>",
+    "answer_3": "<image>",
+    "answer_4": "<img>",
+    "true_answer": "<figure>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a script?",
+    "answer_1": "<script>",
+    "answer_2": "<js>",
+    "answer_3": "<javascript>",
+    "answer_4": "<code>",
+    "true_answer": "<script>"
+  },
+  {
+    "title": "What is the correct HTML for making a script?",
+    "answer_1": "<script>",
+    "answer_2": "<js>",
+    "answer_3": "<javascript>",
+    "answer_4": "<code>",
+    "true_answer": "<script>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a style?",
+    "answer_1": "<style>",
+    "answer_2": "<css>",
+    "answer_3": "<stylesheet>",
+    "answer_4": "<link>",
+    "true_answer": "<style>"
+  },
+  {
+    "title": "What is the correct HTML for making a style?",
+    "answer_1": "<style>",
+    "answer_2": "<css>",
+    "answer_3": "<stylesheet>",
+    "answer_4": "<link>",
+    "true_answer": "<style>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a link to an external resource?",
+    "answer_1": "<link>",
+    "answer_2": "<a>",
+    "answer_3": "<external>",
+    "answer_4": "<resource>",
+    "true_answer": "<link>"
+  },
+  {
+    "title": "What is the correct HTML for making a link to an external resource?",
+    "answer_1": "<link>",
+    "answer_2": "<a>",
+    "answer_3": "<external>",
+    "answer_4": "<resource>",
+    "true_answer": "<link>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains metadata?",
+    "answer_1": "<meta>",
+    "answer_2": "<metadata>",
+    "answer_3": "<data>",
+    "answer_4": "<info>",
+    "true_answer": "<meta>"
+  },
+  {
+    "title": "What is the correct HTML for making metadata?",
+    "answer_1": "<meta>",
+    "answer_2": "<metadata>",
+    "answer_3": "<data>",
+    "answer_4": "<info>",
+    "true_answer": "<meta>"
+  },
+  {
+    "title": "Which HTML element is used to define a section that contains a base URL for relative URLs?",
+    "answer_1": "<base>",
+    "answer_2": "<url>",
+    "answer_3": "<baseurl>",
+    "answer_4": "<link>",
+    "true_answer": "<base>"
+  },
+  {
+    "title": "What is the correct HTML for making a base URL?",
+    "answer_1": "<base>",
+    "answer_2": "<url>",
+    "answer_3": "<baseurl>",
+    "answer_4": "<link>",
+    "true_answer": "<base>"
+  }
+]

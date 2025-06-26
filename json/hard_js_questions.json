@@ -1,0 +1,762 @@
+[
+  {
+    "title": "What is the output of: console.log(typeof NaN);",
+    "answer_1": "undefined",
+    "answer_2": "number",
+    "answer_3": "object",
+    "answer_4": "NaN",
+    "true_answer": "number"
+  },
+  {
+    "title": "Which method can be used to convert an object to a JSON string?",
+    "answer_1": "JSON.parse()",
+    "answer_2": "JSON.stringify()",
+    "answer_3": "JSON.objectify()",
+    "answer_4": "JSON.toString()",
+    "true_answer": "JSON.stringify()"
+  },
+  {
+    "title": "What will be the output of: console.log(0.1 + 0.2 === 0.3);",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "TypeError",
+    "true_answer": "false"
+  },
+  {
+    "title": "Which of the following is NOT a primitive data type in JavaScript?",
+    "answer_1": "string",
+    "answer_2": "boolean",
+    "answer_3": "object",
+    "answer_4": "number",
+    "true_answer": "object"
+  },
+  {
+    "title": "What does the 'this' keyword refer to in a regular function (not arrow) in the global scope?",
+    "answer_1": "window (in browsers)",
+    "answer_2": "undefined",
+    "answer_3": "the function itself",
+    "answer_4": "null",
+    "true_answer": "window (in browsers)"
+  },
+  {
+    "title": "How can you create a new Set with values [1,2,3]?",
+    "answer_1": "new Set([1,2,3])",
+    "answer_2": "Set([1,2,3])",
+    "answer_3": "new Set{1,2,3}",
+    "answer_4": "Set{1,2,3}",
+    "true_answer": "new Set([1,2,3])"
+  },
+  {
+    "title": "What is the result of: '5' - 2?",
+    "answer_1": "3",
+    "answer_2": "52",
+    "answer_3": "NaN",
+    "answer_4": "undefined",
+    "true_answer": "3"
+  },
+  {
+    "title": "Which of the following is a falsy value?",
+    "answer_1": "0",
+    "answer_2": "[]",
+    "answer_3": "{}",
+    "answer_4": "'false'",
+    "true_answer": "0"
+  },
+  {
+    "title": "What is the output of: console.log([...'hello']);",
+    "answer_1": "['hello']",
+    "answer_2": "['h','e','l','l','o']",
+    "answer_3": "['h','e','l','l','o','']",
+    "answer_4": "Error",
+    "true_answer": "['h','e','l','l','o']"
+  },
+  {
+    "title": "Which operator checks both value and type?",
+    "answer_1": "==",
+    "answer_2": "=",
+    "answer_3": "===",
+    "answer_4": "!=",
+    "true_answer": "==="
+  },
+  {
+    "title": "What is the output of: console.log(typeof null);",
+    "answer_1": "null",
+    "answer_2": "object",
+    "answer_3": "undefined",
+    "answer_4": "boolean",
+    "true_answer": "object"
+  },
+  {
+    "title": "How do you declare a constant in JavaScript?",
+    "answer_1": "let",
+    "answer_2": "var",
+    "answer_3": "const",
+    "answer_4": "constant",
+    "true_answer": "const"
+  },
+  {
+    "title": "What will be the output of: console.log([] == false);",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "TypeError",
+    "true_answer": "true"
+  },
+  {
+    "title": "Which method removes the last element from an array?",
+    "answer_1": "pop()",
+    "answer_2": "push()",
+    "answer_3": "shift()",
+    "answer_4": "unshift()",
+    "true_answer": "pop()"
+  },
+  {
+    "title": "What is the output of: console.log(!!'false' == !!'true');",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "TypeError",
+    "true_answer": "true"
+  },
+  {
+    "title": "Which of the following is NOT a valid way to declare a function?",
+    "answer_1": "function foo() {}",
+    "answer_2": "const foo = function() {}",
+    "answer_3": "const foo = () => {}",
+    "answer_4": "function:foo() {}",
+    "true_answer": "function:foo() {}"
+  },
+  {
+    "title": "What is the output of: console.log(typeof []);",
+    "answer_1": "array",
+    "answer_2": "object",
+    "answer_3": "undefined",
+    "answer_4": "null",
+    "true_answer": "object"
+  },
+  {
+    "title": "Which method returns the index of the first occurrence of a value in an array?",
+    "answer_1": "find()",
+    "answer_2": "indexOf()",
+    "answer_3": "search()",
+    "answer_4": "findIndex()",
+    "true_answer": "indexOf()"
+  },
+  {
+    "title": "What is the output of: console.log(1 + '2' + '2');",
+    "answer_1": "122",
+    "answer_2": "14",
+    "answer_3": "32",
+    "answer_4": "NaN",
+    "true_answer": "122"
+  },
+  {
+    "title": "Which of the following is NOT a looping structure in JavaScript?",
+    "answer_1": "for",
+    "answer_2": "while",
+    "answer_3": "foreach",
+    "answer_4": "do...while",
+    "true_answer": "foreach"
+  },
+  {
+    "title": "What is the output of: console.log(2 == '2');",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "TypeError",
+    "true_answer": "true"
+  },
+  {
+    "title": "Which method can be used to merge two arrays?",
+    "answer_1": "concat()",
+    "answer_2": "merge()",
+    "answer_3": "append()",
+    "answer_4": "combine()",
+    "true_answer": "concat()"
+  },
+  {
+    "title": "What is the output of: console.log(typeof function(){});",
+    "answer_1": "object",
+    "answer_2": "function",
+    "answer_3": "undefined",
+    "answer_4": "string",
+    "true_answer": "function"
+  },
+  {
+    "title": "Which of the following is NOT a valid variable name?",
+    "answer_1": "_var",
+    "answer_2": "$var",
+    "answer_3": "2var",
+    "answer_4": "var2",
+    "true_answer": "2var"
+  },
+  {
+    "title": "What is the output of: console.log(!!0);",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "0",
+    "true_answer": "false"
+  },
+  {
+    "title": "Which method is used to remove whitespace from both ends of a string?",
+    "answer_1": "trim()",
+    "answer_2": "strip()",
+    "answer_3": "clean()",
+    "answer_4": "remove()",
+    "true_answer": "trim()"
+  },
+  {
+    "title": "What is the output of: console.log('5' + 3);",
+    "answer_1": "8",
+    "answer_2": "53",
+    "answer_3": "NaN",
+    "answer_4": "undefined",
+    "true_answer": "53"
+  },
+  {
+    "title": "Which of the following is NOT a valid way to declare an array?",
+    "answer_1": "let arr = [];",
+    "answer_2": "let arr = new Array();",
+    "answer_3": "let arr = Array();",
+    "answer_4": "let arr = array();",
+    "true_answer": "let arr = array();"
+  },
+  {
+    "title": "What is the output of: console.log(typeof undefined);",
+    "answer_1": "undefined",
+    "answer_2": "object",
+    "answer_3": "string",
+    "answer_4": "null",
+    "true_answer": "undefined"
+  },
+  {
+    "title": "Which method is used to add elements to the end of an array?",
+    "answer_1": "push()",
+    "answer_2": "pop()",
+    "answer_3": "shift()",
+    "answer_4": "unshift()",
+    "true_answer": "push()"
+  },
+  {
+    "title": "What is the output of: console.log(2 + true);",
+    "answer_1": "3",
+    "answer_2": "2true",
+    "answer_3": "NaN",
+    "answer_4": "undefined",
+    "true_answer": "3"
+  },
+  {
+    "title": "Which of the following is NOT a JavaScript framework?",
+    "answer_1": "React",
+    "answer_2": "Angular",
+    "answer_3": "Vue",
+    "answer_4": "Django",
+    "true_answer": "Django"
+  },
+  {
+    "title": "What is the output of: console.log('2' * '3');",
+    "answer_1": "6",
+    "answer_2": "23",
+    "answer_3": "NaN",
+    "answer_4": "undefined",
+    "true_answer": "6"
+  },
+  {
+    "title": "Which method is used to convert a string to lowercase?",
+    "answer_1": "toLowerCase()",
+    "answer_2": "lower()",
+    "answer_3": "toLower()",
+    "answer_4": "lowercase()",
+    "true_answer": "toLowerCase()"
+  },
+  {
+    "title": "What is the output of: console.log(typeof Symbol());",
+    "answer_1": "symbol",
+    "answer_2": "object",
+    "answer_3": "string",
+    "answer_4": "undefined",
+    "true_answer": "symbol"
+  },
+  {
+    "title": "Which of the following is NOT a valid way to create an object?",
+    "answer_1": "let obj = {};",
+    "answer_2": "let obj = new Object();",
+    "answer_3": "let obj = Object.create(null);",
+    "answer_4": "let obj = Object[];",
+    "true_answer": "let obj = Object[];"
+  },
+  {
+    "title": "What is the output of: console.log(!!'');",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "null",
+    "true_answer": "false"
+  },
+  {
+    "title": "Which method is used to check if an array includes a certain value?",
+    "answer_1": "includes()",
+    "answer_2": "contains()",
+    "answer_3": "has()",
+    "answer_4": "inArray()",
+    "true_answer": "includes()"
+  },
+  {
+    "title": "What is the output of: console.log(3 > 2 > 1);",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "TypeError",
+    "true_answer": "false"
+  },
+  {
+    "title": "Which of the following is NOT a valid string method?",
+    "answer_1": "slice()",
+    "answer_2": "substr()",
+    "answer_3": "substring()",
+    "answer_4": "splitby()",
+    "true_answer": "splitby()"
+  },
+  {
+    "title": "What is the output of: console.log(typeof Infinity);",
+    "answer_1": "number",
+    "answer_2": "undefined",
+    "answer_3": "object",
+    "answer_4": "Infinity",
+    "true_answer": "number"
+  },
+  {
+    "title": "Which method is used to find the length of a string?",
+    "answer_1": "length",
+    "answer_2": "size()",
+    "answer_3": "count()",
+    "answer_4": "getLength()",
+    "true_answer": "length"
+  },
+  {
+    "title": "What is the output of: console.log('10' - - '10');",
+    "answer_1": "0",
+    "answer_2": "20",
+    "answer_3": "1010",
+    "answer_4": "NaN",
+    "true_answer": "20"
+  },
+  {
+    "title": "Which of the following is NOT a valid way to comment in JavaScript?",
+    "answer_1": "// comment",
+    "answer_2": "/* comment */",
+    "answer_3": "# comment",
+    "answer_4": "/** comment */",
+    "true_answer": "# comment"
+  },
+  {
+    "title": "What is the output of: console.log(typeof 1n);",
+    "answer_1": "bigint",
+    "answer_2": "number",
+    "answer_3": "object",
+    "answer_4": "undefined",
+    "true_answer": "bigint"
+  },
+  {
+    "title": "Which method is used to convert a string to a number?",
+    "answer_1": "parseInt()",
+    "answer_2": "parseFloat()",
+    "answer_3": "Number()",
+    "answer_4": "All of the above",
+    "true_answer": "All of the above"
+  },
+  {
+    "title": "What is the output of: console.log([1,2,3] + [4,5,6]);",
+    "answer_1": "1,2,34,5,6",
+    "answer_2": "1,2,3,4,5,6",
+    "answer_3": "NaN",
+    "answer_4": "undefined",
+    "true_answer": "1,2,34,5,6"
+  },
+  {
+    "title": "Which of the following is NOT a valid comparison operator?",
+    "answer_1": "===",
+    "answer_2": "!==",
+    "answer_3": "><",
+    "answer_4": "<=",
+    "true_answer": "><"
+  },
+  {
+    "title": "What is the output of: console.log(typeof new Date());",
+    "answer_1": "object",
+    "answer_2": "date",
+    "answer_3": "string",
+    "answer_4": "undefined",
+    "true_answer": "object"
+  },
+  {
+    "title": "Which method is used to remove the first element from an array?",
+    "answer_1": "shift()",
+    "answer_2": "pop()",
+    "answer_3": "unshift()",
+    "answer_4": "push()",
+    "true_answer": "shift()"
+  },
+  {
+    "title": "What is the output of: console.log('5' - '2');",
+    "answer_1": "3",
+    "answer_2": "52",
+    "answer_3": "NaN",
+    "answer_4": "undefined",
+    "true_answer": "3"
+  },
+  {
+    "title": "Which of the following is NOT a valid way to create a string?",
+    "answer_1": "let str = 'hello';",
+    "answer_2": "let str = \"hello\";",
+    "answer_3": "let str = `hello`;",
+    "answer_4": "let str = string('hello');",
+    "true_answer": "let str = string('hello');"
+  },
+  {
+    "title": "What is the output of: console.log(typeof Math);",
+    "answer_1": "object",
+    "answer_2": "function",
+    "answer_3": "undefined",
+    "answer_4": "number",
+    "true_answer": "object"
+  },
+  {
+    "title": "Which method is used to join all elements of an array into a string?",
+    "answer_1": "join()",
+    "answer_2": "concat()",
+    "answer_3": "toString()",
+    "answer_4": "merge()",
+    "true_answer": "join()"
+  },
+  {
+    "title": "What is the output of: console.log(1 == true);",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "TypeError",
+    "true_answer": "true"
+  },
+  {
+    "title": "Which of the following is NOT a valid way to declare a number?",
+    "answer_1": "let num = 10;",
+    "answer_2": "let num = Number('10');",
+    "answer_3": "let num = 0xA;",
+    "answer_4": "let num = number(10);",
+    "true_answer": "let num = number(10);"
+  },
+  {
+    "title": "What is the output of: console.log(typeof /abc/);",
+    "answer_1": "object",
+    "answer_2": "function",
+    "answer_3": "regexp",
+    "answer_4": "object",
+    "true_answer": "object"
+  },
+  {
+    "title": "Which method is used to find the maximum value in an array?",
+    "answer_1": "Math.max(...arr)",
+    "answer_2": "arr.max()",
+    "answer_3": "max(arr)",
+    "answer_4": "Math.maximum(arr)",
+    "true_answer": "Math.max(...arr)"
+  },
+  {
+    "title": "What is the output of: console.log('' == 0);",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "TypeError",
+    "true_answer": "true"
+  },
+  {
+    "title": "Which of the following is NOT a valid way to create a boolean?",
+    "answer_1": "let bool = true;",
+    "answer_2": "let bool = Boolean(1);",
+    "answer_3": "let bool = !!1;",
+    "answer_4": "let bool = boolean(1);",
+    "true_answer": "let bool = boolean(1);"
+  },
+  {
+    "title": "What is the output of: console.log(typeof NaN === 'number');",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "TypeError",
+    "true_answer": "true"
+  },
+  {
+    "title": "Which method is used to reverse the order of elements in an array?",
+    "answer_1": "reverse()",
+    "answer_2": "invert()",
+    "answer_3": "flip()",
+    "answer_4": "turn()",
+    "true_answer": "reverse()"
+  },
+  {
+    "title": "What is the output of: console.log(!![]);",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "null",
+    "true_answer": "true"
+  },
+  {
+    "title": "Which of the following is NOT a valid way to create a function?",
+    "answer_1": "function foo() {}",
+    "answer_2": "let foo = function() {}",
+    "answer_3": "let foo = () => {}",
+    "answer_4": "let foo = function[] {}",
+    "true_answer": "let foo = function[] {}"
+  },
+  {
+    "title": "What is the output of: console.log('5' * '2');",
+    "answer_1": "10",
+    "answer_2": "52",
+    "answer_3": "NaN",
+    "answer_4": "undefined",
+    "true_answer": "10"
+  },
+  {
+    "title": "Which method is used to sort the elements of an array?",
+    "answer_1": "sort()",
+    "answer_2": "order()",
+    "answer_3": "arrange()",
+    "answer_4": "organize()",
+    "true_answer": "sort()"
+  },
+  {
+    "title": "What is the output of: console.log(typeof null === 'object');",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "TypeError",
+    "true_answer": "true"
+  },
+  {
+    "title": "Which of the following is NOT a valid way to create an array?",
+    "answer_1": "let arr = [];",
+    "answer_2": "let arr = new Array();",
+    "answer_3": "let arr = Array();",
+    "answer_4": "let arr = array[];",
+    "true_answer": "let arr = array[];"
+  },
+  {
+    "title": "What is the output of: console.log(2 + '2' - 2);",
+    "answer_1": "20",
+    "answer_2": "2",
+    "answer_3": "NaN",
+    "answer_4": "0",
+    "true_answer": "20"
+  },
+  {
+    "title": "Which method is used to remove the first element from an array?",
+    "answer_1": "shift()",
+    "answer_2": "pop()",
+    "answer_3": "unshift()",
+    "answer_4": "push()",
+    "true_answer": "shift()"
+  },
+  {
+    "title": "What is the output of: console.log(typeof [] === 'object');",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "TypeError",
+    "true_answer": "true"
+  },
+  {
+    "title": "Which of the following is NOT a valid way to create a string?",
+    "answer_1": "let str = 'hello';",
+    "answer_2": "let str = \"hello\";",
+    "answer_3": "let str = `hello`;",
+    "answer_4": "let str = string[];",
+    "true_answer": "let str = string[];"
+  },
+  {
+    "title": "What is the output of: console.log('5' + 2 - 1);",
+    "answer_1": "51",
+    "answer_2": "6",
+    "answer_3": "NaN",
+    "answer_4": "undefined",
+    "true_answer": "51"
+  },
+  {
+    "title": "Which method is used to convert a string to uppercase?",
+    "answer_1": "toUpperCase()",
+    "answer_2": "upper()",
+    "answer_3": "toUpper()",
+    "answer_4": "uppercase()",
+    "true_answer": "toUpperCase()"
+  },
+  {
+    "title": "What is the output of: console.log(typeof true);",
+    "answer_1": "boolean",
+    "answer_2": "object",
+    "answer_3": "string",
+    "answer_4": "undefined",
+    "true_answer": "boolean"
+  },
+  {
+    "title": "Which of the following is NOT a valid way to create a boolean?",
+    "answer_1": "let bool = true;",
+    "answer_2": "let bool = Boolean(1);",
+    "answer_3": "let bool = !!1;",
+    "answer_4": "let bool = boolean[];",
+    "true_answer": "let bool = boolean[];"
+  },
+  {
+    "title": "What is the output of: console.log(typeof undefined === 'undefined');",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "TypeError",
+    "true_answer": "true"
+  },
+  {
+    "title": "Which method is used to find the minimum value in an array?",
+    "answer_1": "Math.min(...arr)",
+    "answer_2": "arr.min()",
+    "answer_3": "min(arr)",
+    "answer_4": "Math.minimum(arr)",
+    "true_answer": "Math.min(...arr)"
+  },
+  {
+    "title": "What is the output of: console.log('' === 0);",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "TypeError",
+    "true_answer": "false"
+  },
+  {
+    "title": "Which of the following is NOT a valid way to create a number?",
+    "answer_1": "let num = 10;",
+    "answer_2": "let num = Number('10');",
+    "answer_3": "let num = 0xA;",
+    "answer_4": "let num = number[];",
+    "true_answer": "let num = number[];"
+  },
+  {
+    "title": "What is the output of: console.log(typeof 'hello');",
+    "answer_1": "string",
+    "answer_2": "object",
+    "answer_3": "undefined",
+    "answer_4": "null",
+    "true_answer": "string"
+  },
+  {
+    "title": "Which method is used to split a string into an array?",
+    "answer_1": "split()",
+    "answer_2": "slice()",
+    "answer_3": "splice()",
+    "answer_4": "divide()",
+    "true_answer": "split()"
+  },
+  {
+    "title": "What is the output of: console.log(typeof false);",
+    "answer_1": "boolean",
+    "answer_2": "object",
+    "answer_3": "string",
+    "answer_4": "undefined",
+    "true_answer": "boolean"
+  },
+  {
+    "title": "Which of the following is NOT a valid way to create an object?",
+    "answer_1": "let obj = {};",
+    "answer_2": "let obj = new Object();",
+    "answer_3": "let obj = Object.create(null);",
+    "answer_4": "let obj = object[];",
+    "true_answer": "let obj = object[];"
+  },
+  {
+    "title": "What is the output of: console.log(typeof 123);",
+    "answer_1": "number",
+    "answer_2": "object",
+    "answer_3": "string",
+    "answer_4": "undefined",
+    "true_answer": "number"
+  },
+  {
+    "title": "Which method is used to remove the last element from an array?",
+    "answer_1": "pop()",
+    "answer_2": "push()",
+    "answer_3": "shift()",
+    "answer_4": "unshift()",
+    "true_answer": "pop()"
+  },
+  {
+    "title": "What is the output of: console.log(typeof '123');",
+    "answer_1": "string",
+    "answer_2": "object",
+    "answer_3": "number",
+    "answer_4": "undefined",
+    "true_answer": "string"
+  },
+  {
+    "title": "Which of the following is NOT a valid way to create a function?",
+    "answer_1": "function foo() {}",
+    "answer_2": "let foo = function() {}",
+    "answer_3": "let foo = () => {}",
+    "answer_4": "let foo = function{}",
+    "true_answer": "let foo = function{}"
+  },
+  {
+    "title": "What is the output of: console.log(typeof true === 'boolean');",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "TypeError",
+    "true_answer": "true"
+  },
+  {
+    "title": "Which method is used to convert a number to a string?",
+    "answer_1": "toString()",
+    "answer_2": "String()",
+    "answer_3": "numToString()",
+    "answer_4": "numberToString()",
+    "true_answer": "toString()"
+  },
+  {
+    "title": "What is the output of: console.log(typeof 1.23);",
+    "answer_1": "number",
+    "answer_2": "object",
+    "answer_3": "string",
+    "answer_4": "undefined",
+    "true_answer": "number"
+  },
+  {
+    "title": "Which of the following is NOT a valid way to create a boolean?",
+    "answer_1": "let bool = true;",
+    "answer_2": "let bool = Boolean(1);",
+    "answer_3": "let bool = !!1;",
+    "answer_4": "let bool = Boolean[];",
+    "true_answer": "let bool = Boolean[];"
+  },
+  {
+    "title": "What is the output of: console.log(typeof null === 'null');",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "TypeError",
+    "true_answer": "false"
+  },
+  {
+    "title": "Which method is used to find the length of an array?",
+    "answer_1": "length",
+    "answer_2": "size()",
+    "answer_3": "count()",
+    "answer_4": "getLength()",
+    "true_answer": "length"
+  },
+  {
+    "title": "What is the output of: console.log(typeof undefined === 'object');",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "TypeError",
+    "true_answer": "false"
+  }
+]

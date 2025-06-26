@@ -1,0 +1,842 @@
+[
+  {
+    "title": "What is the correct syntax to print a message in the console in JavaScript?",
+    "answer_1": "console.log('Hello');",
+    "answer_2": "print('Hello');",
+    "answer_3": "echo('Hello');",
+    "answer_4": "printf('Hello');",
+    "true_answer": "console.log('Hello');"
+  },
+  {
+    "title": "Which of the following is a JavaScript data type?",
+    "answer_1": "Number",
+    "answer_2": "Float",
+    "answer_3": "Character",
+    "answer_4": "Double",
+    "true_answer": "Number"
+  },
+  {
+    "title": "How do you write a single-line comment in JavaScript?",
+    "answer_1": "// This is a comment",
+    "answer_2": "# This is a comment",
+    "answer_3": "<!-- This is a comment -->",
+    "answer_4": "' This is a comment",
+    "true_answer": "// This is a comment"
+  },
+  {
+    "title": "Which symbol is used for assignment in JavaScript?",
+    "answer_1": "=",
+    "answer_2": "==",
+    "answer_3": "===",
+    "answer_4": ":=",
+    "true_answer": "="
+  },
+  {
+    "title": "How do you declare a variable in JavaScript?",
+    "answer_1": "var x;",
+    "answer_2": "int x;",
+    "answer_3": "let x;",
+    "answer_4": "Both var x; and let x;",
+    "true_answer": "Both var x; and let x;"
+  },
+  {
+    "title": "Which of the following is NOT a JavaScript keyword?",
+    "answer_1": "function",
+    "answer_2": "var",
+    "answer_3": "let",
+    "answer_4": "integer",
+    "true_answer": "integer"
+  },
+  {
+    "title": "How do you create an array in JavaScript?",
+    "answer_1": "var arr = [];",
+    "answer_2": "var arr = {};",
+    "answer_3": "var arr = ();",
+    "answer_4": "var arr = <>;",
+    "true_answer": "var arr = [];"
+  },
+  {
+    "title": "Which operator is used to compare both value and type?",
+    "answer_1": "===",
+    "answer_2": "==",
+    "answer_3": "=",
+    "answer_4": "!=",
+    "true_answer": "==="
+  },
+  {
+    "title": "How do you write an if statement in JavaScript?",
+    "answer_1": "if (condition) { }",
+    "answer_2": "if condition then { }",
+    "answer_3": "if condition: { }",
+    "answer_4": "if [condition] { }",
+    "true_answer": "if (condition) { }"
+  },
+  {
+    "title": "Which method adds an element to the end of an array?",
+    "answer_1": "push()",
+    "answer_2": "pop()",
+    "answer_3": "shift()",
+    "answer_4": "unshift()",
+    "true_answer": "push()"
+  },
+  {
+    "title": "How do you define a function in JavaScript?",
+    "answer_1": "function myFunc() { }",
+    "answer_2": "def myFunc() { }",
+    "answer_3": "func myFunc() { }",
+    "answer_4": "function:myFunc() { }",
+    "true_answer": "function myFunc() { }"
+  },
+  {
+    "title": "Which of the following is used to stop a loop?",
+    "answer_1": "break",
+    "answer_2": "stop",
+    "answer_3": "exit",
+    "answer_4": "return",
+    "true_answer": "break"
+  },
+  {
+    "title": "How do you access the first element of an array named arr?",
+    "answer_1": "arr[0]",
+    "answer_2": "arr(0)",
+    "answer_3": "arr{0}",
+    "answer_4": "arr.0",
+    "true_answer": "arr[0]"
+  },
+  {
+    "title": "Which method removes the last element from an array?",
+    "answer_1": "pop()",
+    "answer_2": "push()",
+    "answer_3": "shift()",
+    "answer_4": "unshift()",
+    "true_answer": "pop()"
+  },
+  {
+    "title": "How do you write a for loop in JavaScript?",
+    "answer_1": "for (let i = 0; i < 5; i++) { }",
+    "answer_2": "for i = 0 to 5 { }",
+    "answer_3": "for (i in 5) { }",
+    "answer_4": "for (i = 0; i < 5; i++) { }",
+    "true_answer": "for (let i = 0; i < 5; i++) { }"
+  },
+  {
+    "title": "Which of the following is a string in JavaScript?",
+    "answer_1": "'Hello'",
+    "answer_2": "Hello",
+    "answer_3": "true",
+    "answer_4": "42",
+    "true_answer": "'Hello'"
+  },
+  {
+    "title": "How do you convert a string to a number in JavaScript?",
+    "answer_1": "Number('123')",
+    "answer_2": "parseInt('123')",
+    "answer_3": "parseFloat('123.45')",
+    "answer_4": "All of the above",
+    "true_answer": "All of the above"
+  },
+  {
+    "title": "Which keyword is used to declare a constant in JavaScript?",
+    "answer_1": "const",
+    "answer_2": "constant",
+    "answer_3": "let",
+    "answer_4": "var",
+    "true_answer": "const"
+  },
+  {
+    "title": "How do you check the type of a variable in JavaScript?",
+    "answer_1": "typeof variable",
+    "answer_2": "typeOf(variable)",
+    "answer_3": "type(variable)",
+    "answer_4": "typeof(variable)",
+    "true_answer": "typeof variable"
+  },
+  {
+    "title": "Which of the following is a falsy value in JavaScript?",
+    "answer_1": "0",
+    "answer_2": "false",
+    "answer_3": "'' (empty string)",
+    "answer_4": "All of the above",
+    "true_answer": "All of the above"
+  },
+  {
+    "title": "How do you write a multi-line comment in JavaScript?",
+    "answer_1": "/* comment */",
+    "answer_2": "// comment //",
+    "answer_3": "<!-- comment -->",
+    "answer_4": "# comment #",
+    "true_answer": "/* comment */"
+  },
+  {
+    "title": "Which method joins array elements into a string?",
+    "answer_1": "join()",
+    "answer_2": "concat()",
+    "answer_3": "toString()",
+    "answer_4": "split()",
+    "true_answer": "join()"
+  },
+  {
+    "title": "How do you get the length of a string in JavaScript?",
+    "answer_1": "str.length",
+    "answer_2": "length(str)",
+    "answer_3": "str.len()",
+    "answer_4": "str.size()",
+    "true_answer": "str.length"
+  },
+  {
+    "title": "Which method is used to remove the first element of an array?",
+    "answer_1": "shift()",
+    "answer_2": "pop()",
+    "answer_3": "push()",
+    "answer_4": "unshift()",
+    "true_answer": "shift()"
+  },
+  {
+    "title": "How do you round a number to the nearest integer in JavaScript?",
+    "answer_1": "Math.round()",
+    "answer_2": "Math.floor()",
+    "answer_3": "Math.ceil()",
+    "answer_4": "round()",
+    "true_answer": "Math.round()"
+  },
+  {
+    "title": "Which of the following is the correct way to write an array?",
+    "answer_1": "[1, 2, 3]",
+    "answer_2": "{1, 2, 3}",
+    "answer_3": "(1, 2, 3)",
+    "answer_4": "<1, 2, 3>",
+    "true_answer": "[1, 2, 3]"
+  },
+  {
+    "title": "How do you convert a number to a string in JavaScript?",
+    "answer_1": "num.toString()",
+    "answer_2": "String(num)",
+    "answer_3": "num + ''",
+    "answer_4": "All of the above",
+    "true_answer": "All of the above"
+  },
+  {
+    "title": "Which method returns the index of the first occurrence of a value in an array?",
+    "answer_1": "indexOf()",
+    "answer_2": "findIndex()",
+    "answer_3": "search()",
+    "answer_4": "find()",
+    "true_answer": "indexOf()"
+  },
+  {
+    "title": "How do you check if two values are equal in value and type?",
+    "answer_1": "===",
+    "answer_2": "==",
+    "answer_3": "=",
+    "answer_4": "equals()",
+    "true_answer": "==="
+  },
+  {
+    "title": "Which of the following is NOT a loop in JavaScript?",
+    "answer_1": "for",
+    "answer_2": "while",
+    "answer_3": "repeat",
+    "answer_4": "do...while",
+    "true_answer": "repeat"
+  },
+  {
+    "title": "How do you declare an object in JavaScript?",
+    "answer_1": "var obj = {};",
+    "answer_2": "var obj = [];",
+    "answer_3": "var obj = ();",
+    "answer_4": "var obj = <>;",
+    "true_answer": "var obj = {};"
+  },
+  {
+    "title": "Which method is used to add elements to the beginning of an array?",
+    "answer_1": "unshift()",
+    "answer_2": "push()",
+    "answer_3": "shift()",
+    "answer_4": "pop()",
+    "true_answer": "unshift()"
+  },
+  {
+    "title": "How do you access a property of an object?",
+    "answer_1": "obj.property",
+    "answer_2": "obj['property']",
+    "answer_3": "Both are correct",
+    "answer_4": "obj->property",
+    "true_answer": "Both are correct"
+  },
+  {
+    "title": "Which of the following is a valid function expression?",
+    "answer_1": "var f = function() {};",
+    "answer_2": "function f() {};",
+    "answer_3": "let f = () => {};",
+    "answer_4": "Both var f = function() {}; and let f = () => {};",
+    "true_answer": "Both var f = function() {}; and let f = () => {};"
+  },
+  {
+    "title": "How do you write 'Hello' to the alert box?",
+    "answer_1": "alert('Hello');",
+    "answer_2": "msg('Hello');",
+    "answer_3": "alertBox('Hello');",
+    "answer_4": "message('Hello');",
+    "true_answer": "alert('Hello');"
+  },
+  {
+    "title": "Which operator is used for logical AND?",
+    "answer_1": "&&",
+    "answer_2": "||",
+    "answer_3": "&",
+    "answer_4": "and",
+    "true_answer": "&&"
+  },
+  {
+    "title": "Which operator is used for logical OR?",
+    "answer_1": "||",
+    "answer_2": "&&",
+    "answer_3": "|",
+    "answer_4": "or",
+    "true_answer": "||"
+  },
+  {
+    "title": "How do you check if a variable is undefined?",
+    "answer_1": "typeof x === 'undefined'",
+    "answer_2": "x == undefined",
+    "answer_3": "x === undefined",
+    "answer_4": "All of the above",
+    "true_answer": "All of the above"
+  },
+  {
+    "title": "Which method is used to remove a property from an object?",
+    "answer_1": "delete obj.prop",
+    "answer_2": "remove obj.prop",
+    "answer_3": "obj.remove('prop')",
+    "answer_4": "obj.delete('prop')",
+    "true_answer": "delete obj.prop"
+  },
+  {
+    "title": "How do you write a ternary operator in JavaScript?",
+    "answer_1": "condition ? value1 : value2",
+    "answer_2": "if (condition) value1 else value2",
+    "answer_3": "condition then value1 else value2",
+    "answer_4": "condition ? value1 | value2",
+    "true_answer": "condition ? value1 : value2"
+  },
+  {
+    "title": "Which method is used to convert a string to lowercase?",
+    "answer_1": "toLowerCase()",
+    "answer_2": "lower()",
+    "answer_3": "toLower()",
+    "answer_4": "lowercase()",
+    "true_answer": "toLowerCase()"
+  },
+  {
+    "title": "Which method is used to convert a string to uppercase?",
+    "answer_1": "toUpperCase()",
+    "answer_2": "upper()",
+    "answer_3": "toUpper()",
+    "answer_4": "uppercase()",
+    "true_answer": "toUpperCase()"
+  },
+  {
+    "title": "How do you find the length of an array?",
+    "answer_1": "arr.length",
+    "answer_2": "length(arr)",
+    "answer_3": "arr.len()",
+    "answer_4": "arr.size()",
+    "true_answer": "arr.length"
+  },
+  {
+    "title": "Which method is used to search for a substring in a string?",
+    "answer_1": "indexOf()",
+    "answer_2": "search()",
+    "answer_3": "includes()",
+    "answer_4": "All of the above",
+    "true_answer": "All of the above"
+  },
+  {
+    "title": "How do you create a new Date object?",
+    "answer_1": "new Date()",
+    "answer_2": "Date()",
+    "answer_3": "create Date()",
+    "answer_4": "Date.new()",
+    "true_answer": "new Date()"
+  },
+  {
+    "title": "Which method is used to remove whitespace from both ends of a string?",
+    "answer_1": "trim()",
+    "answer_2": "strip()",
+    "answer_3": "removeSpaces()",
+    "answer_4": "cut()",
+    "true_answer": "trim()"
+  },
+  {
+    "title": "How do you write a switch statement in JavaScript?",
+    "answer_1": "switch(expression) { case x: break; }",
+    "answer_2": "switch(expression) { case x then break; }",
+    "answer_3": "switch(expression) { if x: break; }",
+    "answer_4": "switch(expression) { when x: break; }",
+    "true_answer": "switch(expression) { case x: break; }"
+  },
+  {
+    "title": "Which method is used to merge two arrays?",
+    "answer_1": "concat()",
+    "answer_2": "merge()",
+    "answer_3": "join()",
+    "answer_4": "add()",
+    "true_answer": "concat()"
+  },
+  {
+    "title": "How do you check if an array includes a value?",
+    "answer_1": "includes()",
+    "answer_2": "contains()",
+    "answer_3": "has()",
+    "answer_4": "in()",
+    "true_answer": "includes()"
+  },
+  {
+    "title": "Which method is used to execute a function for each array element?",
+    "answer_1": "forEach()",
+    "answer_2": "map()",
+    "answer_3": "filter()",
+    "answer_4": "reduce()",
+    "true_answer": "forEach()"
+  },
+  {
+    "title": "How do you create a promise in JavaScript?",
+    "answer_1": "new Promise(function(resolve, reject) {})",
+    "answer_2": "Promise.create()",
+    "answer_3": "promise()",
+    "answer_4": "Promise.new()",
+    "true_answer": "new Promise(function(resolve, reject) {})"
+  },
+  {
+    "title": "Which keyword is used to handle errors in JavaScript?",
+    "answer_1": "try...catch",
+    "answer_2": "error",
+    "answer_3": "catchError",
+    "answer_4": "handle",
+    "true_answer": "try...catch"
+  },
+  {
+    "title": "How do you write an arrow function?",
+    "answer_1": "() => {}",
+    "answer_2": "=> () {}",
+    "answer_3": "function => {}",
+    "answer_4": "() -> {}",
+    "true_answer": "() => {}"
+  },
+  {
+    "title": "Which method is used to filter array elements?",
+    "answer_1": "filter()",
+    "answer_2": "find()",
+    "answer_3": "select()",
+    "answer_4": "where()",
+    "true_answer": "filter()"
+  },
+  {
+    "title": "How do you get the character at index 2 in a string str?",
+    "answer_1": "str.charAt(2)",
+    "answer_2": "str[2]",
+    "answer_3": "Both are correct",
+    "answer_4": "str.get(2)",
+    "true_answer": "Both are correct"
+  },
+  {
+    "title": "Which method is used to split a string into an array?",
+    "answer_1": "split()",
+    "answer_2": "slice()",
+    "answer_3": "splice()",
+    "answer_4": "divide()",
+    "true_answer": "split()"
+  },
+  {
+    "title": "How do you get the maximum value in an array?",
+    "answer_1": "Math.max(...arr)",
+    "answer_2": "arr.max()",
+    "answer_3": "max(arr)",
+    "answer_4": "Math.max(arr)",
+    "true_answer": "Math.max(...arr)"
+  },
+  {
+    "title": "Which method is used to sort an array?",
+    "answer_1": "sort()",
+    "answer_2": "order()",
+    "answer_3": "arrange()",
+    "answer_4": "sortArray()",
+    "true_answer": "sort()"
+  },
+  {
+    "title": "How do you check if a variable is an array?",
+    "answer_1": "Array.isArray(var)",
+    "answer_2": "isArray(var)",
+    "answer_3": "typeof var === 'array'",
+    "answer_4": "var.isArray()",
+    "true_answer": "Array.isArray(var)"
+  },
+  {
+    "title": "Which method is used to reduce an array to a single value?",
+    "answer_1": "reduce()",
+    "answer_2": "sum()",
+    "answer_3": "combine()",
+    "answer_4": "collapse()",
+    "true_answer": "reduce()"
+  },
+  {
+    "title": "How do you check if a string starts with a specific substring?",
+    "answer_1": "startsWith()",
+    "answer_2": "beginsWith()",
+    "answer_3": "start()",
+    "answer_4": "isStart()",
+    "true_answer": "startsWith()"
+  },
+  {
+    "title": "Which method is used to repeat a string?",
+    "answer_1": "repeat()",
+    "answer_2": "multiply()",
+    "answer_3": "copy()",
+    "answer_4": "duplicate()",
+    "true_answer": "repeat()"
+  },
+  {
+    "title": "How do you get the current year in JavaScript?",
+    "answer_1": "new Date().getFullYear()",
+    "answer_2": "Date.now().year",
+    "answer_3": "getYear()",
+    "answer_4": "Date().year",
+    "true_answer": "new Date().getFullYear()"
+  },
+  {
+    "title": "Which method is used to find the first element that matches a condition?",
+    "answer_1": "find()",
+    "answer_2": "filter()",
+    "answer_3": "search()",
+    "answer_4": "indexOf()",
+    "true_answer": "find()"
+  },
+  {
+    "title": "How do you check if a string includes a substring?",
+    "answer_1": "includes()",
+    "answer_2": "contains()",
+    "answer_3": "has()",
+    "answer_4": "in()",
+    "true_answer": "includes()"
+  },
+  {
+    "title": "Which method is used to pad a string at the start?",
+    "answer_1": "padStart()",
+    "answer_2": "padLeft()",
+    "answer_3": "startPad()",
+    "answer_4": "leftPad()",
+    "true_answer": "padStart()"
+  },
+  {
+    "title": "How do you get the day of the week from a Date object?",
+    "answer_1": "getDay()",
+    "answer_2": "getDate()",
+    "answer_3": "day()",
+    "answer_4": "getWeekDay()",
+    "true_answer": "getDay()"
+  },
+  {
+    "title": "Which method is used to remove the last character from a string?",
+    "answer_1": "slice(0, -1)",
+    "answer_2": "pop()",
+    "answer_3": "removeLast()",
+    "answer_4": "cut()",
+    "true_answer": "slice(0, -1)"
+  },
+  {
+    "title": "How do you convert a string to uppercase?",
+    "answer_1": "toUpperCase()",
+    "answer_2": "upper()",
+    "answer_3": "toUpper()",
+    "answer_4": "uppercase()",
+    "true_answer": "toUpperCase()"
+  },
+  {
+    "title": "Which method is used to parse a JSON string?",
+    "answer_1": "JSON.parse()",
+    "answer_2": "parseJSON()",
+    "answer_3": "JSON.decode()",
+    "answer_4": "decodeJSON()",
+    "true_answer": "JSON.parse()"
+  },
+  {
+    "title": "How do you convert an object to a JSON string?",
+    "answer_1": "JSON.stringify()",
+    "answer_2": "stringifyJSON()",
+    "answer_3": "JSON.encode()",
+    "answer_4": "encodeJSON()",
+    "true_answer": "JSON.stringify()"
+  },
+  {
+    "title": "Which method is used to get a substring from a string?",
+    "answer_1": "substring()",
+    "answer_2": "substr()",
+    "answer_3": "slice()",
+    "answer_4": "All of the above",
+    "true_answer": "All of the above"
+  },
+  {
+    "title": "How do you check if a variable is null?",
+    "answer_1": "x === null",
+    "answer_2": "x == null",
+    "answer_3": "typeof x === 'null'",
+    "answer_4": "x.isNull()",
+    "true_answer": "x === null"
+  },
+  {
+    "title": "Which method is used to get the keys of an object?",
+    "answer_1": "Object.keys()",
+    "answer_2": "keys()",
+    "answer_3": "getKeys()",
+    "answer_4": "objectKeys()",
+    "true_answer": "Object.keys()"
+  },
+  {
+    "title": "How do you check if an object has a property?",
+    "answer_1": "hasOwnProperty()",
+    "answer_2": "in",
+    "answer_3": "Object.hasOwn()",
+    "answer_4": "contains()",
+    "true_answer": "hasOwnProperty()"
+  },
+  {
+    "title": "Which method is used to get the values of an object?",
+    "answer_1": "Object.values()",
+    "answer_2": "values()",
+    "answer_3": "getValues()",
+    "answer_4": "objectValues()",
+    "true_answer": "Object.values()"
+  },
+  {
+    "title": "How do you get the entries of an object?",
+    "answer_1": "Object.entries()",
+    "answer_2": "entries()",
+    "answer_3": "getEntries()",
+    "answer_4": "objectEntries()",
+    "true_answer": "Object.entries()"
+  },
+  {
+    "title": "Which method is used to check if a string ends with a substring?",
+    "answer_1": "endsWith()",
+    "answer_2": "finishWith()",
+    "answer_3": "end()",
+    "answer_4": "isEnd()",
+    "true_answer": "endsWith()"
+  },
+  {
+    "title": "How do you get the current timestamp in milliseconds?",
+    "answer_1": "Date.now()",
+    "answer_2": "new Date().getTime()",
+    "answer_3": "getTimestamp()",
+    "answer_4": "timestamp()",
+    "true_answer": "Date.now()"
+  },
+  {
+    "title": "Which method is used to check if a value is NaN?",
+    "answer_1": "isNaN()",
+    "answer_2": "Number.isNaN()",
+    "answer_3": "Both are correct",
+    "answer_4": "isNotANumber()",
+    "true_answer": "Both are correct"
+  },
+  {
+    "title": "How do you convert a string to a float?",
+    "answer_1": "parseFloat()",
+    "answer_2": "parseInt()",
+    "answer_3": "Number()",
+    "answer_4": "toFloat()",
+    "true_answer": "parseFloat()"
+  },
+  {
+    "title": "Which method is used to check if a string matches a regular expression?",
+    "answer_1": "match()",
+    "answer_2": "test()",
+    "answer_3": "search()",
+    "answer_4": "find()",
+    "true_answer": "match()"
+  },
+  {
+    "title": "How do you get the prototype of an object?",
+    "answer_1": "Object.getPrototypeOf()",
+    "answer_2": "getPrototype()",
+    "answer_3": "prototype()",
+    "answer_4": "objectPrototype()",
+    "true_answer": "Object.getPrototypeOf()"
+  },
+  {
+    "title": "Which method is used to freeze an object?",
+    "answer_1": "Object.freeze()",
+    "answer_2": "freeze()",
+    "answer_3": "lock()",
+    "answer_4": "seal()",
+    "true_answer": "Object.freeze()"
+  },
+  {
+    "title": "How do you check if an object is frozen?",
+    "answer_1": "Object.isFrozen()",
+    "answer_2": "isFrozen()",
+    "answer_3": "frozen()",
+    "answer_4": "isObjectFrozen()",
+    "true_answer": "Object.isFrozen()"
+  },
+  {
+    "title": "Which method is used to seal an object?",
+    "answer_1": "Object.seal()",
+    "answer_2": "seal()",
+    "answer_3": "lock()",
+    "answer_4": "Object.lock()",
+    "true_answer": "Object.seal()"
+  },
+  {
+    "title": "How do you check if an object is sealed?",
+    "answer_1": "Object.isSealed()",
+    "answer_2": "isSealed()",
+    "answer_3": "sealed()",
+    "answer_4": "isObjectSealed()",
+    "true_answer": "Object.isSealed()"
+  },
+  {
+    "title": "Which method is used to assign properties from source to target object?",
+    "answer_1": "Object.assign()",
+    "answer_2": "assign()",
+    "answer_3": "copy()",
+    "answer_4": "merge()",
+    "true_answer": "Object.assign()"
+  },
+  {
+    "title": "How do you check if a variable is finite?",
+    "answer_1": "isFinite()",
+    "answer_2": "Number.isFinite()",
+    "answer_3": "Both are correct",
+    "answer_4": "finite()",
+    "true_answer": "Both are correct"
+  },
+  {
+    "title": "Which method is used to get the square root of a number?",
+    "answer_1": "Math.sqrt()",
+    "answer_2": "sqrt()",
+    "answer_3": "Math.squareRoot()",
+    "answer_4": "squareRoot()",
+    "true_answer": "Math.sqrt()"
+  },
+  {
+    "title": "How do you get the absolute value of a number?",
+    "answer_1": "Math.abs()",
+    "answer_2": "abs()",
+    "answer_3": "absolute()",
+    "answer_4": "Math.absolute()",
+    "true_answer": "Math.abs()"
+  },
+  {
+    "title": "Which method is used to generate a random number between 0 and 1?",
+    "answer_1": "Math.random()",
+    "answer_2": "random()",
+    "answer_3": "getRandom()",
+    "answer_4": "Math.rand()",
+    "true_answer": "Math.random()"
+  },
+  {
+    "title": "How do you get the minimum value in an array?",
+    "answer_1": "Math.min(...arr)",
+    "answer_2": "arr.min()",
+    "answer_3": "min(arr)",
+    "answer_4": "Math.min(arr)",
+    "true_answer": "Math.min(...arr)"
+  },
+  {
+    "title": "Which method is used to check if a string contains only numbers?",
+    "answer_1": "/^\\d+$/.test(str)",
+    "answer_2": "isNumber(str)",
+    "answer_3": "str.isNumeric()",
+    "answer_4": "Number.isInteger(str)",
+    "true_answer": "/^\\d+$/.test(str)"
+  },
+  {
+    "title": "How do you convert a string to an integer?",
+    "answer_1": "parseInt()",
+    "answer_2": "parseFloat()",
+    "answer_3": "Number()",
+    "answer_4": "toInt()",
+    "true_answer": "parseInt()"
+  },
+  {
+    "title": "Which method is used to check if a string is empty?",
+    "answer_1": "str.length === 0",
+    "answer_2": "isEmpty(str)",
+    "answer_3": "str.isEmpty()",
+    "answer_4": "empty(str)",
+    "true_answer": "str.length === 0"
+  },
+  {
+    "title": "How do you check if a variable is a function?",
+    "answer_1": "typeof x === 'function'",
+    "answer_2": "isFunction(x)",
+    "answer_3": "x.isFunction()",
+    "answer_4": "function(x)",
+    "true_answer": "typeof x === 'function'"
+  },
+  {
+    "title": "Which method is used to get the character code of a character?",
+    "answer_1": "charCodeAt()",
+    "answer_2": "codeAt()",
+    "answer_3": "getCode()",
+    "answer_4": "charCode()",
+    "true_answer": "charCodeAt()"
+  },
+  {
+    "title": "How do you convert a character code to a character?",
+    "answer_1": "String.fromCharCode()",
+    "answer_2": "fromCharCode()",
+    "answer_3": "charFromCode()",
+    "answer_4": "String.charFromCode()",
+    "true_answer": "String.fromCharCode()"
+  },
+  {
+    "title": "Which method is used to repeat an array?",
+    "answer_1": "Array(n).fill(arr).flat()",
+    "answer_2": "arr.repeat(n)",
+    "answer_3": "repeat(arr, n)",
+    "answer_4": "arr.duplicate(n)",
+    "true_answer": "Array(n).fill(arr).flat()"
+  },
+  {
+    "title": "How do you check if a variable is a string?",
+    "answer_1": "typeof x === 'string'",
+    "answer_2": "isString(x)",
+    "answer_3": "x.isString()",
+    "answer_4": "string(x)",
+    "true_answer": "typeof x === 'string'"
+  },
+  {
+    "title": "Which method is used to check if a variable is an object?",
+    "answer_1": "typeof x === 'object' && x !== null",
+    "answer_2": "isObject(x)",
+    "answer_3": "x.isObject()",
+    "answer_4": "object(x)",
+    "true_answer": "typeof x === 'object' && x !== null"
+  },
+  {
+    "title": "How do you check if a variable is a number?",
+    "answer_1": "typeof x === 'number'",
+    "answer_2": "isNumber(x)",
+    "answer_3": "x.isNumber()",
+    "answer_4": "number(x)",
+    "true_answer": "typeof x === 'number'"
+  },
+  {
+    "title": "Which method is used to check if a variable is boolean?",
+    "answer_1": "typeof x === 'boolean'",
+    "answer_2": "isBoolean(x)",
+    "answer_3": "x.isBoolean()",
+    "answer_4": "boolean(x)",
+    "true_answer": "typeof x === 'boolean'"
+  },
+  {
+    "title": "How do you check if a variable is defined?",
+    "answer_1": "typeof x !== 'undefined'",
+    "answer_2": "isDefined(x)",
+    "answer_3": "x.isDefined()",
+    "answer_4": "defined(x)",
+    "true_answer": "typeof x !== 'undefined'"
+  }
+]

@@ -1,0 +1,866 @@
+[
+  {
+    "title": "What is the output of: console.log(typeof null);",
+    "answer_1": "\"object\"",
+    "answer_2": "\"null\"",
+    "answer_3": "\"undefined\"",
+    "answer_4": "\"number\"",
+    "true_answer": "\"object\""
+  },
+  {
+    "title": "Which method is used to add one or more elements to the end of an array?",
+    "answer_1": "push()",
+    "answer_2": "pop()",
+    "answer_3": "shift()",
+    "answer_4": "unshift()",
+    "true_answer": "push()"
+  },
+  {
+    "title": "How do you declare a constant in JavaScript?",
+    "answer_1": "const PI = 3.14;",
+    "answer_2": "constant PI = 3.14;",
+    "answer_3": "var PI = 3.14;",
+    "answer_4": "let PI = 3.14;",
+    "true_answer": "const PI = 3.14;"
+  },
+  {
+    "title": "Which of the following is NOT a primitive data type in JavaScript?",
+    "answer_1": "String",
+    "answer_2": "Number",
+    "answer_3": "Object",
+    "answer_4": "Boolean",
+    "true_answer": "Object"
+  },
+  {
+    "title": "What does the '===' operator do in JavaScript?",
+    "answer_1": "Compares value and type",
+    "answer_2": "Compares only value",
+    "answer_3": "Assigns value",
+    "answer_4": "Checks for null",
+    "true_answer": "Compares value and type"
+  },
+  {
+    "title": "How do you write a single-line comment in JavaScript?",
+    "answer_1": "// comment",
+    "answer_2": "/* comment */",
+    "answer_3": "<!-- comment -->",
+    "answer_4": "# comment",
+    "true_answer": "// comment"
+  },
+  {
+    "title": "Which array method creates a new array with all elements that pass the test?",
+    "answer_1": "filter()",
+    "answer_2": "map()",
+    "answer_3": "forEach()",
+    "answer_4": "reduce()",
+    "true_answer": "filter()"
+  },
+  {
+    "title": "How do you convert a string to an integer in JavaScript?",
+    "answer_1": "parseInt()",
+    "answer_2": "parseFloat()",
+    "answer_3": "Number()",
+    "answer_4": "Both parseInt() and Number()",
+    "true_answer": "Both parseInt() and Number()"
+  },
+  {
+    "title": "What is the result of '2' + 2 in JavaScript?",
+    "answer_1": "\"22\"",
+    "answer_2": "4",
+    "answer_3": "NaN",
+    "answer_4": "undefined",
+    "true_answer": "\"22\""
+  },
+  {
+    "title": "Which keyword is used to define a function in JavaScript?",
+    "answer_1": "function",
+    "answer_2": "def",
+    "answer_3": "func",
+    "answer_4": "define",
+    "true_answer": "function"
+  },
+  {
+    "title": "What is the default value of an uninitialized variable?",
+    "answer_1": "undefined",
+    "answer_2": "null",
+    "answer_3": "0",
+    "answer_4": "\"\"",
+    "true_answer": "undefined"
+  },
+  {
+    "title": "Which method removes the last element from an array?",
+    "answer_1": "pop()",
+    "answer_2": "push()",
+    "answer_3": "shift()",
+    "answer_4": "unshift()",
+    "true_answer": "pop()"
+  },
+  {
+    "title": "How do you check if a variable is an array?",
+    "answer_1": "Array.isArray()",
+    "answer_2": "isArray()",
+    "answer_3": "typeof",
+    "answer_4": "instanceof Array",
+    "true_answer": "Array.isArray()"
+  },
+  {
+    "title": "What is the output of: console.log(0 == false);",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "null",
+    "true_answer": "true"
+  },
+  {
+    "title": "Which of the following is a falsy value?",
+    "answer_1": "0",
+    "answer_2": "\"false\"",
+    "answer_3": "[]",
+    "answer_4": "{}",
+    "true_answer": "0"
+  },
+  {
+    "title": "How do you write an arrow function?",
+    "answer_1": "() => {}",
+    "answer_2": "function() {}",
+    "answer_3": "=> () {}",
+    "answer_4": "function => {}",
+    "true_answer": "() => {}"
+  },
+  {
+    "title": "Which method returns the first index at which a given element can be found?",
+    "answer_1": "indexOf()",
+    "answer_2": "find()",
+    "answer_3": "findIndex()",
+    "answer_4": "search()",
+    "true_answer": "indexOf()"
+  },
+  {
+    "title": "What is the output of: typeof NaN?",
+    "answer_1": "\"number\"",
+    "answer_2": "\"NaN\"",
+    "answer_3": "\"undefined\"",
+    "answer_4": "\"object\"",
+    "true_answer": "\"number\""
+  },
+  {
+    "title": "Which statement creates a new object?",
+    "answer_1": "let obj = {};",
+    "answer_2": "let obj = [];",
+    "answer_3": "let obj = () => {};",
+    "answer_4": "let obj = null;",
+    "true_answer": "let obj = {};"
+  },
+  {
+    "title": "How do you access the first element of an array?",
+    "answer_1": "array[0]",
+    "answer_2": "array(0)",
+    "answer_3": "array.first()",
+    "answer_4": "array.get(0)",
+    "true_answer": "array[0]"
+  },
+  {
+    "title": "Which loop is guaranteed to execute at least once?",
+    "answer_1": "do...while",
+    "answer_2": "while",
+    "answer_3": "for",
+    "answer_4": "for...of",
+    "true_answer": "do...while"
+  },
+  {
+    "title": "What does JSON stand for?",
+    "answer_1": "JavaScript Object Notation",
+    "answer_2": "Java Source Object Notation",
+    "answer_3": "JavaScript Oriented Notation",
+    "answer_4": "Java Syntax Object Notation",
+    "true_answer": "JavaScript Object Notation"
+  },
+  {
+    "title": "Which method converts a JSON string to a JavaScript object?",
+    "answer_1": "JSON.parse()",
+    "answer_2": "JSON.stringify()",
+    "answer_3": "parseJSON()",
+    "answer_4": "toObject()",
+    "true_answer": "JSON.parse()"
+  },
+  {
+    "title": "What is the output of: Boolean('false')?",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "null",
+    "true_answer": "true"
+  },
+  {
+    "title": "Which operator is used for exponentiation?",
+    "answer_1": "**",
+    "answer_2": "^",
+    "answer_3": "exp()",
+    "answer_4": "pow()",
+    "true_answer": "**"
+  },
+  {
+    "title": "How do you clone an object in ES6?",
+    "answer_1": "Object.assign({}, obj)",
+    "answer_2": "obj.clone()",
+    "answer_3": "copy(obj)",
+    "answer_4": "obj.copy()",
+    "true_answer": "Object.assign({}, obj)"
+  },
+  {
+    "title": "Which method returns a shallow copy of a portion of an array?",
+    "answer_1": "slice()",
+    "answer_2": "splice()",
+    "answer_3": "split()",
+    "answer_4": "copy()",
+    "true_answer": "slice()"
+  },
+  {
+    "title": "What is the output of: typeof []?",
+    "answer_1": "\"object\"",
+    "answer_2": "\"array\"",
+    "answer_3": "\"list\"",
+    "answer_4": "\"undefined\"",
+    "true_answer": "\"object\""
+  },
+  {
+    "title": "Which method is used to join all elements of an array into a string?",
+    "answer_1": "join()",
+    "answer_2": "concat()",
+    "answer_3": "toString()",
+    "answer_4": "combine()",
+    "true_answer": "join()"
+  },
+  {
+    "title": "How do you check if a property exists in an object?",
+    "answer_1": "\"key\" in obj",
+    "answer_2": "obj.has(\"key\")",
+    "answer_3": "obj.exists(\"key\")",
+    "answer_4": "obj.contains(\"key\")",
+    "true_answer": "\"key\" in obj"
+  },
+  {
+    "title": "Which method executes a function for each array element?",
+    "answer_1": "forEach()",
+    "answer_2": "map()",
+    "answer_3": "filter()",
+    "answer_4": "reduce()",
+    "true_answer": "forEach()"
+  },
+  {
+    "title": "What is the output of: console.log([] == false);",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "null",
+    "true_answer": "true"
+  },
+  {
+    "title": "Which method returns the number of elements in an array?",
+    "answer_1": "length",
+    "answer_2": "size()",
+    "answer_3": "count()",
+    "answer_4": "getLength()",
+    "true_answer": "length"
+  },
+  {
+    "title": "How do you define a class in JavaScript?",
+    "answer_1": "class MyClass {}",
+    "answer_2": "function MyClass() {}",
+    "answer_3": "define class MyClass {}",
+    "answer_4": "MyClass = class {}",
+    "true_answer": "class MyClass {}"
+  },
+  {
+    "title": "Which keyword is used to inherit a class?",
+    "answer_1": "extends",
+    "answer_2": "inherits",
+    "answer_3": "super",
+    "answer_4": "instanceof",
+    "true_answer": "extends"
+  },
+  {
+    "title": "What is the output of: typeof undefined?",
+    "answer_1": "\"undefined\"",
+    "answer_2": "\"null\"",
+    "answer_3": "\"object\"",
+    "answer_4": "\"string\"",
+    "true_answer": "\"undefined\""
+  },
+  {
+    "title": "Which method is used to remove the first element from an array?",
+    "answer_1": "shift()",
+    "answer_2": "pop()",
+    "answer_3": "unshift()",
+    "answer_4": "splice()",
+    "true_answer": "shift()"
+  },
+  {
+    "title": "How do you create a promise in JavaScript?",
+    "answer_1": "new Promise()",
+    "answer_2": "Promise.create()",
+    "answer_3": "promise()",
+    "answer_4": "Promise.new()",
+    "true_answer": "new Promise()"
+  },
+  {
+    "title": "Which method is used to handle errors in promises?",
+    "answer_1": "catch()",
+    "answer_2": "error()",
+    "answer_3": "fail()",
+    "answer_4": "handle()",
+    "true_answer": "catch()"
+  },
+  {
+    "title": "What is the output of: console.log(1 + '1' - 1);",
+    "answer_1": "10",
+    "answer_2": "11",
+    "answer_3": "1",
+    "answer_4": "NaN",
+    "true_answer": "10"
+  },
+  {
+    "title": "Which keyword is used to export a function in ES6 modules?",
+    "answer_1": "export",
+    "answer_2": "module.exports",
+    "answer_3": "exports",
+    "answer_4": "public",
+    "true_answer": "export"
+  },
+  {
+    "title": "How do you import a function from another file in ES6?",
+    "answer_1": "import { func } from './file.js';",
+    "answer_2": "require('./file.js')",
+    "answer_3": "include('./file.js')",
+    "answer_4": "use('./file.js')",
+    "true_answer": "import { func } from './file.js';"
+  },
+  {
+    "title": "Which method is used to merge two or more arrays?",
+    "answer_1": "concat()",
+    "answer_2": "merge()",
+    "answer_3": "join()",
+    "answer_4": "combine()",
+    "true_answer": "concat()"
+  },
+  {
+    "title": "What is the output of: console.log(typeof function(){});",
+    "answer_1": "\"function\"",
+    "answer_2": "\"object\"",
+    "answer_3": "\"undefined\"",
+    "answer_4": "\"string\"",
+    "true_answer": "\"function\""
+  },
+  {
+    "title": "Which method is used to convert an object to a JSON string?",
+    "answer_1": "JSON.stringify()",
+    "answer_2": "JSON.parse()",
+    "answer_3": "toString()",
+    "answer_4": "stringifyJSON()",
+    "true_answer": "JSON.stringify()"
+  },
+  {
+    "title": "How do you declare a variable that can be reassigned?",
+    "answer_1": "let",
+    "answer_2": "const",
+    "answer_3": "var",
+    "answer_4": "Both let and var",
+    "true_answer": "Both let and var"
+  },
+  {
+    "title": "Which method is used to find the index of the first element that satisfies a condition?",
+    "answer_1": "findIndex()",
+    "answer_2": "indexOf()",
+    "answer_3": "find()",
+    "answer_4": "search()",
+    "true_answer": "findIndex()"
+  },
+  {
+    "title": "What is the output of: console.log('5' - 2);",
+    "answer_1": "3",
+    "answer_2": "7",
+    "answer_3": "\"3\"",
+    "answer_4": "\"52\"",
+    "true_answer": "3"
+  },
+  {
+    "title": "Which method is used to sort the elements of an array?",
+    "answer_1": "sort()",
+    "answer_2": "order()",
+    "answer_3": "arrange()",
+    "answer_4": "organize()",
+    "true_answer": "sort()"
+  },
+  {
+    "title": "How do you check if a variable is undefined?",
+    "answer_1": "typeof x === \"undefined\"",
+    "answer_2": "x == undefined",
+    "answer_3": "x === null",
+    "answer_4": "typeof x == null",
+    "true_answer": "typeof x === \"undefined\""
+  },
+  {
+    "title": "Which method is used to remove elements from an array and optionally replace them?",
+    "answer_1": "splice()",
+    "answer_2": "slice()",
+    "answer_3": "remove()",
+    "answer_4": "delete()",
+    "true_answer": "splice()"
+  },
+  {
+    "title": "What is the output of: console.log([1,2,3].map(x => x * 2));",
+    "answer_1": "[2,4,6]",
+    "answer_2": "[1,2,3]",
+    "answer_3": "[1,4,9]",
+    "answer_4": "[2,3,4]",
+    "true_answer": "[2,4,6]"
+  },
+  {
+    "title": "Which method is used to test whether at least one element passes a test?",
+    "answer_1": "some()",
+    "answer_2": "every()",
+    "answer_3": "filter()",
+    "answer_4": "find()",
+    "true_answer": "some()"
+  },
+  {
+    "title": "How do you create a multi-line string in ES6?",
+    "answer_1": "Using backticks ``",
+    "answer_2": "Using single quotes ''",
+    "answer_3": "Using double quotes \"\"",
+    "answer_4": "Using plus (+) operator",
+    "true_answer": "Using backticks ``"
+  },
+  {
+    "title": "Which method is used to reduce an array to a single value?",
+    "answer_1": "reduce()",
+    "answer_2": "map()",
+    "answer_3": "filter()",
+    "answer_4": "concat()",
+    "true_answer": "reduce()"
+  },
+  {
+    "title": "What is the output of: console.log(!!'');",
+    "answer_1": "false",
+    "answer_2": "true",
+    "answer_3": "undefined",
+    "answer_4": "null",
+    "true_answer": "false"
+  },
+  {
+    "title": "Which method is used to check if all elements pass a test?",
+    "answer_1": "every()",
+    "answer_2": "some()",
+    "answer_3": "filter()",
+    "answer_4": "find()",
+    "true_answer": "every()"
+  },
+  {
+    "title": "How do you get the keys of an object as an array?",
+    "answer_1": "Object.keys(obj)",
+    "answer_2": "obj.keys()",
+    "answer_3": "getKeys(obj)",
+    "answer_4": "obj.getKeys()",
+    "true_answer": "Object.keys(obj)"
+  },
+  {
+    "title": "Which method is used to check if a string contains a substring?",
+    "answer_1": "includes()",
+    "answer_2": "contains()",
+    "answer_3": "has()",
+    "answer_4": "search()",
+    "true_answer": "includes()"
+  },
+  {
+    "title": "What is the output of: console.log(typeof Symbol());",
+    "answer_1": "\"symbol\"",
+    "answer_2": "\"object\"",
+    "answer_3": "\"string\"",
+    "answer_4": "\"function\"",
+    "true_answer": "\"symbol\""
+  },
+  {
+    "title": "Which method is used to repeat a string a given number of times?",
+    "answer_1": "repeat()",
+    "answer_2": "multiply()",
+    "answer_3": "copy()",
+    "answer_4": "times()",
+    "true_answer": "repeat()"
+  },
+  {
+    "title": "How do you convert a number to a string?",
+    "answer_1": "toString()",
+    "answer_2": "String()",
+    "answer_3": "Both toString() and String()",
+    "answer_4": "parseInt()",
+    "true_answer": "Both toString() and String()"
+  },
+  {
+    "title": "Which method is used to remove whitespace from both ends of a string?",
+    "answer_1": "trim()",
+    "answer_2": "strip()",
+    "answer_3": "clean()",
+    "answer_4": "remove()",
+    "true_answer": "trim()"
+  },
+  {
+    "title": "What is the output of: console.log(2 ** 3);",
+    "answer_1": "8",
+    "answer_2": "6",
+    "answer_3": "9",
+    "answer_4": "5",
+    "true_answer": "8"
+  },
+  {
+    "title": "Which method is used to pad the start of a string?",
+    "answer_1": "padStart()",
+    "answer_2": "padLeft()",
+    "answer_3": "startPad()",
+    "answer_4": "leftPad()",
+    "true_answer": "padStart()"
+  },
+  {
+    "title": "How do you destructure an object?",
+    "answer_1": "const {a, b} = obj;",
+    "answer_2": "const [a, b] = obj;",
+    "answer_3": "const a = obj.a, b = obj.b;",
+    "answer_4": "obj.destructure()",
+    "true_answer": "const {a, b} = obj;"
+  },
+  {
+    "title": "Which method is used to check if an array includes a value?",
+    "answer_1": "includes()",
+    "answer_2": "contains()",
+    "answer_3": "has()",
+    "answer_4": "find()",
+    "true_answer": "includes()"
+  },
+  {
+    "title": "What is the output of: console.log([1,2,3].length);",
+    "answer_1": "3",
+    "answer_2": "2",
+    "answer_3": "1",
+    "answer_4": "undefined",
+    "true_answer": "3"
+  },
+  {
+    "title": "Which method is used to convert a string to lowercase?",
+    "answer_1": "toLowerCase()",
+    "answer_2": "lower()",
+    "answer_3": "downcase()",
+    "answer_4": "toLower()",
+    "true_answer": "toLowerCase()"
+  },
+  {
+    "title": "How do you get the values of an object as an array?",
+    "answer_1": "Object.values(obj)",
+    "answer_2": "obj.values()",
+    "answer_3": "getValues(obj)",
+    "answer_4": "obj.getValues()",
+    "true_answer": "Object.values(obj)"
+  },
+  {
+    "title": "Which method is used to convert a string to uppercase?",
+    "answer_1": "toUpperCase()",
+    "answer_2": "upper()",
+    "answer_3": "upcase()",
+    "answer_4": "toUpper()",
+    "true_answer": "toUpperCase()"
+  },
+  {
+    "title": "What is the output of: console.log('hello'.length);",
+    "answer_1": "5",
+    "answer_2": "4",
+    "answer_3": "6",
+    "answer_4": "undefined",
+    "true_answer": "5"
+  },
+  {
+    "title": "Which method is used to split a string into an array?",
+    "answer_1": "split()",
+    "answer_2": "slice()",
+    "answer_3": "splice()",
+    "answer_4": "divide()",
+    "true_answer": "split()"
+  },
+  {
+    "title": "How do you check if a variable is a function?",
+    "answer_1": "typeof x === \"function\"",
+    "answer_2": "x instanceof Function",
+    "answer_3": "isFunction(x)",
+    "answer_4": "typeof x == \"object\"",
+    "true_answer": "typeof x === \"function\""
+  },
+  {
+    "title": "Which method is used to get the prototype of an object?",
+    "answer_1": "Object.getPrototypeOf()",
+    "answer_2": "getPrototype()",
+    "answer_3": "prototype()",
+    "answer_4": "getProto()",
+    "true_answer": "Object.getPrototypeOf()"
+  },
+  {
+    "title": "What is the output of: console.log(!!0);",
+    "answer_1": "false",
+    "answer_2": "true",
+    "answer_3": "undefined",
+    "answer_4": "null",
+    "true_answer": "false"
+  },
+  {
+    "title": "Which method is used to get the entries of an object as an array?",
+    "answer_1": "Object.entries(obj)",
+    "answer_2": "obj.entries()",
+    "answer_3": "getEntries(obj)",
+    "answer_4": "obj.getEntries()",
+    "true_answer": "Object.entries(obj)"
+  },
+  {
+    "title": "How do you check if a string starts with a specific substring?",
+    "answer_1": "startsWith()",
+    "answer_2": "beginsWith()",
+    "answer_3": "hasStart()",
+    "answer_4": "starts()",
+    "true_answer": "startsWith()"
+  },
+  {
+    "title": "Which method is used to check if a string ends with a specific substring?",
+    "answer_1": "endsWith()",
+    "answer_2": "finishesWith()",
+    "answer_3": "hasEnd()",
+    "answer_4": "ends()",
+    "true_answer": "endsWith()"
+  },
+  {
+    "title": "What is the output of: console.log(typeof Infinity);",
+    "answer_1": "\"number\"",
+    "answer_2": "\"infinity\"",
+    "answer_3": "\"undefined\"",
+    "answer_4": "\"object\"",
+    "true_answer": "\"number\""
+  },
+  {
+    "title": "Which method is used to check if a value is NaN?",
+    "answer_1": "isNaN()",
+    "answer_2": "Number.isNaN()",
+    "answer_3": "Both",
+    "answer_4": "isNumber()",
+    "true_answer": "Both"
+  },
+  {
+    "title": "How do you check if a variable is null?",
+    "answer_1": "x === null",
+    "answer_2": "x == null",
+    "answer_3": "typeof x === \"null\"",
+    "answer_4": "x === undefined",
+    "true_answer": "x === null"
+  },
+  {
+    "title": "Which method is used to parse a float from a string?",
+    "answer_1": "parseFloat()",
+    "answer_2": "parseInt()",
+    "answer_3": "Number()",
+    "answer_4": "toFloat()",
+    "true_answer": "parseFloat()"
+  },
+  {
+    "title": "What is the output of: console.log('10' == 10);",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "null",
+    "true_answer": "true"
+  },
+  {
+    "title": "Which method is used to check if a string matches a regular expression?",
+    "answer_1": "match()",
+    "answer_2": "test()",
+    "answer_3": "search()",
+    "answer_4": "find()",
+    "true_answer": "match()"
+  },
+  {
+    "title": "How do you create a Set in JavaScript?",
+    "answer_1": "new Set()",
+    "answer_2": "Set()",
+    "answer_3": "createSet()",
+    "answer_4": "set()",
+    "true_answer": "new Set()"
+  },
+  {
+    "title": "Which method is used to add a value to a Set?",
+    "answer_1": "add()",
+    "answer_2": "push()",
+    "answer_3": "append()",
+    "answer_4": "insert()",
+    "true_answer": "add()"
+  },
+  {
+    "title": "How do you remove a value from a Set?",
+    "answer_1": "delete()",
+    "answer_2": "remove()",
+    "answer_3": "pop()",
+    "answer_4": "splice()",
+    "true_answer": "delete()"
+  },
+  {
+    "title": "Which method is used to check if a Set contains a value?",
+    "answer_1": "has()",
+    "answer_2": "contains()",
+    "answer_3": "includes()",
+    "answer_4": "find()",
+    "true_answer": "has()"
+  },
+  {
+    "title": "How do you create a Map in JavaScript?",
+    "answer_1": "new Map()",
+    "answer_2": "Map()",
+    "answer_3": "createMap()",
+    "answer_4": "map()",
+    "true_answer": "new Map()"
+  },
+  {
+    "title": "Which method is used to set a value in a Map?",
+    "answer_1": "set()",
+    "answer_2": "add()",
+    "answer_3": "put()",
+    "answer_4": "insert()",
+    "true_answer": "set()"
+  },
+  {
+    "title": "How do you get a value from a Map?",
+    "answer_1": "get()",
+    "answer_2": "find()",
+    "answer_3": "fetch()",
+    "answer_4": "retrieve()",
+    "true_answer": "get()"
+  },
+  {
+    "title": "Which method is used to remove a value from a Map?",
+    "answer_1": "delete()",
+    "answer_2": "remove()",
+    "answer_3": "pop()",
+    "answer_4": "splice()",
+    "true_answer": "delete()"
+  },
+  {
+    "title": "How do you check if a Map contains a key?",
+    "answer_1": "has()",
+    "answer_2": "contains()",
+    "answer_3": "includes()",
+    "answer_4": "find()",
+    "true_answer": "has()"
+  },
+  {
+    "title": "Which method is used to get the size of a Map?",
+    "answer_1": "size",
+    "answer_2": "length",
+    "answer_3": "count()",
+    "answer_4": "getSize()",
+    "true_answer": "size"
+  },
+  {
+    "title": "What is the output of: console.log(typeof new Date());",
+    "answer_1": "\"object\"",
+    "answer_2": "\"date\"",
+    "answer_3": "\"string\"",
+    "answer_4": "\"function\"",
+    "true_answer": "\"object\""
+  },
+  {
+    "title": "Which method is used to get the current timestamp?",
+    "answer_1": "Date.now()",
+    "answer_2": "new Date()",
+    "answer_3": "getTime()",
+    "answer_4": "now()",
+    "true_answer": "Date.now()"
+  },
+  {
+    "title": "How do you get the day of the week from a Date object?",
+    "answer_1": "getDay()",
+    "answer_2": "getDate()",
+    "answer_3": "getWeek()",
+    "answer_4": "getDayOfWeek()",
+    "true_answer": "getDay()"
+  },
+  {
+    "title": "Which method is used to get the year from a Date object?",
+    "answer_1": "getFullYear()",
+    "answer_2": "getYear()",
+    "answer_3": "year()",
+    "answer_4": "getDate()",
+    "true_answer": "getFullYear()"
+  },
+  {
+    "title": "What is the output of: console.log(Math.floor(2.9));",
+    "answer_1": "2",
+    "answer_2": "3",
+    "answer_3": "2.9",
+    "answer_4": "3.0",
+    "true_answer": "2"
+  },
+  {
+    "title": "Which method is used to round a number up to the nearest integer?",
+    "answer_1": "Math.ceil()",
+    "answer_2": "Math.round()",
+    "answer_3": "Math.floor()",
+    "answer_4": "Math.up()",
+    "true_answer": "Math.ceil()"
+  },
+  {
+    "title": "How do you generate a random number between 0 and 1?",
+    "answer_1": "Math.random()",
+    "answer_2": "random()",
+    "answer_3": "getRandom()",
+    "answer_4": "Math.rand()",
+    "true_answer": "Math.random()"
+  },
+  {
+    "title": "Which method is used to get the absolute value of a number?",
+    "answer_1": "Math.abs()",
+    "answer_2": "abs()",
+    "answer_3": "absolute()",
+    "answer_4": "Math.absolute()",
+    "true_answer": "Math.abs()"
+  },
+  {
+    "title": "What is the output of: console.log(Math.max(1, 2, 3));",
+    "answer_1": "3",
+    "answer_2": "2",
+    "answer_3": "1",
+    "answer_4": "undefined",
+    "true_answer": "3"
+  },
+  {
+    "title": "Which method is used to get the minimum value from a list of numbers?",
+    "answer_1": "Math.min()",
+    "answer_2": "min()",
+    "answer_3": "minimum()",
+    "answer_4": "Math.minimum()",
+    "true_answer": "Math.min()"
+  },
+  {
+    "title": "How do you convert a string to a number?",
+    "answer_1": "Number()",
+    "answer_2": "parseInt()",
+    "answer_3": "parseFloat()",
+    "answer_4": "All of the above",
+    "true_answer": "All of the above"
+  },
+  {
+    "title": "Which method is used to check if a value is finite?",
+    "answer_1": "isFinite()",
+    "answer_2": "Number.isFinite()",
+    "answer_3": "Both",
+    "answer_4": "isNumber()",
+    "true_answer": "Both"
+  },
+  {
+    "title": "What is the output of: console.log(0.1 + 0.2 === 0.3);",
+    "answer_1": "false",
+    "answer_2": "true",
+    "answer_3": "undefined",
+    "answer_4": "null",
+    "true_answer": "false"
+  }
+]

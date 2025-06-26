@@ -1,0 +1,915 @@
+[
+  {
+    "title": "What does HTML stand for?",
+    "answer_1": "Hyper Text Markup Language",
+    "answer_2": "Home Tool Markup Language",
+    "answer_3": "Hyperlinks and Text Markup Language",
+    "answer_4": "Hyper Tool Markup Language",
+    "true_answer": "Hyper Text Markup Language"
+  },
+  {
+    "title": "Which HTML tag is used to create a paragraph?",
+    "answer_1": "<p>",
+    "answer_2": "<h1>",
+    "answer_3": "<br>",
+    "answer_4": "<div>",
+    "true_answer": "<p>"
+  },
+  {
+    "title": "Which tag is used for the largest heading?",
+    "answer_1": "<h6>",
+    "answer_2": "<h1>",
+    "answer_3": "<h3>",
+    "answer_4": "<head>",
+    "true_answer": "<h1>"
+  },
+  {
+    "title": "What is the correct HTML element for inserting a line break?",
+    "answer_1": "<break>",
+    "answer_2": "<br>",
+    "answer_3": "<lb>",
+    "answer_4": "<line>",
+    "true_answer": "<br>"
+  },
+  {
+    "title": "Which tag is used to display an image?",
+    "answer_1": "<img>",
+    "answer_2": "<image>",
+    "answer_3": "<pic>",
+    "answer_4": "<src>",
+    "true_answer": "<img>"
+  },
+  {
+    "title": "How do you make a numbered list?",
+    "answer_1": "<ul>",
+    "answer_2": "<ol>",
+    "answer_3": "<li>",
+    "answer_4": "<dl>",
+    "true_answer": "<ol>"
+  },
+  {
+    "title": "How do you make a bulleted list?",
+    "answer_1": "<ol>",
+    "answer_2": "<ul>",
+    "answer_3": "<li>",
+    "answer_4": "<dl>",
+    "true_answer": "<ul>"
+  },
+  {
+    "title": "Which tag is used to create a hyperlink?",
+    "answer_1": "<a>",
+    "answer_2": "<link>",
+    "answer_3": "<href>",
+    "answer_4": "<url>",
+    "true_answer": "<a>"
+  },
+  {
+    "title": "What is the correct HTML for adding a background color?",
+    "answer_1": "<body bg='yellow'>",
+    "answer_2": "<body style='background-color:yellow;'>",
+    "answer_3": "<background>yellow</background>",
+    "answer_4": "<bgcolor>yellow</bgcolor>",
+    "true_answer": "<body style='background-color:yellow;'>"
+  },
+  {
+    "title": "Which tag is used to define a table row?",
+    "answer_1": "<tr>",
+    "answer_2": "<td>",
+    "answer_3": "<th>",
+    "answer_4": "<table>",
+    "true_answer": "<tr>"
+  },
+
+  {
+    "title": "Which tag is used to define a table cell?",
+    "answer_1": "<td>",
+    "answer_2": "<tr>",
+    "answer_3": "<th>",
+    "answer_4": "<table>",
+    "true_answer": "<td>"
+  },
+  {
+    "title": "Which tag is used to define a table header?",
+    "answer_1": "<th>",
+    "answer_2": "<td>",
+    "answer_3": "<tr>",
+    "answer_4": "<thead>",
+    "true_answer": "<th>"
+  },
+  {
+    "title": "Which HTML attribute specifies an alternate text for an image?",
+    "answer_1": "alt",
+    "answer_2": "src",
+    "answer_3": "title",
+    "answer_4": "longdesc",
+    "true_answer": "alt"
+  },
+  {
+    "title": "Which tag is used to create a checkbox?",
+    "answer_1": "<input type='checkbox'>",
+    "answer_2": "<checkbox>",
+    "answer_3": "<input type='check'>",
+    "answer_4": "<check>",
+    "true_answer": "<input type='checkbox'>"
+  },
+  {
+    "title": "Which tag is used to create a drop-down list?",
+    "answer_1": "<select>",
+    "answer_2": "<dropdown>",
+    "answer_3": "<input type='dropdown'>",
+    "answer_4": "<list>",
+    "true_answer": "<select>"
+  },
+  {
+    "title": "Which tag is used to create a text input field?",
+    "answer_1": "<input type='text'>",
+    "answer_2": "<textfield>",
+    "answer_3": "<input type='textfield'>",
+    "answer_4": "<text>",
+    "true_answer": "<input type='text'>"
+  },
+  {
+    "title": "Which tag is used to create a form?",
+    "answer_1": "<form>",
+    "answer_2": "<input>",
+    "answer_3": "<forms>",
+    "answer_4": "<submit>",
+    "true_answer": "<form>"
+  },
+  {
+    "title": "Which tag is used to make text bold?",
+    "answer_1": "<b>",
+    "answer_2": "<strong>",
+    "answer_3": "<bold>",
+    "answer_4": "<em>",
+    "true_answer": "<b>"
+  },
+  {
+    "title": "Which tag is used to make text italic?",
+    "answer_1": "<i>",
+    "answer_2": "<italic>",
+    "answer_3": "<em>",
+    "answer_4": "<it>",
+    "true_answer": "<i>"
+  },
+  {
+    "title": "Which tag is used to insert a horizontal line?",
+    "answer_1": "<hr>",
+    "answer_2": "<line>",
+    "answer_3": "<horizontal>",
+    "answer_4": "<hl>",
+    "true_answer": "<hr>"
+  },
+  {
+    "title": "Which tag is used to define a list item?",
+    "answer_1": "<li>",
+    "answer_2": "<ul>",
+    "answer_3": "<ol>",
+    "answer_4": "<item>",
+    "true_answer": "<li>"
+  },
+  {
+    "title": "Which tag is used to define an unordered list?",
+    "answer_1": "<ul>",
+    "answer_2": "<ol>",
+    "answer_3": "<li>",
+    "answer_4": "<list>",
+    "true_answer": "<ul>"
+  },
+  {
+    "title": "Which tag is used to define an ordered list?",
+    "answer_1": "<ol>",
+    "answer_2": "<ul>",
+    "answer_3": "<li>",
+    "answer_4": "<list>",
+    "true_answer": "<ol>"
+  },
+  {
+    "title": "Which tag is used to define emphasized text?",
+    "answer_1": "<em>",
+    "answer_2": "<i>",
+    "answer_3": "<strong>",
+    "answer_4": "<b>",
+    "true_answer": "<em>"
+  },
+  {
+    "title": "Which tag is used to define important text?",
+    "answer_1": "<strong>",
+    "answer_2": "<b>",
+    "answer_3": "<em>",
+    "answer_4": "<i>",
+    "true_answer": "<strong>"
+  },
+  {
+    "title": "Which tag is used to define a division or section?",
+    "answer_1": "<div>",
+    "answer_2": "<section>",
+    "answer_3": "<span>",
+    "answer_4": "<part>",
+    "true_answer": "<div>"
+  },
+  {
+    "title": "Which tag is used to define a span of text?",
+    "answer_1": "<span>",
+    "answer_2": "<div>",
+    "answer_3": "<section>",
+    "answer_4": "<part>",
+    "true_answer": "<span>"
+  },
+  {
+    "title": "Which tag is used to define a comment in HTML?",
+    "answer_1": "<!-- comment -->",
+    "answer_2": "// comment",
+    "answer_3": "<comment>",
+    "answer_4": "# comment",
+    "true_answer": "<!-- comment -->"
+  },
+  {
+    "title": "Which tag is used to define the document's title?",
+    "answer_1": "<title>",
+    "answer_2": "<head>",
+    "answer_3": "<header>",
+    "answer_4": "<h1>",
+    "true_answer": "<title>"
+  },
+  {
+    "title": "Which tag is used to define the main content of a document?",
+    "answer_1": "<main>",
+    "answer_2": "<body>",
+    "answer_3": "<content>",
+    "answer_4": "<section>",
+    "true_answer": "<main>"
+  },
+  {
+    "title": "Which tag is used to define a footer for a document?",
+    "answer_1": "<footer>",
+    "answer_2": "<bottom>",
+    "answer_3": "<foot>",
+    "answer_4": "<end>",
+    "true_answer": "<footer>"
+  },
+  {
+    "title": "Which tag is used to define navigation links?",
+    "answer_1": "<nav>",
+    "answer_2": "<navigation>",
+    "answer_3": "<links>",
+    "answer_4": "<menu>",
+    "true_answer": "<nav>"
+  },
+  {
+    "title": "Which tag is used to define a section in a document?",
+    "answer_1": "<section>",
+    "answer_2": "<div>",
+    "answer_3": "<part>",
+    "answer_4": "<main>",
+    "true_answer": "<section>"
+  },
+  {
+    "title": "Which tag is used to define a header for a document?",
+    "answer_1": "<header>",
+    "answer_2": "<head>",
+    "answer_3": "<h1>",
+    "answer_4": "<top>",
+    "true_answer": "<header>"
+  },
+  {
+    "title": "Which tag is used to define a block of preformatted text?",
+    "answer_1": "<pre>",
+    "answer_2": "<code>",
+    "answer_3": "<format>",
+    "answer_4": "<text>",
+    "true_answer": "<pre>"
+  },
+  {
+    "title": "Which tag is used to define computer code?",
+    "answer_1": "<code>",
+    "answer_2": "<pre>",
+    "answer_3": "<kbd>",
+    "answer_4": "<samp>",
+    "true_answer": "<code>"
+  },
+  {
+    "title": "Which tag is used to define keyboard input?",
+    "answer_1": "<kbd>",
+    "answer_2": "<key>",
+    "answer_3": "<input>",
+    "answer_4": "<code>",
+    "true_answer": "<kbd>"
+  },
+  {
+    "title": "Which tag is used to define a variable?",
+    "answer_1": "<var>",
+    "answer_2": "<variable>",
+    "answer_3": "<v>",
+    "answer_4": "<code>",
+    "true_answer": "<var>"
+  },
+  {
+    "title": "Which tag is used to define a sample output?",
+    "answer_1": "<samp>",
+    "answer_2": "<output>",
+    "answer_3": "<sample>",
+    "answer_4": "<code>",
+    "true_answer": "<samp>"
+  },
+  {
+    "title": "Which tag is used to define a definition term?",
+    "answer_1": "<dt>",
+    "answer_2": "<dd>",
+    "answer_3": "<dfn>",
+    "answer_4": "<def>",
+    "true_answer": "<dt>"
+  },
+  {
+    "title": "Which tag is used to define a definition description?",
+    "answer_1": "<dd>",
+    "answer_2": "<dt>",
+    "answer_3": "<dfn>",
+    "answer_4": "<desc>",
+    "true_answer": "<dd>"
+  },
+  {
+    "title": "Which tag is used to define a definition list?",
+    "answer_1": "<dl>",
+    "answer_2": "<list>",
+    "answer_3": "<ul>",
+    "answer_4": "<ol>",
+    "true_answer": "<dl>"
+  },
+  {
+    "title": "Which tag is used to define a figure caption?",
+    "answer_1": "<figcaption>",
+    "answer_2": "<caption>",
+    "answer_3": "<figure>",
+    "answer_4": "<legend>",
+    "true_answer": "<figcaption>"
+  },
+  {
+    "title": "Which tag is used to define a figure?",
+    "answer_1": "<figure>",
+    "answer_2": "<figcaption>",
+    "answer_3": "<img>",
+    "answer_4": "<pic>",
+    "true_answer": "<figure>"
+  },
+  {
+    "title": "Which tag is used to define a contact information section?",
+    "answer_1": "<address>",
+    "answer_2": "<contact>",
+    "answer_3": "<info>",
+    "answer_4": "<section>",
+    "true_answer": "<address>"
+  },
+  {
+    "title": "Which tag is used to define a time/date?",
+    "answer_1": "<time>",
+    "answer_2": "<date>",
+    "answer_3": "<datetime>",
+    "answer_4": "<clock>",
+    "true_answer": "<time>"
+  },
+  {
+    "title": "Which tag is used to define a short quotation?",
+    "answer_1": "<q>",
+    "answer_2": "<quote>",
+    "answer_3": "<blockquote>",
+    "answer_4": "<shortquote>",
+    "true_answer": "<q>"
+  },
+  {
+    "title": "Which tag is used to define a long quotation?",
+    "answer_1": "<blockquote>",
+    "answer_2": "<q>",
+    "answer_3": "<quote>",
+    "answer_4": "<longquote>",
+    "true_answer": "<blockquote>"
+  },
+  {
+    "title": "Which tag is used to define a citation?",
+    "answer_1": "<cite>",
+    "answer_2": "<citation>",
+    "answer_3": "<quote>",
+    "answer_4": "<ref>",
+    "true_answer": "<cite>"
+  },
+  {
+    "title": "Which tag is used to define a contact information?",
+    "answer_1": "<address>",
+    "answer_2": "<contact>",
+    "answer_3": "<info>",
+    "answer_4": "<section>",
+    "true_answer": "<address>"
+  },
+  {
+    "title": "Which tag is used to define a script?",
+    "answer_1": "<script>",
+    "answer_2": "<js>",
+    "answer_3": "<javascript>",
+    "answer_4": "<code>",
+    "true_answer": "<script>"
+  },
+  {
+    "title": "Which tag is used to define a style?",
+    "answer_1": "<style>",
+    "answer_2": "<css>",
+    "answer_3": "<design>",
+    "answer_4": "<format>",
+    "true_answer": "<style>"
+  },
+  {
+    "title": "Which tag is used to define a meta information?",
+    "answer_1": "<meta>",
+    "answer_2": "<info>",
+    "answer_3": "<data>",
+    "answer_4": "<head>",
+    "true_answer": "<meta>"
+  },
+  {
+    "title": "Which tag is used to define a base URL for all relative URLs?",
+    "answer_1": "<base>",
+    "answer_2": "<url>",
+    "answer_3": "<link>",
+    "answer_4": "<head>",
+    "true_answer": "<base>"
+  },
+  {
+    "title": "Which tag is used to define a link to an external resource?",
+    "answer_1": "<link>",
+    "answer_2": "<a>",
+    "answer_3": "<url>",
+    "answer_4": "<src>",
+    "true_answer": "<link>"
+  },
+  {
+    "title": "Which tag is used to define a document type?",
+    "answer_1": "<!DOCTYPE>",
+    "answer_2": "<doctype>",
+    "answer_3": "<document>",
+    "answer_4": "<type>",
+    "true_answer": "<!DOCTYPE>"
+  },
+  {
+    "title": "Which tag is used to define the root of an HTML document?",
+    "answer_1": "<html>",
+    "answer_2": "<body>",
+    "answer_3": "<head>",
+    "answer_4": "<root>",
+    "true_answer": "<html>"
+  },
+  {
+    "title": "Which tag is used to define the body of an HTML document?",
+    "answer_1": "<body>",
+    "answer_2": "<main>",
+    "answer_3": "<content>",
+    "answer_4": "<section>",
+    "true_answer": "<body>"
+  },
+  {
+    "title": "Which tag is used to define the head of an HTML document?",
+    "answer_1": "<head>",
+    "answer_2": "<header>",
+    "answer_3": "<title>",
+    "answer_4": "<top>",
+    "true_answer": "<head>"
+  },
+  {
+    "title": "Which tag is used to define a button?",
+    "answer_1": "<button>",
+    "answer_2": "<input type='button'>",
+    "answer_3": "<btn>",
+    "answer_4": "<press>",
+    "true_answer": "<button>"
+  },
+  {
+    "title": "Which tag is used to define a label for an input element?",
+    "answer_1": "<label>",
+    "answer_2": "<input>",
+    "answer_3": "<form>",
+    "answer_4": "<span>",
+    "true_answer": "<label>"
+  },
+  {
+    "title": "Which tag is used to define a fieldset for grouping related elements?",
+    "answer_1": "<fieldset>",
+    "answer_2": "<group>",
+    "answer_3": "<set>",
+    "answer_4": "<form>",
+    "true_answer": "<fieldset>"
+  },
+  {
+    "title": "Which tag is used to define a legend for a fieldset?",
+    "answer_1": "<legend>",
+    "answer_2": "<caption>",
+    "answer_3": "<title>",
+    "answer_4": "<label>",
+    "true_answer": "<legend>"
+  },
+  {
+    "title": "Which tag is used to define an option in a drop-down list?",
+    "answer_1": "<option>",
+    "answer_2": "<select>",
+    "answer_3": "<choice>",
+    "answer_4": "<item>",
+    "true_answer": "<option>"
+  },
+  {
+    "title": "Which tag is used to define an optgroup in a drop-down list?",
+    "answer_1": "<optgroup>",
+    "answer_2": "<group>",
+    "answer_3": "<option>",
+    "answer_4": "<select>",
+    "true_answer": "<optgroup>"
+  },
+  {
+    "title": "Which tag is used to define a progress bar?",
+    "answer_1": "<progress>",
+    "answer_2": "<bar>",
+    "answer_3": "<meter>",
+    "answer_4": "<status>",
+    "true_answer": "<progress>"
+  },
+  {
+    "title": "Which tag is used to define a meter?",
+    "answer_1": "<meter>",
+    "answer_2": "<progress>",
+    "answer_3": "<bar>",
+    "answer_4": "<status>",
+    "true_answer": "<meter>"
+  },
+  {
+    "title": "Which tag is used to define an output element?",
+    "answer_1": "<output>",
+    "answer_2": "<result>",
+    "answer_3": "<out>",
+    "answer_4": "<display>",
+    "true_answer": "<output>"
+  },
+  {
+    "title": "Which tag is used to define a data list?",
+    "answer_1": "<datalist>",
+    "answer_2": "<list>",
+    "answer_3": "<data>",
+    "answer_4": "<select>",
+    "true_answer": "<datalist>"
+  },
+  {
+    "title": "Which tag is used to define a template?",
+    "answer_1": "<template>",
+    "answer_2": "<temp>",
+    "answer_3": "<tmpl>",
+    "answer_4": "<sample>",
+    "true_answer": "<template>"
+  },
+  {
+    "title": "Which tag is used to define a canvas for graphics?",
+    "answer_1": "<canvas>",
+    "answer_2": "<graphic>",
+    "answer_3": "<svg>",
+    "answer_4": "<draw>",
+    "true_answer": "<canvas>"
+  },
+  {
+    "title": "Which tag is used to define scalable vector graphics?",
+    "answer_1": "<svg>",
+    "answer_2": "<canvas>",
+    "answer_3": "<vector>",
+    "answer_4": "<graphic>",
+    "true_answer": "<svg>"
+  },
+  {
+    "title": "Which tag is used to define an audio element?",
+    "answer_1": "<audio>",
+    "answer_2": "<sound>",
+    "answer_3": "<music>",
+    "answer_4": "<media>",
+    "true_answer": "<audio>"
+  },
+  {
+    "title": "Which tag is used to define a video element?",
+    "answer_1": "<video>",
+    "answer_2": "<movie>",
+    "answer_3": "<media>",
+    "answer_4": "<vid>",
+    "true_answer": "<video>"
+  },
+  {
+    "title": "Which tag is used to define a source for media elements?",
+    "answer_1": "<source>",
+    "answer_2": "<src>",
+    "answer_3": "<media>",
+    "answer_4": "<file>",
+    "true_answer": "<source>"
+  },
+  {
+    "title": "Which tag is used to define a track for media elements?",
+    "answer_1": "<track>",
+    "answer_2": "<caption>",
+    "answer_3": "<subtitle>",
+    "answer_4": "<media>",
+    "true_answer": "<track>"
+  },
+  {
+    "title": "Which tag is used to define a map for images?",
+    "answer_1": "<map>",
+    "answer_2": "<imagemap>",
+    "answer_3": "<area>",
+    "answer_4": "<imgmap>",
+    "true_answer": "<map>"
+  },
+  {
+    "title": "Which tag is used to define an area inside an image map?",
+    "answer_1": "<area>",
+    "answer_2": "<map>",
+    "answer_3": "<zone>",
+    "answer_4": "<region>",
+    "true_answer": "<area>"
+  },
+  {
+    "title": "Which tag is used to define a parameter for an object?",
+    "answer_1": "<param>",
+    "answer_2": "<parameter>",
+    "answer_3": "<object>",
+    "answer_4": "<value>",
+    "true_answer": "<param>"
+  },
+  {
+    "title": "Which tag is used to define an embedded object?",
+    "answer_1": "<object>",
+    "answer_2": "<embed>",
+    "answer_3": "<media>",
+    "answer_4": "<file>",
+    "true_answer": "<object>"
+  },
+  {
+    "title": "Which tag is used to define an embedded resource?",
+    "answer_1": "<embed>",
+    "answer_2": "<object>",
+    "answer_3": "<media>",
+    "answer_4": "<file>",
+    "true_answer": "<embed>"
+  },
+  {
+    "title": "Which tag is used to define a subscript text?",
+    "answer_1": "<sub>",
+    "answer_2": "<sup>",
+    "answer_3": "<small>",
+    "answer_4": "<s>",
+    "true_answer": "<sub>"
+  },
+  {
+    "title": "Which tag is used to define a superscript text?",
+    "answer_1": "<sup>",
+    "answer_2": "<sub>",
+    "answer_3": "<small>",
+    "answer_4": "<s>",
+    "true_answer": "<sup>"
+  },
+  {
+    "title": "Which tag is used to define small text?",
+    "answer_1": "<small>",
+    "answer_2": "<tiny>",
+    "answer_3": "<min>",
+    "answer_4": "<short>",
+    "true_answer": "<small>"
+  },
+  {
+    "title": "Which tag is used to define marked or highlighted text?",
+    "answer_1": "<mark>",
+    "answer_2": "<highlight>",
+    "answer_3": "<em>",
+    "answer_4": "<strong>",
+    "true_answer": "<mark>"
+  },
+  {
+    "title": "Which tag is used to define deleted text?",
+    "answer_1": "<del>",
+    "answer_2": "<remove>",
+    "answer_3": "<strike>",
+    "answer_4": "<s>",
+    "true_answer": "<del>"
+  },
+  {
+    "title": "Which tag is used to define inserted text?",
+    "answer_1": "<ins>",
+    "answer_2": "<insert>",
+    "answer_3": "<add>",
+    "answer_4": "<plus>",
+    "true_answer": "<ins>"
+  },
+  {
+    "title": "Which tag is used to define a line through text?",
+    "answer_1": "<s>",
+    "answer_2": "<strike>",
+    "answer_3": "<del>",
+    "answer_4": "<line>",
+    "true_answer": "<s>"
+  },
+  {
+    "title": "Which tag is used to define a bi-directional override?",
+    "answer_1": "<bdo>",
+    "answer_2": "<dir>",
+    "answer_3": "<bdi>",
+    "answer_4": "<override>",
+    "true_answer": "<bdo>"
+  },
+  {
+    "title": "Which tag is used to define a bi-directional isolation?",
+    "answer_1": "<bdi>",
+    "answer_2": "<bdo>",
+    "answer_3": "<dir>",
+    "answer_4": "<isolate>",
+    "true_answer": "<bdi>"
+  },
+  {
+    "title": "Which tag is used to define a ruby annotation?",
+    "answer_1": "<ruby>",
+    "answer_2": "<annotation>",
+    "answer_3": "<rt>",
+    "answer_4": "<rb>",
+    "true_answer": "<ruby>"
+  },
+  {
+    "title": "Which tag is used to define an explanation in a ruby annotation?",
+    "answer_1": "<rt>",
+    "answer_2": "<rb>",
+    "answer_3": "<ruby>",
+    "answer_4": "<annotation>",
+    "true_answer": "<rt>"
+  },
+  {
+    "title": "Which tag is used to define a parenthesis in a ruby annotation?",
+    "answer_1": "<rp>",
+    "answer_2": "<rt>",
+    "answer_3": "<rb>",
+    "answer_4": "<ruby>",
+    "true_answer": "<rp>"
+  },
+  {
+    "title": "Which tag is used to define a navigation list?",
+    "answer_1": "<nav>",
+    "answer_2": "<ul>",
+    "answer_3": "<ol>",
+    "answer_4": "<menu>",
+    "true_answer": "<nav>"
+  },
+  {
+    "title": "Which tag is used to define a menu list?",
+    "answer_1": "<menu>",
+    "answer_2": "<ul>",
+    "answer_3": "<ol>",
+    "answer_4": "<nav>",
+    "true_answer": "<menu>"
+  },
+  {
+    "title": "Which tag is used to define a command button?",
+    "answer_1": "<command>",
+    "answer_2": "<button>",
+    "answer_3": "<input>",
+    "answer_4": "<cmd>",
+    "true_answer": "<command>"
+  },
+  {
+    "title": "Which tag is used to define a dialog box?",
+    "answer_1": "<dialog>",
+    "answer_2": "<box>",
+    "answer_3": "<modal>",
+    "answer_4": "<window>",
+    "true_answer": "<dialog>"
+  },
+  {
+    "title": "Which tag is used to define a summary for a details element?",
+    "answer_1": "<summary>",
+    "answer_2": "<details>",
+    "answer_3": "<caption>",
+    "answer_4": "<title>",
+    "true_answer": "<summary>"
+  },
+  {
+    "title": "Which tag is used to define additional details that the user can view or hide?",
+    "answer_1": "<details>",
+    "answer_2": "<summary>",
+    "answer_3": "<info>",
+    "answer_4": "<extra>",
+    "true_answer": "<details>"
+  },
+  {
+    "title": "Which tag is used to define a hidden input field?",
+    "answer_1": "<input type='hidden'>",
+    "answer_2": "<hidden>",
+    "answer_3": "<hide>",
+    "answer_4": "<input type='invisible'>",
+    "true_answer": "<input type='hidden'>"
+  },
+  {
+    "title": "Which tag is used to define a password input field?",
+    "answer_1": "<input type='password'>",
+    "answer_2": "<password>",
+    "answer_3": "<input type='pass'>",
+    "answer_4": "<pass>",
+    "true_answer": "<input type='password'>"
+  },
+  {
+    "title": "Which tag is used to define an email input field?",
+    "answer_1": "<input type='email'>",
+    "answer_2": "<email>",
+    "answer_3": "<input type='mail'>",
+    "answer_4": "<mail>",
+    "true_answer": "<input type='email'>"
+  },
+  {
+    "title": "Which tag is used to define a file-select field and a browse button?",
+    "answer_1": "<input type='file'>",
+    "answer_2": "<file>",
+    "answer_3": "<input type='browse'>",
+    "answer_4": "<browse>",
+    "true_answer": "<input type='file'>"
+  },
+  {
+    "title": "Which tag is used to define a radio button?",
+    "answer_1": "<input type='radio'>",
+    "answer_2": "<radio>",
+    "answer_3": "<input type='circle'>",
+    "answer_4": "<circle>",
+    "true_answer": "<input type='radio'>"
+  },
+  {
+    "title": "Which tag is used to define a reset button?",
+    "answer_1": "<input type='reset'>",
+    "answer_2": "<reset>",
+    "answer_3": "<button type='reset'>",
+    "answer_4": "<button>",
+    "true_answer": "<input type='reset'>"
+  },
+  {
+    "title": "Which tag is used to define a submit button?",
+    "answer_1": "<input type='submit'>",
+    "answer_2": "<submit>",
+    "answer_3": "<button type='submit'>",
+    "answer_4": "<button>",
+    "true_answer": "<input type='submit'>"
+  },
+  {
+    "title": "Which tag is used to define a search field?",
+    "answer_1": "<input type='search'>",
+    "answer_2": "<search>",
+    "answer_3": "<input type='find'>",
+    "answer_4": "<find>",
+    "true_answer": "<input type='search'>"
+  },
+  {
+    "title": "Which tag is used to define a telephone input field?",
+    "answer_1": "<input type='tel'>",
+    "answer_2": "<tel>",
+    "answer_3": "<input type='phone'>",
+    "answer_4": "<phone>",
+    "true_answer": "<input type='tel'>"
+  },
+  {
+    "title": "Which tag is used to define a URL input field?",
+    "answer_1": "<input type='url'>",
+    "answer_2": "<url>",
+    "answer_3": "<input type='link'>",
+    "answer_4": "<link>",
+    "true_answer": "<input type='url'>"
+  },
+  {
+    "title": "Which tag is used to define a color picker?",
+    "answer_1": "<input type='color'>",
+    "answer_2": "<color>",
+    "answer_3": "<input type='picker'>",
+    "answer_4": "<picker>",
+    "true_answer": "<input type='color'>"
+  },
+  {
+    "title": "Which tag is used to define a date picker?",
+    "answer_1": "<input type='date'>",
+    "answer_2": "<date>",
+    "answer_3": "<input type='calendar'>",
+    "answer_4": "<calendar>",
+    "true_answer": "<input type='date'>"
+  },
+  {
+    "title": "Which tag is used to define a time picker?",
+    "answer_1": "<input type='time'>",
+    "answer_2": "<time>",
+    "answer_3": "<input type='clock'>",
+    "answer_4": "<clock>",
+    "true_answer": "<input type='time'>"
+  },
+  {
+    "title": "Which tag is used to define a week picker?",
+    "answer_1": "<input type='week'>",
+    "answer_2": "<week>",
+    "answer_3": "<input type='calendar'>",
+    "answer_4": "<calendar>",
+    "true_answer": "<input type='week'>"
+  },
+  {
+    "title": "Which tag is used to define a month picker?",
+    "answer_1": "<input type='month'>",
+    "answer_2": "<month>",
+    "answer_3": "<input type='calendar'>",
+    "answer_4": "<calendar>",
+    "true_answer": "<input type='month'>"
+  }
+]

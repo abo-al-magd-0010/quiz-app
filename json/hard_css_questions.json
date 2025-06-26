@@ -1,0 +1,858 @@
+[
+  {
+    "title": "What does the 'contain' property in CSS do?",
+    "answer_1": "Specifies if an element should be contained within its parent",
+    "answer_2": "Enables layout, style, and paint containment for performance optimization",
+    "answer_3": "Prevents overflow of child elements",
+    "answer_4": "Sets the container's width",
+    "true_answer": "Enables layout, style, and paint containment for performance optimization"
+  },
+  {
+    "title": "Which CSS property is used to create a grid layout?",
+    "answer_1": "display: flex",
+    "answer_2": "display: block",
+    "answer_3": "display: grid",
+    "answer_4": "display: inline-grid",
+    "true_answer": "display: grid"
+  },
+  {
+    "title": "What is the default value of the 'position' property?",
+    "answer_1": "relative",
+    "answer_2": "absolute",
+    "answer_3": "static",
+    "answer_4": "fixed",
+    "true_answer": "static"
+  },
+  {
+    "title": "Which pseudo-class targets the first child element?",
+    "answer_1": ":first-child",
+    "answer_2": ":last-child",
+    "answer_3": ":nth-child(1)",
+    "answer_4": ":only-child",
+    "true_answer": ":first-child"
+  },
+  {
+    "title": "How do you apply a style only when printing a page?",
+    "answer_1": "@media print",
+    "answer_2": "@media screen",
+    "answer_3": "@media all",
+    "answer_4": "@media handheld",
+    "true_answer": "@media print"
+  },
+  {
+    "title": "What does the 'will-change' property do?",
+    "answer_1": "Changes the element's color",
+    "answer_2": "Hints the browser about upcoming changes for optimization",
+    "answer_3": "Forces a repaint",
+    "answer_4": "Changes the stacking context",
+    "true_answer": "Hints the browser about upcoming changes for optimization"
+  },
+  {
+    "title": "Which property is used to control the order of flex items?",
+    "answer_1": "flex-direction",
+    "answer_2": "order",
+    "answer_3": "align-items",
+    "answer_4": "justify-content",
+    "true_answer": "order"
+  },
+  {
+    "title": "What does 'object-fit: cover' do to an image?",
+    "answer_1": "Stretches the image to fill the container",
+    "answer_2": "Scales the image to maintain aspect ratio and cover the container",
+    "answer_3": "Centers the image",
+    "answer_4": "Repeats the image",
+    "true_answer": "Scales the image to maintain aspect ratio and cover the container"
+  },
+  {
+    "title": "Which CSS function is used to apply a blur effect?",
+    "answer_1": "blur()",
+    "answer_2": "filter: blur()",
+    "answer_3": "opacity()",
+    "answer_4": "shadow()",
+    "true_answer": "filter: blur()"
+  },
+  {
+    "title": "What is the z-index property used for?",
+    "answer_1": "To set the zoom level",
+    "answer_2": "To control the stacking order of positioned elements",
+    "answer_3": "To set the background color",
+    "answer_4": "To set the font size",
+    "true_answer": "To control the stacking order of positioned elements"
+  },
+  {
+    "title": "Which property is used to create rounded corners?",
+    "answer_1": "border-radius",
+    "answer_2": "corner-radius",
+    "answer_3": "border-corner",
+    "answer_4": "radius",
+    "true_answer": "border-radius"
+  },
+  {
+    "title": "How do you select all elements with a class of 'active'?",
+    "answer_1": ".active",
+    "answer_2": "#active",
+    "answer_3": "active",
+    "answer_4": "*active",
+    "true_answer": ".active"
+  },
+  {
+    "title": "Which property is used to add shadow to text?",
+    "answer_1": "box-shadow",
+    "answer_2": "text-shadow",
+    "answer_3": "shadow",
+    "answer_4": "font-shadow",
+    "true_answer": "text-shadow"
+  },
+  {
+    "title": "What does the 'clip-path' property do?",
+    "answer_1": "Clips an element to a basic shape or SVG path",
+    "answer_2": "Adds a border",
+    "answer_3": "Changes the background",
+    "answer_4": "Sets the padding",
+    "true_answer": "Clips an element to a basic shape or SVG path"
+  },
+  {
+    "title": "Which property is used to control the spacing between lines of text?",
+    "answer_1": "letter-spacing",
+    "answer_2": "line-height",
+    "answer_3": "word-spacing",
+    "answer_4": "text-indent",
+    "true_answer": "line-height"
+  },
+  {
+    "title": "What does 'overflow: auto' do?",
+    "answer_1": "Hides overflow content",
+    "answer_2": "Shows scrollbars only when necessary",
+    "answer_3": "Always shows scrollbars",
+    "answer_4": "Clips the content",
+    "true_answer": "Shows scrollbars only when necessary"
+  },
+  {
+    "title": "Which property is used to align items in a flex container vertically?",
+    "answer_1": "justify-content",
+    "answer_2": "align-items",
+    "answer_3": "flex-direction",
+    "answer_4": "align-content",
+    "true_answer": "align-items"
+  },
+  {
+    "title": "What does the 'backface-visibility' property control?",
+    "answer_1": "The visibility of the back face of an element when rotated",
+    "answer_2": "The background color",
+    "answer_3": "The border color",
+    "answer_4": "The opacity",
+    "true_answer": "The visibility of the back face of an element when rotated"
+  },
+  {
+    "title": "Which property is used to create a transition effect?",
+    "answer_1": "transition",
+    "answer_2": "animation",
+    "answer_3": "transform",
+    "answer_4": "effect",
+    "true_answer": "transition"
+  },
+  {
+    "title": "What does 'pointer-events: none' do?",
+    "answer_1": "Disables mouse events on the element",
+    "answer_2": "Enables mouse events",
+    "answer_3": "Changes the cursor",
+    "answer_4": "Adds a pointer icon",
+    "true_answer": "Disables mouse events on the element"
+  },
+  {
+    "title": "Which property is used to set the space between columns in a grid?",
+    "answer_1": "column-gap",
+    "answer_2": "row-gap",
+    "answer_3": "gap",
+    "answer_4": "grid-gap",
+    "true_answer": "column-gap"
+  },
+  {
+    "title": "What does 'isolation: isolate' do?",
+    "answer_1": "Creates a new stacking context",
+    "answer_2": "Isolates the element from its parent",
+    "answer_3": "Hides the element",
+    "answer_4": "Changes the display property",
+    "true_answer": "Creates a new stacking context"
+  },
+  {
+    "title": "Which property is used to control the direction of text?",
+    "answer_1": "text-align",
+    "answer_2": "direction",
+    "answer_3": "writing-mode",
+    "answer_4": "text-direction",
+    "true_answer": "direction"
+  },
+  {
+    "title": "What does 'minmax()' do in CSS Grid?",
+    "answer_1": "Sets the minimum and maximum width or height of a grid track",
+    "answer_2": "Sets the minimum and maximum font size",
+    "answer_3": "Sets the minimum and maximum margin",
+    "answer_4": "Sets the minimum and maximum padding",
+    "true_answer": "Sets the minimum and maximum width or height of a grid track"
+  },
+  {
+    "title": "Which property is used to make an element sticky?",
+    "answer_1": "position: fixed",
+    "answer_2": "position: sticky",
+    "answer_3": "position: absolute",
+    "answer_4": "position: relative",
+    "true_answer": "position: sticky"
+  },
+  {
+    "title": "What does 'calc()' allow you to do?",
+    "answer_1": "Perform calculations to determine CSS property values",
+    "answer_2": "Calculate the number of elements",
+    "answer_3": "Calculate the font size",
+    "answer_4": "Calculate the color value",
+    "true_answer": "Perform calculations to determine CSS property values"
+  },
+  {
+    "title": "Which property is used to control the appearance of the cursor?",
+    "answer_1": "pointer",
+    "answer_2": "cursor",
+    "answer_3": "mouse",
+    "answer_4": "hover",
+    "true_answer": "cursor"
+  },
+  {
+    "title": "What does 'box-sizing: border-box' do?",
+    "answer_1": "Includes padding and border in the element's total width and height",
+    "answer_2": "Excludes padding and border",
+    "answer_3": "Sets the box model to default",
+    "answer_4": "Removes the border",
+    "true_answer": "Includes padding and border in the element's total width and height"
+  },
+  {
+    "title": "Which property is used to set the transparency of an element?",
+    "answer_1": "opacity",
+    "answer_2": "transparent",
+    "answer_3": "alpha",
+    "answer_4": "visibility",
+    "true_answer": "opacity"
+  },
+  {
+    "title": "What does 'flex-grow' control?",
+    "answer_1": "The ability of a flex item to grow relative to the rest",
+    "answer_2": "The direction of flex items",
+    "answer_3": "The alignment of flex items",
+    "answer_4": "The order of flex items",
+    "true_answer": "The ability of a flex item to grow relative to the rest"
+  },
+  {
+    "title": "Which property is used to set the maximum width of an element?",
+    "answer_1": "max-width",
+    "answer_2": "width",
+    "answer_3": "min-width",
+    "answer_4": "size",
+    "true_answer": "max-width"
+  },
+  {
+    "title": "What does 'overflow-x' control?",
+    "answer_1": "Horizontal overflow",
+    "answer_2": "Vertical overflow",
+    "answer_3": "Both horizontal and vertical overflow",
+    "answer_4": "No overflow",
+    "true_answer": "Horizontal overflow"
+  },
+  {
+    "title": "Which property is used to set the space between letters?",
+    "answer_1": "letter-spacing",
+    "answer_2": "word-spacing",
+    "answer_3": "line-height",
+    "answer_4": "text-indent",
+    "true_answer": "letter-spacing"
+  },
+  {
+    "title": "What does 'user-select: none' do?",
+    "answer_1": "Prevents the user from selecting text",
+    "answer_2": "Allows text selection",
+    "answer_3": "Disables the element",
+    "answer_4": "Hides the element",
+    "true_answer": "Prevents the user from selecting text"
+  },
+  {
+    "title": "Which property is used to set the aspect ratio of an element?",
+    "answer_1": "aspect-ratio",
+    "answer_2": "ratio",
+    "answer_3": "width",
+    "answer_4": "height",
+    "true_answer": "aspect-ratio"
+  },
+  {
+    "title": "What does 'filter: grayscale(100%)' do?",
+    "answer_1": "Makes the element black and white",
+    "answer_2": "Blurs the element",
+    "answer_3": "Increases contrast",
+    "answer_4": "Adds a shadow",
+    "true_answer": "Makes the element black and white"
+  },
+  {
+    "title": "Which property is used to set the number of columns in a multi-column layout?",
+    "answer_1": "columns",
+    "answer_2": "column-count",
+    "answer_3": "column-width",
+    "answer_4": "column-gap",
+    "true_answer": "column-count"
+  },
+  {
+    "title": "What does 'object-position' control?",
+    "answer_1": "The position of a replaced element inside its box",
+    "answer_2": "The position of the box",
+    "answer_3": "The position of the background",
+    "answer_4": "The position of the border",
+    "true_answer": "The position of a replaced element inside its box"
+  },
+  {
+    "title": "Which property is used to set the style of a list marker?",
+    "answer_1": "list-style-type",
+    "answer_2": "marker-style",
+    "answer_3": "list-type",
+    "answer_4": "marker-type",
+    "true_answer": "list-style-type"
+  },
+  {
+    "title": "What does 'scroll-behavior: smooth' do?",
+    "answer_1": "Enables smooth scrolling for anchor links",
+    "answer_2": "Disables scrolling",
+    "answer_3": "Scrolls instantly",
+    "answer_4": "Adds a scroll bar",
+    "true_answer": "Enables smooth scrolling for anchor links"
+  },
+  {
+    "title": "Which property is used to set the color of a border?",
+    "answer_1": "border-color",
+    "answer_2": "color",
+    "answer_3": "border-style",
+    "answer_4": "border-width",
+    "true_answer": "border-color"
+  },
+  {
+    "title": "What does 'background-clip: text' do?",
+    "answer_1": "Clips the background to the text",
+    "answer_2": "Clips the text to the background",
+    "answer_3": "Clips the border",
+    "answer_4": "Clips the padding",
+    "true_answer": "Clips the background to the text"
+  },
+  {
+    "title": "Which property is used to set the spacing between grid rows?",
+    "answer_1": "row-gap",
+    "answer_2": "column-gap",
+    "answer_3": "gap",
+    "answer_4": "grid-gap",
+    "true_answer": "row-gap"
+  },
+  {
+    "title": "What does 'outline' property do?",
+    "answer_1": "Draws a line outside the border edge",
+    "answer_2": "Draws a line inside the border edge",
+    "answer_3": "Sets the border color",
+    "answer_4": "Sets the background color",
+    "true_answer": "Draws a line outside the border edge"
+  },
+  {
+    "title": "Which property is used to set the indentation of the first line of text?",
+    "answer_1": "text-indent",
+    "answer_2": "line-indent",
+    "answer_3": "indent",
+    "answer_4": "padding-left",
+    "true_answer": "text-indent"
+  },
+  {
+    "title": "What does 'white-space: nowrap' do?",
+    "answer_1": "Prevents text from wrapping to the next line",
+    "answer_2": "Wraps text automatically",
+    "answer_3": "Adds extra space between words",
+    "answer_4": "Removes all spaces",
+    "true_answer": "Prevents text from wrapping to the next line"
+  },
+  {
+    "title": "Which property is used to set the style of the cursor when hovering over an element?",
+    "answer_1": "cursor",
+    "answer_2": "pointer",
+    "answer_3": "hover",
+    "answer_4": "mouse",
+    "true_answer": "cursor"
+  },
+  {
+    "title": "What does 'background-size: cover' do?",
+    "answer_1": "Scales the background image to cover the entire container",
+    "answer_2": "Repeats the background image",
+    "answer_3": "Centers the background image",
+    "answer_4": "Stretches the background image",
+    "true_answer": "Scales the background image to cover the entire container"
+  },
+  {
+    "title": "Which property is used to set the vertical alignment of an inline element?",
+    "answer_1": "vertical-align",
+    "answer_2": "align-items",
+    "answer_3": "justify-content",
+    "answer_4": "align-content",
+    "true_answer": "vertical-align"
+  },
+  {
+    "title": "What does 'display: contents' do?",
+    "answer_1": "Makes the element disappear but keeps its children",
+    "answer_2": "Hides the element and its children",
+    "answer_3": "Displays the element as a block",
+    "answer_4": "Displays the element as inline",
+    "true_answer": "Makes the element disappear but keeps its children"
+  },
+  {
+    "title": "Which property is used to set the color of text selection?",
+    "answer_1": "::selection { color: ... }",
+    "answer_2": ":selected { color: ... }",
+    "answer_3": ":active { color: ... }",
+    "answer_4": ":focus { color: ... }",
+    "true_answer": "::selection { color: ... }"
+  },
+  {
+    "title": "What does 'backdrop-filter' do?",
+    "answer_1": "Applies graphical effects to the area behind an element",
+    "answer_2": "Applies effects to the element itself",
+    "answer_3": "Changes the background color",
+    "answer_4": "Adds a border",
+    "true_answer": "Applies graphical effects to the area behind an element"
+  },
+  {
+    "title": "Which property is used to set the style of a border?",
+    "answer_1": "border-style",
+    "answer_2": "border-type",
+    "answer_3": "border-color",
+    "answer_4": "border-width",
+    "true_answer": "border-style"
+  },
+  {
+    "title": "What does 'overflow-wrap: break-word' do?",
+    "answer_1": "Allows long words to be broken and wrap to the next line",
+    "answer_2": "Prevents wrapping",
+    "answer_3": "Hides overflow",
+    "answer_4": "Adds a scroll bar",
+    "true_answer": "Allows long words to be broken and wrap to the next line"
+  },
+  {
+    "title": "Which property is used to set the spacing between words?",
+    "answer_1": "word-spacing",
+    "answer_2": "letter-spacing",
+    "answer_3": "line-height",
+    "answer_4": "text-indent",
+    "true_answer": "word-spacing"
+  },
+  {
+    "title": "What does 'transform: scale(2)' do?",
+    "answer_1": "Doubles the size of the element",
+    "answer_2": "Halves the size of the element",
+    "answer_3": "Rotates the element",
+    "answer_4": "Moves the element",
+    "true_answer": "Doubles the size of the element"
+  },
+  {
+    "title": "Which property is used to set the font style to italic?",
+    "answer_1": "font-style: italic",
+    "answer_2": "font-weight: italic",
+    "answer_3": "font-variant: italic",
+    "answer_4": "text-style: italic",
+    "true_answer": "font-style: italic"
+  },
+  {
+    "title": "What does 'display: none' do?",
+    "answer_1": "Removes the element from the layout",
+    "answer_2": "Hides the element but keeps its space",
+    "answer_3": "Makes the element transparent",
+    "answer_4": "Disables the element",
+    "true_answer": "Removes the element from the layout"
+  },
+  {
+    "title": "Which property is used to set the thickness of a border?",
+    "answer_1": "border-width",
+    "answer_2": "border-size",
+    "answer_3": "border-thickness",
+    "answer_4": "border-style",
+    "true_answer": "border-width"
+  },
+  {
+    "title": "What does 'animation-delay' do?",
+    "answer_1": "Delays the start of an animation",
+    "answer_2": "Delays the end of an animation",
+    "answer_3": "Speeds up the animation",
+    "answer_4": "Repeats the animation",
+    "true_answer": "Delays the start of an animation"
+  },
+  {
+    "title": "Which property is used to set the background image of an element?",
+    "answer_1": "background-image",
+    "answer_2": "image",
+    "answer_3": "background-url",
+    "answer_4": "img",
+    "true_answer": "background-image"
+  },
+  {
+    "title": "What does 'flex-basis' control?",
+    "answer_1": "The initial main size of a flex item",
+    "answer_2": "The direction of flex items",
+    "answer_3": "The alignment of flex items",
+    "answer_4": "The order of flex items",
+    "true_answer": "The initial main size of a flex item"
+  },
+  {
+    "title": "Which property is used to set the color of a link when hovered?",
+    "answer_1": "a:hover { color: ... }",
+    "answer_2": "a:active { color: ... }",
+    "answer_3": "a:visited { color: ... }",
+    "answer_4": "a:focus { color: ... }",
+    "true_answer": "a:hover { color: ... }"
+  },
+  {
+    "title": "What does 'grid-template-areas' do?",
+    "answer_1": "Defines named areas in a CSS Grid layout",
+    "answer_2": "Sets the number of grid columns",
+    "answer_3": "Sets the number of grid rows",
+    "answer_4": "Sets the gap between grid items",
+    "true_answer": "Defines named areas in a CSS Grid layout"
+  },
+  {
+    "title": "Which property is used to set the font weight?",
+    "answer_1": "font-weight",
+    "answer_2": "font-style",
+    "answer_3": "font-size",
+    "answer_4": "font-variant",
+    "true_answer": "font-weight"
+  },
+  {
+    "title": "What does 'visibility: hidden' do?",
+    "answer_1": "Hides the element but keeps its space",
+    "answer_2": "Removes the element from the layout",
+    "answer_3": "Makes the element transparent",
+    "answer_4": "Disables the element",
+    "true_answer": "Hides the element but keeps its space"
+  },
+  {
+    "title": "Which property is used to set the background color?",
+    "answer_1": "background-color",
+    "answer_2": "color",
+    "answer_3": "bgcolor",
+    "answer_4": "background",
+    "true_answer": "background-color"
+  },
+  {
+    "title": "What does 'overflow: scroll' do?",
+    "answer_1": "Always shows scrollbars",
+    "answer_2": "Hides overflow content",
+    "answer_3": "Shows scrollbars only when necessary",
+    "answer_4": "Clips the content",
+    "true_answer": "Always shows scrollbars"
+  },
+  {
+    "title": "Which property is used to set the minimum height of an element?",
+    "answer_1": "min-height",
+    "answer_2": "height",
+    "answer_3": "max-height",
+    "answer_4": "size",
+    "true_answer": "min-height"
+  },
+  {
+    "title": "What does 'flex-shrink' control?",
+    "answer_1": "The ability of a flex item to shrink relative to the rest",
+    "answer_2": "The direction of flex items",
+    "answer_3": "The alignment of flex items",
+    "answer_4": "The order of flex items",
+    "true_answer": "The ability of a flex item to shrink relative to the rest"
+  },
+  {
+    "title": "Which property is used to set the horizontal alignment of block elements?",
+    "answer_1": "margin-left and margin-true: auto",
+    "answer_2": "text-align",
+    "answer_3": "align-items",
+    "answer_4": "justify-content",
+    "true_answer": "margin-left and margin-true: auto"
+  },
+  {
+    "title": "What does 'transition-timing-function' do?",
+    "answer_1": "Specifies the speed curve of a transition",
+    "answer_2": "Specifies the duration of a transition",
+    "answer_3": "Specifies the delay of a transition",
+    "answer_4": "Specifies the property to transition",
+    "true_answer": "Specifies the speed curve of a transition"
+  },
+  {
+    "title": "Which property is used to set the style of a list marker image?",
+    "answer_1": "list-style-image",
+    "answer_2": "marker-image",
+    "answer_3": "list-image",
+    "answer_4": "marker-style",
+    "true_answer": "list-style-image"
+  },
+  {
+    "title": "What does 'column-span: all' do?",
+    "answer_1": "Makes an element span all columns in a multi-column layout",
+    "answer_2": "Sets the number of columns",
+    "answer_3": "Sets the column width",
+    "answer_4": "Sets the column gap",
+    "true_answer": "Makes an element span all columns in a multi-column layout"
+  },
+  {
+    "title": "Which property is used to set the spacing between flex items?",
+    "answer_1": "gap",
+    "answer_2": "flex-gap",
+    "answer_3": "space-between",
+    "answer_4": "margin",
+    "true_answer": "gap"
+  },
+  {
+    "title": "What does 'writing-mode: vertical-rl' do?",
+    "answer_1": "Sets text direction to vertical, true to left",
+    "answer_2": "Sets text direction to horizontal",
+    "answer_3": "Sets text direction to vertical, left to true",
+    "answer_4": "Sets text direction to true to left",
+    "true_answer": "Sets text direction to vertical, true to left"
+  },
+  {
+    "title": "Which property is used to set the color of a border on one side?",
+    "answer_1": "border-left-color",
+    "answer_2": "border-color",
+    "answer_3": "border-style",
+    "answer_4": "border-width",
+    "true_answer": "border-left-color"
+  },
+  {
+    "title": "What does 'object-fit: contain' do?",
+    "answer_1": "Scales the image to maintain aspect ratio and fit inside the container",
+    "answer_2": "Stretches the image to fill the container",
+    "answer_3": "Repeats the image",
+    "answer_4": "Centers the image",
+    "true_answer": "Scales the image to maintain aspect ratio and fit inside the container"
+  },
+  {
+    "title": "Which property is used to set the style of a table border?",
+    "answer_1": "border-collapse",
+    "answer_2": "table-border",
+    "answer_3": "border-style",
+    "answer_4": "border-spacing",
+    "true_answer": "border-collapse"
+  },
+  {
+    "title": "What does 'background-repeat: no-repeat' do?",
+    "answer_1": "Prevents the background image from repeating",
+    "answer_2": "Repeats the background image",
+    "answer_3": "Repeats the background horizontally",
+    "answer_4": "Repeats the background vertically",
+    "true_answer": "Prevents the background image from repeating"
+  },
+  {
+    "title": "Which property is used to set the alignment of items along the cross axis in flexbox?",
+    "answer_1": "align-items",
+    "answer_2": "justify-content",
+    "answer_3": "align-content",
+    "answer_4": "flex-direction",
+    "true_answer": "align-items"
+  },
+  {
+    "title": "What does 'animation-iteration-count: infinite' do?",
+    "answer_1": "Repeats the animation forever",
+    "answer_2": "Plays the animation once",
+    "answer_3": "Delays the animation",
+    "answer_4": "Stops the animation",
+    "true_answer": "Repeats the animation forever"
+  },
+  {
+    "title": "Which property is used to set the color of a visited link?",
+    "answer_1": "a:visited { color: ... }",
+    "answer_2": "a:hover { color: ... }",
+    "answer_3": "a:active { color: ... }",
+    "answer_4": "a:focus { color: ... }",
+    "true_answer": "a:visited { color: ... }"
+  },
+  {
+    "title": "What does 'box-shadow' do?",
+    "answer_1": "Adds shadow to an element's box",
+    "answer_2": "Adds shadow to text",
+    "answer_3": "Adds border to an element",
+    "answer_4": "Adds background color",
+    "true_answer": "Adds shadow to an element's box"
+  },
+  {
+    "title": "Which property is used to set the spacing between grid columns and rows?",
+    "answer_1": "gap",
+    "answer_2": "grid-gap",
+    "answer_3": "column-gap",
+    "answer_4": "row-gap",
+    "true_answer": "gap"
+  },
+  {
+    "title": "What does 'display: inline-block' do?",
+    "answer_1": "Displays an element as an inline-level block container",
+    "answer_2": "Displays an element as a block",
+    "answer_3": "Displays an element as inline",
+    "answer_4": "Hides the element",
+    "true_answer": "Displays an element as an inline-level block container"
+  },
+  {
+    "title": "Which property is used to set the alignment of items along the main axis in flexbox?",
+    "answer_1": "justify-content",
+    "answer_2": "align-items",
+    "answer_3": "align-content",
+    "answer_4": "flex-direction",
+    "true_answer": "justify-content"
+  },
+  {
+    "title": "What does 'background-position' control?",
+    "answer_1": "The position of the background image",
+    "answer_2": "The position of the element",
+    "answer_3": "The position of the border",
+    "answer_4": "The position of the text",
+    "true_answer": "The position of the background image"
+  },
+  {
+    "title": "Which property is used to set the style of a border on one side?",
+    "answer_1": "border-left-style",
+    "answer_2": "border-style",
+    "answer_3": "border-width",
+    "answer_4": "border-color",
+    "true_answer": "border-left-style"
+  },
+  {
+    "title": "What does 'text-transform: uppercase' do?",
+    "answer_1": "Converts text to uppercase",
+    "answer_2": "Converts text to lowercase",
+    "answer_3": "Capitalizes the first letter",
+    "answer_4": "Removes all spaces",
+    "true_answer": "Converts text to uppercase"
+  },
+  {
+    "title": "Which property is used to set the spacing between table cells?",
+    "answer_1": "border-spacing",
+    "answer_2": "cell-spacing",
+    "answer_3": "padding",
+    "answer_4": "margin",
+    "true_answer": "border-spacing"
+  },
+  {
+    "title": "What does 'overflow-y' control?",
+    "answer_1": "Vertical overflow",
+    "answer_2": "Horizontal overflow",
+    "answer_3": "Both horizontal and vertical overflow",
+    "answer_4": "No overflow",
+    "true_answer": "Vertical overflow"
+  },
+  {
+    "title": "Which property is used to set the color of a border on the top?",
+    "answer_1": "border-top-color",
+    "answer_2": "border-color",
+    "answer_3": "border-style",
+    "answer_4": "border-width",
+    "true_answer": "border-top-color"
+  },
+  {
+    "title": "What does 'display: flex' do?",
+    "answer_1": "Enables flexbox layout for the container",
+    "answer_2": "Enables grid layout",
+    "answer_3": "Displays the element as a block",
+    "answer_4": "Hides the element",
+    "true_answer": "Enables flexbox layout for the container"
+  },
+  {
+    "title": "Which property is used to set the color of a border on the true?",
+    "answer_1": "border-true-color",
+    "answer_2": "border-color",
+    "answer_3": "border-style",
+    "answer_4": "border-width",
+    "true_answer": "border-true-color"
+  },
+  {
+    "title": "What does 'text-align: center' do?",
+    "answer_1": "Centers the text horizontally",
+    "answer_2": "Centers the text vertically",
+    "answer_3": "Justifies the text",
+    "answer_4": "Aligns the text to the true",
+    "true_answer": "Centers the text horizontally"
+  },
+  {
+    "title": "Which property is used to set the color of a border on the bottom?",
+    "answer_1": "border-bottom-color",
+    "answer_2": "border-color",
+    "answer_3": "border-style",
+    "answer_4": "border-width",
+    "true_answer": "border-bottom-color"
+  },
+  {
+    "title": "What does 'float: left' do?",
+    "answer_1": "Floats the element to the left",
+    "answer_2": "Floats the element to the true",
+    "answer_3": "Centers the element",
+    "answer_4": "Removes the float",
+    "true_answer": "Floats the element to the left"
+  },
+  {
+    "title": "Which property is used to clear floated elements?",
+    "answer_1": "clear",
+    "answer_2": "float",
+    "answer_3": "overflow",
+    "answer_4": "display",
+    "true_answer": "clear"
+  },
+  {
+    "title": "What does 'position: absolute' do?",
+    "answer_1": "Positions the element relative to the nearest positioned ancestor",
+    "answer_2": "Positions the element relative to the viewport",
+    "answer_3": "Positions the element relative to its parent",
+    "answer_4": "Positions the element statically",
+    "true_answer": "Positions the element relative to the nearest positioned ancestor"
+  },
+  {
+    "title": "Which property is used to set the stacking order of elements?",
+    "answer_1": "z-index",
+    "answer_2": "order",
+    "answer_3": "position",
+    "answer_4": "stack",
+    "true_answer": "z-index"
+  },
+  {
+    "title": "What does 'position: fixed' do?",
+    "answer_1": "Positions the element relative to the viewport",
+    "answer_2": "Positions the element relative to its parent",
+    "answer_3": "Positions the element statically",
+    "answer_4": "Positions the element relative to the nearest positioned ancestor",
+    "true_answer": "Positions the element relative to the viewport"
+  },
+  {
+    "title": "Which property is used to set the color of a border on the left?",
+    "answer_1": "border-left-color",
+    "answer_2": "border-color",
+    "answer_3": "border-style",
+    "answer_4": "border-width",
+    "true_answer": "border-left-color"
+  },
+  {
+    "title": "What does 'position: relative' do?",
+    "answer_1": "Positions the element relative to its normal position",
+    "answer_2": "Positions the element relative to the viewport",
+    "answer_3": "Positions the element statically",
+    "answer_4": "Positions the element relative to the nearest positioned ancestor",
+    "true_answer": "Positions the element relative to its normal position"
+  },
+  {
+    "title": "Which property is used to set the color of a border on the true?",
+    "answer_1": "border-true-color",
+    "answer_2": "border-color",
+    "answer_3": "border-style",
+    "answer_4": "border-width",
+    "true_answer": "border-true-color"
+  },
+  {
+    "title": "What does 'display: block' do?",
+    "answer_1": "Displays the element as a block-level element",
+    "answer_2": "Displays the element as inline",
+    "answer_3": "Hides the element",
+    "answer_4": "Displays the element as flex",
+    "true_answer": "Displays the element as a block-level element"
+  },
+  {
+    "title": "Which property is used to set the color of a border on the top?",
+    "answer_1": "border-top-color",
+    "answer_2": "border-color",
+    "answer_3": "border-style",
+    "answer_4": "border-width",
+    "true_answer": "border-top-color"
+  }
+]

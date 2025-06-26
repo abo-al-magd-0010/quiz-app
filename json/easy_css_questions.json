@@ -1,0 +1,898 @@
+[
+  {
+    "title": "What does CSS stand for?",
+    "answer_1": "Cascading Style Sheets",
+    "answer_2": "Creative Style System",
+    "answer_3": "Computer Style Syntax",
+    "answer_4": "Colorful Style Sheets",
+    "true_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "Which HTML tag is used to link an external CSS file?",
+    "answer_1": "<link>",
+    "answer_2": "<style>",
+    "answer_3": "<css>",
+    "answer_4": "<script>",
+    "true_answer": "<link>"
+  },
+  {
+    "title": "Which property is used to change the text color in CSS?",
+    "answer_1": "color",
+    "answer_2": "background-color",
+    "answer_3": "font-color",
+    "answer_4": "text-style",
+    "true_answer": "color"
+  },
+  {
+    "title": "How do you select an element with the id 'header'?",
+    "answer_1": "#header",
+    "answer_2": ".header",
+    "answer_3": "header",
+    "answer_4": "*header",
+    "true_answer": "#header"
+  },
+  {
+    "title": "Which property is used to change the background color?",
+    "answer_1": "background-color",
+    "answer_2": "color",
+    "answer_3": "bgcolor",
+    "answer_4": "background-style",
+    "true_answer": "background-color"
+  },
+  {
+    "title": "How do you make text bold in CSS?",
+    "answer_1": "font-weight: bold;",
+    "answer_2": "font-style: bold;",
+    "answer_3": "text-weight: bold;",
+    "answer_4": "bold: true;",
+    "true_answer": "font-weight: bold;"
+  },
+  {
+    "title": "Which CSS property controls the size of text?",
+    "answer_1": "font-size",
+    "answer_2": "text-size",
+    "answer_3": "font-style",
+    "answer_4": "text-style",
+    "true_answer": "font-size"
+  },
+  {
+    "title": "How do you select all <p> elements in CSS?",
+    "answer_1": "p",
+    "answer_2": ".p",
+    "answer_3": "#p",
+    "answer_4": "*p",
+    "true_answer": "p"
+  },
+  {
+    "title": "Which property is used to add space inside an element?",
+    "answer_1": "padding",
+    "answer_2": "margin",
+    "answer_3": "border",
+    "answer_4": "spacing",
+    "true_answer": "padding"
+  },
+  {
+    "title": "Which property is used to add space outside an element?",
+    "answer_1": "margin",
+    "answer_2": "padding",
+    "answer_3": "border",
+    "answer_4": "spacing",
+    "true_answer": "margin"
+  },
+  {
+    "title": "How do you make a list with no bullets?",
+    "answer_1": "list-style-type: none;",
+    "answer_2": "list-type: none;",
+    "answer_3": "bullet: none;",
+    "answer_4": "list-style: hidden;",
+    "true_answer": "list-style-type: none;"
+  },
+  {
+    "title": "Which property is used to change the font of an element?",
+    "answer_1": "font-family",
+    "answer_2": "font-style",
+    "answer_3": "font-type",
+    "answer_4": "text-font",
+    "true_answer": "font-family"
+  },
+  {
+    "title": "How do you select all elements with class 'menu'?",
+    "answer_1": ".menu",
+    "answer_2": "#menu",
+    "answer_3": "menu",
+    "answer_4": "*menu",
+    "true_answer": ".menu"
+  },
+  {
+    "title": "Which property is used to underline text?",
+    "answer_1": "text-decoration: underline;",
+    "answer_2": "font-style: underline;",
+    "answer_3": "text-style: underline;",
+    "answer_4": "underline: true;",
+    "true_answer": "text-decoration: underline;"
+  },
+  {
+    "title": "How do you make a border around an element?",
+    "answer_1": "border",
+    "answer_2": "outline",
+    "answer_3": "frame",
+    "answer_4": "box",
+    "true_answer": "border"
+  },
+  {
+    "title": "Which value of position property makes the element stay in the same place even when scrolling?",
+    "answer_1": "fixed",
+    "answer_2": "absolute",
+    "answer_3": "relative",
+    "answer_4": "static",
+    "true_answer": "fixed"
+  },
+  {
+    "title": "How do you make an element display as a block?",
+    "answer_1": "display: block;",
+    "answer_2": "block: true;",
+    "answer_3": "display: inline;",
+    "answer_4": "block-display: true;",
+    "true_answer": "display: block;"
+  },
+  {
+    "title": "Which property is used to hide an element?",
+    "answer_1": "display: none;",
+    "answer_2": "visibility: hidden;",
+    "answer_3": "opacity: 0;",
+    "answer_4": "All of the above",
+    "true_answer": "All of the above"
+  },
+  {
+    "title": "How do you make an element semi-transparent?",
+    "answer_1": "opacity",
+    "answer_2": "transparency",
+    "answer_3": "alpha",
+    "answer_4": "filter",
+    "true_answer": "opacity"
+  },
+  {
+    "title": "Which property is used to change the cursor when hovering?",
+    "answer_1": "cursor",
+    "answer_2": "pointer",
+    "answer_3": "hover",
+    "answer_4": "mouse",
+    "true_answer": "cursor"
+  },
+  {
+    "title": "How do you make a rounded corner?",
+    "answer_1": "border-radius",
+    "answer_2": "corner-radius",
+    "answer_3": "border-corner",
+    "answer_4": "radius",
+    "true_answer": "border-radius"
+  },
+  {
+    "title": "Which property is used to add a shadow to text?",
+    "answer_1": "text-shadow",
+    "answer_2": "box-shadow",
+    "answer_3": "shadow-text",
+    "answer_4": "font-shadow",
+    "true_answer": "text-shadow"
+  },
+  {
+    "title": "Which property is used to add a shadow to a box?",
+    "answer_1": "box-shadow",
+    "answer_2": "text-shadow",
+    "answer_3": "shadow-box",
+    "answer_4": "box-effect",
+    "true_answer": "box-shadow"
+  },
+  {
+    "title": "How do you make an element inline?",
+    "answer_1": "display: inline;",
+    "answer_2": "inline: true;",
+    "answer_3": "display: block;",
+    "answer_4": "block: false;",
+    "true_answer": "display: inline;"
+  },
+  {
+    "title": "Which property is used to align text to the center?",
+    "answer_1": "text-align: center;",
+    "answer_2": "align: center;",
+    "answer_3": "center-text: true;",
+    "answer_4": "text-center: true;",
+    "true_answer": "text-align: center;"
+  },
+  {
+    "title": "How do you make a background image not repeat?",
+    "answer_1": "background-repeat: no-repeat;",
+    "answer_2": "background-repeat: none;",
+    "answer_3": "repeat: false;",
+    "answer_4": "background: no-repeat;",
+    "true_answer": "background-repeat: no-repeat;"
+  },
+  {
+    "title": "Which property is used to set the width of an element?",
+    "answer_1": "width",
+    "answer_2": "size",
+    "answer_3": "element-width",
+    "answer_4": "box-width",
+    "true_answer": "width"
+  },
+  {
+    "title": "Which property is used to set the height of an element?",
+    "answer_1": "height",
+    "answer_2": "size",
+    "answer_3": "element-height",
+    "answer_4": "box-height",
+    "true_answer": "height"
+  },
+  {
+    "title": "How do you make a comment in CSS?",
+    "answer_1": "/* comment */",
+    "answer_2": "// comment",
+    "answer_3": "<!-- comment -->",
+    "answer_4": "# comment",
+    "true_answer": "/* comment */"
+  },
+  {
+    "title": "Which property is used to change the style of the mouse cursor?",
+    "answer_1": "cursor",
+    "answer_2": "pointer",
+    "answer_3": "mouse-style",
+    "answer_4": "hover",
+    "true_answer": "cursor"
+  },
+  {
+    "title": "Which property is used to control the spacing between letters?",
+    "answer_1": "letter-spacing",
+    "answer_2": "word-spacing",
+    "answer_3": "line-height",
+    "answer_4": "text-spacing",
+    "true_answer": "letter-spacing"
+  },
+  {
+    "title": "Which property is used to control the spacing between lines?",
+    "answer_1": "line-height",
+    "answer_2": "letter-spacing",
+    "answer_3": "word-spacing",
+    "answer_4": "text-spacing",
+    "true_answer": "line-height"
+  },
+  {
+    "title": "How do you select all elements of a certain type?",
+    "answer_1": "By using the element name",
+    "answer_2": "By using #",
+    "answer_3": "By using .",
+    "answer_4": "By using *",
+    "true_answer": "By using the element name"
+  },
+  {
+    "title": "Which property is used to change the style of a list marker?",
+    "answer_1": "list-style-type",
+    "answer_2": "list-type",
+    "answer_3": "marker-style",
+    "answer_4": "bullet-style",
+    "true_answer": "list-style-type"
+  },
+  {
+    "title": "How do you select all elements inside a div with class 'container'?",
+    "answer_1": ".container *",
+    "answer_2": "#container *",
+    "answer_3": "container *",
+    "answer_4": ".container > *",
+    "true_answer": ".container *"
+  },
+  {
+    "title": "Which property is used to make text italic?",
+    "answer_1": "font-style: italic;",
+    "answer_2": "font-weight: italic;",
+    "answer_3": "text-style: italic;",
+    "answer_4": "italic: true;",
+    "true_answer": "font-style: italic;"
+  },
+  {
+    "title": "Which property is used to set the space between words?",
+    "answer_1": "word-spacing",
+    "answer_2": "letter-spacing",
+    "answer_3": "line-height",
+    "answer_4": "text-spacing",
+    "true_answer": "word-spacing"
+  },
+  {
+    "title": "How do you select only direct children of an element?",
+    "answer_1": "Using >",
+    "answer_2": "Using +",
+    "answer_3": "Using ~",
+    "answer_4": "Using *",
+    "true_answer": "Using >"
+  },
+  {
+    "title": "Which property is used to set the maximum width of an element?",
+    "answer_1": "max-width",
+    "answer_2": "width",
+    "answer_3": "min-width",
+    "answer_4": "maximum-width",
+    "true_answer": "max-width"
+  },
+  {
+    "title": "Which property is used to set the minimum height of an element?",
+    "answer_1": "min-height",
+    "answer_2": "height",
+    "answer_3": "max-height",
+    "answer_4": "minimum-height",
+    "true_answer": "min-height"
+  },
+  {
+    "title": "How do you select the first child of an element?",
+    "answer_1": ":first-child",
+    "answer_2": ":first",
+    "answer_3": "::first-child",
+    "answer_4": ":child-first",
+    "true_answer": ":first-child"
+  },
+  {
+    "title": "Which property is used to set the transparency of an element?",
+    "answer_1": "opacity",
+    "answer_2": "transparent",
+    "answer_3": "alpha",
+    "answer_4": "visibility",
+    "true_answer": "opacity"
+  },
+  {
+    "title": "How do you select all elements with a specific attribute?",
+    "answer_1": "[attribute]",
+    "answer_2": ".attribute",
+    "answer_3": "#attribute",
+    "answer_4": "*attribute",
+    "true_answer": "[attribute]"
+  },
+  {
+    "title": "Which property is used to float an element to the true?",
+    "answer_1": "float: true;",
+    "answer_2": "align: true;",
+    "answer_3": "position: true;",
+    "answer_4": "true: float;",
+    "true_answer": "float: true;"
+  },
+  {
+    "title": "Which property is used to clear floats?",
+    "answer_1": "clear",
+    "answer_2": "float",
+    "answer_3": "overflow",
+    "answer_4": "reset",
+    "true_answer": "clear"
+  },
+  {
+    "title": "How do you select the last child of an element?",
+    "answer_1": ":last-child",
+    "answer_2": ":last",
+    "answer_3": "::last-child",
+    "answer_4": ":child-last",
+    "true_answer": ":last-child"
+  },
+  {
+    "title": "Which property is used to set the style of the border?",
+    "answer_1": "border-style",
+    "answer_2": "border-type",
+    "answer_3": "style-border",
+    "answer_4": "border",
+    "true_answer": "border-style"
+  },
+  {
+    "title": "How do you select an element with a specific class?",
+    "answer_1": ".classname",
+    "answer_2": "#classname",
+    "answer_3": "classname",
+    "answer_4": "*classname",
+    "true_answer": ".classname"
+  },
+  {
+    "title": "Which property is used to set the thickness of a border?",
+    "answer_1": "border-width",
+    "answer_2": "border-thickness",
+    "answer_3": "border-size",
+    "answer_4": "thickness",
+    "true_answer": "border-width"
+  },
+  {
+    "title": "Which property is used to set the color of a border?",
+    "answer_1": "border-color",
+    "answer_2": "color-border",
+    "answer_3": "border-style",
+    "answer_4": "border",
+    "true_answer": "border-color"
+  },
+  {
+    "title": "How do you select an element with a specific id?",
+    "answer_1": "#idname",
+    "answer_2": ".idname",
+    "answer_3": "idname",
+    "answer_4": "*idname",
+    "true_answer": "#idname"
+  },
+  {
+    "title": "Which property is used to set the space between the border and the content?",
+    "answer_1": "padding",
+    "answer_2": "margin",
+    "answer_3": "border-spacing",
+    "answer_4": "spacing",
+    "true_answer": "padding"
+  },
+  {
+    "title": "Which property is used to set the space between the border and other elements?",
+    "answer_1": "margin",
+    "answer_2": "padding",
+    "answer_3": "border-spacing",
+    "answer_4": "spacing",
+    "true_answer": "margin"
+  },
+  {
+    "title": "How do you select all elements?",
+    "answer_1": "*",
+    "answer_2": "all",
+    "answer_3": "element",
+    "answer_4": "body",
+    "true_answer": "*"
+  },
+  {
+    "title": "Which property is used to set the background image?",
+    "answer_1": "background-image",
+    "answer_2": "image-background",
+    "answer_3": "background-img",
+    "answer_4": "img-background",
+    "true_answer": "background-image"
+  },
+  {
+    "title": "Which property is used to repeat a background image?",
+    "answer_1": "background-repeat",
+    "answer_2": "repeat-background",
+    "answer_3": "background-repeat-img",
+    "answer_4": "img-repeat",
+    "true_answer": "background-repeat"
+  },
+  {
+    "title": "Which property is used to set the position of a background image?",
+    "answer_1": "background-position",
+    "answer_2": "position-background",
+    "answer_3": "background-img-position",
+    "answer_4": "img-position",
+    "true_answer": "background-position"
+  },
+  {
+    "title": "Which property is used to set the size of a background image?",
+    "answer_1": "background-size",
+    "answer_2": "size-background",
+    "answer_3": "background-img-size",
+    "answer_4": "img-size",
+    "true_answer": "background-size"
+  },
+  {
+    "title": "Which property is used to set the overflow of an element?",
+    "answer_1": "overflow",
+    "answer_2": "flow",
+    "answer_3": "overflowing",
+    "answer_4": "scroll",
+    "true_answer": "overflow"
+  },
+  {
+    "title": "Which property is used to set the z-index of an element?",
+    "answer_1": "z-index",
+    "answer_2": "index-z",
+    "answer_3": "z",
+    "answer_4": "index",
+    "true_answer": "z-index"
+  },
+  {
+    "title": "Which property is used to set the visibility of an element?",
+    "answer_1": "visibility",
+    "answer_2": "display",
+    "answer_3": "show",
+    "answer_4": "visible",
+    "true_answer": "visibility"
+  },
+  {
+    "title": "Which property is used to set the display of an element?",
+    "answer_1": "display",
+    "answer_2": "show",
+    "answer_3": "visible",
+    "answer_4": "visibility",
+    "true_answer": "display"
+  },
+  {
+    "title": "Which property is used to set the outline of an element?",
+    "answer_1": "outline",
+    "answer_2": "border",
+    "answer_3": "outline-style",
+    "answer_4": "border-style",
+    "true_answer": "outline"
+  },
+  {
+    "title": "Which property is used to set the outline color?",
+    "answer_1": "outline-color",
+    "answer_2": "color-outline",
+    "answer_3": "outline-style",
+    "answer_4": "border-color",
+    "true_answer": "outline-color"
+  },
+  {
+    "title": "Which property is used to set the outline width?",
+    "answer_1": "outline-width",
+    "answer_2": "width-outline",
+    "answer_3": "outline-size",
+    "answer_4": "border-width",
+    "true_answer": "outline-width"
+  },
+  {
+    "title": "Which property is used to set the outline style?",
+    "answer_1": "outline-style",
+    "answer_2": "style-outline",
+    "answer_3": "outline",
+    "answer_4": "border-style",
+    "true_answer": "outline-style"
+  },
+  {
+    "title": "Which property is used to set the vertical alignment of an inline element?",
+    "answer_1": "vertical-align",
+    "answer_2": "align-vertical",
+    "answer_3": "vertical",
+    "answer_4": "align",
+    "true_answer": "vertical-align"
+  },
+  {
+    "title": "Which property is used to set the horizontal alignment of block elements?",
+    "answer_1": "text-align",
+    "answer_2": "align-text",
+    "answer_3": "horizontal-align",
+    "answer_4": "align",
+    "true_answer": "text-align"
+  },
+  {
+    "title": "Which property is used to set the indentation of the first line of text?",
+    "answer_1": "text-indent",
+    "answer_2": "indent",
+    "answer_3": "line-indent",
+    "answer_4": "first-line-indent",
+    "true_answer": "text-indent"
+  },
+  {
+    "title": "Which property is used to transform text to uppercase?",
+    "answer_1": "text-transform: uppercase;",
+    "answer_2": "text-case: upper;",
+    "answer_3": "text-style: uppercase;",
+    "answer_4": "transform: uppercase;",
+    "true_answer": "text-transform: uppercase;"
+  },
+  {
+    "title": "Which property is used to transform text to lowercase?",
+    "answer_1": "text-transform: lowercase;",
+    "answer_2": "text-case: lower;",
+    "answer_3": "text-style: lowercase;",
+    "answer_4": "transform: lowercase;",
+    "true_answer": "text-transform: lowercase;"
+  },
+  {
+    "title": "Which property is used to capitalize the first letter of each word?",
+    "answer_1": "text-transform: capitalize;",
+    "answer_2": "text-case: capitalize;",
+    "answer_3": "text-style: capitalize;",
+    "answer_4": "transform: capitalize;",
+    "true_answer": "text-transform: capitalize;"
+  },
+  {
+    "title": "Which property is used to set the style of a table border?",
+    "answer_1": "border-collapse",
+    "answer_2": "table-border-style",
+    "answer_3": "border-style",
+    "answer_4": "table-style",
+    "true_answer": "border-collapse"
+  },
+  {
+    "title": "Which property is used to set the spacing between table cells?",
+    "answer_1": "border-spacing",
+    "answer_2": "cell-spacing",
+    "answer_3": "table-spacing",
+    "answer_4": "spacing",
+    "true_answer": "border-spacing"
+  },
+  {
+    "title": "Which property is used to set the width of a table?",
+    "answer_1": "width",
+    "answer_2": "table-width",
+    "answer_3": "size",
+    "answer_4": "table-size",
+    "true_answer": "width"
+  },
+  {
+    "title": "Which property is used to set the height of a table?",
+    "answer_1": "height",
+    "answer_2": "table-height",
+    "answer_3": "size",
+    "answer_4": "table-size",
+    "true_answer": "height"
+  },
+  {
+    "title": "Which property is used to set the color of table borders?",
+    "answer_1": "border-color",
+    "answer_2": "table-border-color",
+    "answer_3": "color",
+    "answer_4": "border-style",
+    "true_answer": "border-color"
+  },
+  {
+    "title": "Which property is used to set the background color of a table row?",
+    "answer_1": "background-color",
+    "answer_2": "row-background",
+    "answer_3": "color",
+    "answer_4": "row-color",
+    "true_answer": "background-color"
+  },
+  {
+    "title": "Which property is used to set the background color of a table cell?",
+    "answer_1": "background-color",
+    "answer_2": "cell-background",
+    "answer_3": "color",
+    "answer_4": "cell-color",
+    "true_answer": "background-color"
+  },
+  {
+    "title": "Which property is used to set the vertical alignment of table cells?",
+    "answer_1": "vertical-align",
+    "answer_2": "align-vertical",
+    "answer_3": "vertical",
+    "answer_4": "align",
+    "true_answer": "vertical-align"
+  },
+  {
+    "title": "Which property is used to set the horizontal alignment of table cells?",
+    "answer_1": "text-align",
+    "answer_2": "align-text",
+    "answer_3": "horizontal-align",
+    "answer_4": "align",
+    "true_answer": "text-align"
+  },
+  {
+    "title": "Which property is used to set the width of an image?",
+    "answer_1": "width",
+    "answer_2": "image-width",
+    "answer_3": "size",
+    "answer_4": "img-size",
+    "true_answer": "width"
+  },
+  {
+    "title": "Which property is used to set the height of an image?",
+    "answer_1": "height",
+    "answer_2": "image-height",
+    "answer_3": "size",
+    "answer_4": "img-size",
+    "true_answer": "height"
+  },
+  {
+    "title": "Which property is used to set the border of an image?",
+    "answer_1": "border",
+    "answer_2": "image-border",
+    "answer_3": "border-style",
+    "answer_4": "img-border",
+    "true_answer": "border"
+  },
+  {
+    "title": "Which property is used to set the margin of an image?",
+    "answer_1": "margin",
+    "answer_2": "image-margin",
+    "answer_3": "margin-style",
+    "answer_4": "img-margin",
+    "true_answer": "margin"
+  },
+  {
+    "title": "Which property is used to set the padding of an image?",
+    "answer_1": "padding",
+    "answer_2": "image-padding",
+    "answer_3": "padding-style",
+    "answer_4": "img-padding",
+    "true_answer": "padding"
+  },
+  {
+    "title": "Which property is used to set the float of an image?",
+    "answer_1": "float",
+    "answer_2": "image-float",
+    "answer_3": "float-style",
+    "answer_4": "img-float",
+    "true_answer": "float"
+  },
+  {
+    "title": "Which property is used to set the clear of an image?",
+    "answer_1": "clear",
+    "answer_2": "image-clear",
+    "answer_3": "clear-style",
+    "answer_4": "img-clear",
+    "true_answer": "clear"
+  },
+  {
+    "title": "Which property is used to set the display of an image?",
+    "answer_1": "display",
+    "answer_2": "image-display",
+    "answer_3": "display-style",
+    "answer_4": "img-display",
+    "true_answer": "display"
+  },
+  {
+    "title": "Which property is used to set the position of an image?",
+    "answer_1": "position",
+    "answer_2": "image-position",
+    "answer_3": "position-style",
+    "answer_4": "img-position",
+    "true_answer": "position"
+  },
+  {
+    "title": "Which property is used to set the z-index of an image?",
+    "answer_1": "z-index",
+    "answer_2": "image-z-index",
+    "answer_3": "z",
+    "answer_4": "img-z-index",
+    "true_answer": "z-index"
+  },
+  {
+    "title": "Which property is used to set the opacity of an image?",
+    "answer_1": "opacity",
+    "answer_2": "image-opacity",
+    "answer_3": "alpha",
+    "answer_4": "img-opacity",
+    "true_answer": "opacity"
+  },
+  {
+    "title": "Which property is used to set the filter of an image?",
+    "answer_1": "filter",
+    "answer_2": "image-filter",
+    "answer_3": "filter-style",
+    "answer_4": "img-filter",
+    "true_answer": "filter"
+  },
+  {
+    "title": "Which property is used to set the box shadow of an image?",
+    "answer_1": "box-shadow",
+    "answer_2": "image-box-shadow",
+    "answer_3": "shadow",
+    "answer_4": "img-shadow",
+    "true_answer": "box-shadow"
+  },
+  {
+    "title": "Which property is used to set the border radius of an image?",
+    "answer_1": "border-radius",
+    "answer_2": "image-border-radius",
+    "answer_3": "radius",
+    "answer_4": "img-radius",
+    "true_answer": "border-radius"
+  },
+  {
+    "title": "Which property is used to set the transition of an element?",
+    "answer_1": "transition",
+    "answer_2": "element-transition",
+    "answer_3": "transition-style",
+    "answer_4": "transition-effect",
+    "true_answer": "transition"
+  },
+  {
+    "title": "Which property is used to set the animation of an element?",
+    "answer_1": "animation",
+    "answer_2": "element-animation",
+    "answer_3": "animation-style",
+    "answer_4": "animation-effect",
+    "true_answer": "animation"
+  },
+  {
+    "title": "Which property is used to set the transform of an element?",
+    "answer_1": "transform",
+    "answer_2": "element-transform",
+    "answer_3": "transform-style",
+    "answer_4": "transform-effect",
+    "true_answer": "transform"
+  },
+  {
+    "title": "Which property is used to set the flex of an element?",
+    "answer_1": "flex",
+    "answer_2": "element-flex",
+    "answer_3": "flex-style",
+    "answer_4": "flex-effect",
+    "true_answer": "flex"
+  },
+  {
+    "title": "Which property is used to set the grid of an element?",
+    "answer_1": "grid",
+    "answer_2": "element-grid",
+    "answer_3": "grid-style",
+    "answer_4": "grid-effect",
+    "true_answer": "grid"
+  },
+  {
+    "title": "Which property is used to set the order of a flex item?",
+    "answer_1": "order",
+    "answer_2": "flex-order",
+    "answer_3": "item-order",
+    "answer_4": "order-flex",
+    "true_answer": "order"
+  },
+  {
+    "title": "Which property is used to set the justify content of a flex container?",
+    "answer_1": "justify-content",
+    "answer_2": "flex-justify",
+    "answer_3": "content-justify",
+    "answer_4": "justify",
+    "true_answer": "justify-content"
+  },
+  {
+    "title": "Which property is used to set the align items of a flex container?",
+    "answer_1": "align-items",
+    "answer_2": "flex-align",
+    "answer_3": "items-align",
+    "answer_4": "align",
+    "true_answer": "align-items"
+  },
+  {
+    "title": "Which property is used to set the gap between flex items?",
+    "answer_1": "gap",
+    "answer_2": "flex-gap",
+    "answer_3": "item-gap",
+    "answer_4": "gap-flex",
+    "true_answer": "gap"
+  },
+  {
+    "title": "Which property is used to set the grid template columns?",
+    "answer_1": "grid-template-columns",
+    "answer_2": "grid-columns",
+    "answer_3": "template-columns",
+    "answer_4": "columns-template",
+    "true_answer": "grid-template-columns"
+  },
+  {
+    "title": "Which property is used to set the grid template rows?",
+    "answer_1": "grid-template-rows",
+    "answer_2": "grid-rows",
+    "answer_3": "template-rows",
+    "answer_4": "rows-template",
+    "true_answer": "grid-template-rows"
+  },
+  {
+    "title": "Which property is used to set the grid gap?",
+    "answer_1": "grid-gap",
+    "answer_2": "gap-grid",
+    "answer_3": "grid-spacing",
+    "answer_4": "spacing-grid",
+    "true_answer": "grid-gap"
+  },
+  {
+    "title": "Which property is used to set the grid area?",
+    "answer_1": "grid-area",
+    "answer_2": "area-grid",
+    "answer_3": "grid-zone",
+    "answer_4": "zone-grid",
+    "true_answer": "grid-area"
+  },
+  {
+    "title": "Which property is used to set the grid column start?",
+    "answer_1": "grid-column-start",
+    "answer_2": "column-start",
+    "answer_3": "grid-start-column",
+    "answer_4": "start-column",
+    "true_answer": "grid-column-start"
+  },
+  {
+    "title": "Which property is used to set the grid column end?",
+    "answer_1": "grid-column-end",
+    "answer_2": "column-end",
+    "answer_3": "grid-end-column",
+    "answer_4": "end-column",
+    "true_answer": "grid-column-end"
+  },
+  {
+    "title": "Which property is used to set the grid row start?",
+    "answer_1": "grid-row-start",
+    "answer_2": "row-start",
+    "answer_3": "grid-start-row",
+    "answer_4": "start-row",
+    "true_answer": "grid-row-start"
+  },
+  {
+    "title": "Which property is used to set the grid row end?",
+    "answer_1": "grid-row-end",
+    "answer_2": "row-end",
+    "answer_3": "grid-end-row",
+    "answer_4": "end-row",
+    "true_answer": "grid-row-end"
+  }
+]
